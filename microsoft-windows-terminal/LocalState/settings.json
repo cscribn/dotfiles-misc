@@ -93,7 +93,7 @@
             },
             {
                 "colorScheme": "Synthwave Alpha",
-                "commandline": "C:\\Program Files\\Git\\usr\\bin\\zsh.exe",
+                "commandline": "\"C:\\Program Files\\Git\\bin\\bash.exe\" -c \"export TERM=cygwin;exec zsh\"",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
                 "font": 
