@@ -93,7 +93,7 @@
             },
             {
                 "colorScheme": "Synthwave Alpha",
-                "commandline": "\"C:\\Program Files\\Git\\bin\\bash.exe\" -c \"export TERM=cygwin;exec zsh\"",
+                "commandline": "C:\\Program Files\\Git\\usr\\bin\\zsh.exe",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
                 "font": 
@@ -104,7 +104,7 @@
                 },
                 "guid": "{656ea7b5-6536-4373-b5a4-029f7a895fcf}",
                 "hidden": false,
-                "icon": "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
+                "icon": "C:\\Program Files\\Git\\usr\\share\\icons\\locolor\\32x32\\apps\\zsh.ico",
                 "name": "Git Bash Zsh",
                 "opacity": 100,
                 "startingDirectory": "%USERPROFILE%"
