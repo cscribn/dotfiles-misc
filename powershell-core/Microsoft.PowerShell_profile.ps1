@@ -1,5 +1,5 @@
 if (!(Test-Path -Path $HOME\.config\oh-my-posh)) {
-  git clone https://github.com/cscribn/oh-my-posh.git  $HOME\.config\oh-my-posh
+  git clone https://github.com/cscribn/config-oh-my-posh.git  $HOME\.config\oh-my-posh
 }
 
 oh-my-posh init pwsh --config $HOME\.config\oh-my-posh\themes\powerlevel10k_ansi.omp.json | Invoke-Expression
