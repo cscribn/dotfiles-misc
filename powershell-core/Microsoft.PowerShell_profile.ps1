@@ -2,7 +2,7 @@ if (-Not (Test-Path -Path $HOME\.config\oh-my-posh)) {
   git clone https://github.com/cscribn/config-oh-my-posh.git  $HOME\.config\oh-my-posh
 }
 
-oh-my-posh init pwsh --config $HOME\.config\oh-my-posh\themes\powerlevel10k_rainbow_ansi.omp.json | Invoke-Expression
+oh-my-posh init pwsh --config $HOME\.config\oh-my-posh\themes\powerlevel10k_modern_ansi.omp.json | Invoke-Expression
 Import-Module posh-git
 Import-Module -Name Terminal-Icons
 Set-PSReadLineOption -PredictionSource HistoryAndPlugin
