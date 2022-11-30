@@ -31,7 +31,7 @@
     ],
     "copyFormatting": "none",
     "copyOnSelect": true,
-    "defaultProfile": "{656ea7b5-6536-4373-b5a4-029f7a895fcf}",
+    "defaultProfile": "{607571d3-e7d9-466f-885d-c229f3e37cde}",
     "initialCols": 123,
     "initialRows": 40,
     "profiles": 
@@ -62,7 +62,7 @@
                 "name": "Command Prompt"
             },
             {
-                "colorScheme": "Vaughn",
+                "colorScheme": "Cyberpunk Scarlet",
                 "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\"",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
@@ -92,7 +92,7 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "colorScheme": "SynthwaveAlpha",
+                "colorScheme": "Synthwave Alpha",
                 "commandline": "\"C:\\Program Files\\Git\\bin\\bash.exe\" -c \"export TERM=cygwin;exec zsh\"",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
@@ -104,10 +104,10 @@
                 },
                 "guid": "{656ea7b5-6536-4373-b5a4-029f7a895fcf}",
                 "hidden": false,
-                "icon": "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
+                "icon": "C:\\Program Files\\Git\\usr\\share\\icons\\locolor\\32x32\\apps\\zsh.ico",
                 "name": "Git Bash Zsh",
                 "opacity": 100,
-                "startingDirectory": "%USERPROFILE%\\Gaming\\bin"
+                "startingDirectory": "%USERPROFILE%"
             },
             {
                 "altGrAliasing": true,
@@ -134,7 +134,7 @@
                 "useAcrylic": false
             },
             {
-                "colorScheme": "Vaughn",
+                "colorScheme": "Cyberpunk Scarlet",
                 "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\"",
                 "cursorShape": "vintage",
                 "elevate": true,
@@ -201,6 +201,52 @@
             "selectionBackground": "#FFFFFF",
             "white": "#CCCCCC",
             "yellow": "#C19C00"
+        },
+        {
+            "background": "#000807",
+            "black": "#65737E",
+            "blue": "#00A2FF",
+            "brightBlack": "#65737E",
+            "brightBlue": "#2088FF",
+            "brightCyan": "#89DDFF",
+            "brightGreen": "#00FF9C",
+            "brightPurple": "#B700FF",
+            "brightRed": "#FF0059",
+            "brightWhite": "#EEFFFF",
+            "brightYellow": "#FFFC58",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#00C3FF",
+            "foreground": "#FF3270",
+            "green": "#9DFF00",
+            "name": "Cyberpunk Scarlet",
+            "purple": "#A200FF",
+            "red": "#FF0000",
+            "selectionBackground": "#FFFFFF",
+            "white": "#FFFFFF",
+            "yellow": "#FFFF00"
+        },
+        {
+            "background": "#100D23",
+            "black": "#272932",
+            "blue": "#00B0FF",
+            "brightBlack": "#65737E",
+            "brightBlue": "#00B0FF",
+            "brightCyan": "#37EBF3",
+            "brightGreen": "#00FF9C",
+            "brightPurple": "#CB1DCD",
+            "brightRed": "#F02C35",
+            "brightWhite": "#C1DEFF",
+            "brightYellow": "#FFFC4C",
+            "cursorColor": "#FDF500",
+            "cyan": "#00D0DB",
+            "foreground": "#04FF87",
+            "green": "#1AC5B0",
+            "name": "Cyberpunk Umbra",
+            "purple": "#742D8B",
+            "red": "#F02C35",
+            "selectionBackground": "#5E35B1",
+            "white": "#D1C5C0",
+            "yellow": "#FDF500"
         },
         {
             "background": "#282C34",
@@ -310,7 +356,7 @@
             "cyan": "#00B0B1",
             "foreground": "#F2F2E3",
             "green": "#00986C",
-            "name": "SynthwaveAlpha",
+            "name": "Synthwave Alpha",
             "purple": "#B300AD",
             "red": "#E60A70",
             "selectionBackground": "#F2F2E3",
@@ -362,29 +408,6 @@
             "selectionBackground": "#FFFFFF",
             "white": "#D3D7CF",
             "yellow": "#C4A000"
-        },
-        {
-            "background": "#25234F",
-            "black": "#25234F",
-            "blue": "#5555FF",
-            "brightBlack": "#709080",
-            "brightBlue": "#5555FF",
-            "brightCyan": "#93E0E3",
-            "brightGreen": "#60B48A",
-            "brightPurple": "#EC93D3",
-            "brightRed": "#DCA3A3",
-            "brightWhite": "#FFFFFF",
-            "brightYellow": "#F0DFAF",
-            "cursorColor": "#FF5555",
-            "cyan": "#8CD0D3",
-            "foreground": "#DCDCCC",
-            "green": "#60B48A",
-            "name": "Vaughn",
-            "purple": "#F08CC3",
-            "red": "#705050",
-            "selectionBackground": "#B5D5FF",
-            "white": "#709080",
-            "yellow": "#DFAF8F"
         },
         {
             "background": "#000000",
