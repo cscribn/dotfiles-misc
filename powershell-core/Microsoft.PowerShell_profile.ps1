@@ -8,6 +8,7 @@ If ($IsMacOS) {
 
 oh-my-posh init pwsh --config $HOME\.config\oh-my-posh\themes\powerlevel10k_modern_ansi.omp.json | Invoke-Expression
 Import-Module posh-git
+Import-Module PSReadLine
 Import-Module -Name Terminal-Icons
 Set-PSReadLineOption -PredictionSource HistoryAndPlugin
 Set-PSReadLineOption -PredictionViewStyle ListView
