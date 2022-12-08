@@ -151,6 +151,24 @@
                 "name": "PowerShell (Administrator)",
                 "opacity": 100,
                 "startingDirectory": "%USERPROFILE%"
+            },
+            {
+                "colorScheme": "Pitaya Smoothie",
+                "commandline": "\"C:\\Program Files\\Git\\bin\\bash.exe\" -i -l",
+                "cursorShape": "vintage",
+                "experimental.retroTerminalEffect": false,
+                "font": 
+                {
+                    "face": "MesloLGS NF",
+                    "size": 11,
+                    "weight": "normal"
+                },
+                "guid": "{be8674d1-c791-43d9-8d74-7dddac94c358}",
+                "hidden": false,
+                "icon": "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
+                "name": "Git Bash",
+                "opacity": 100,
+                "startingDirectory": "%USERPROFILE%"
             }
         ]
     },
@@ -293,6 +311,29 @@
             "selectionBackground": "#FFFFFF",
             "white": "#FAFAFA",
             "yellow": "#C18301"
+        },
+        {
+            "background": "#181036",
+            "black": "#000000",
+            "blue": "#7998F2",
+            "brightBlack": "#787889",
+            "brightBlue": "#95ACF1",
+            "brightCyan": "#AC5DCC",
+            "brightGreen": "#78CFC7",
+            "brightPurple": "#BF92FE",
+            "brightRed": "#FF6E9C",
+            "brightWhite": "#F0EFF1",
+            "brightYellow": "#F5CD8E",
+            "cursorColor": "#FEFEFF",
+            "cyan": "#9E2ECB",
+            "foreground": "#FEFEFF",
+            "green": "#31DEC0",
+            "name": "Pitaya Smoothie",
+            "purple": "#9A57F8",
+            "red": "#EA306B",
+            "selectionBackground": "#FEFEFF",
+            "white": "#D2D2D3",
+            "yellow": "#FFC15E"
         },
         {
             "background": "#002B36",
