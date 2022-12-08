@@ -154,7 +154,7 @@
             },
             {
                 "colorScheme": "Pitaya Smoothie",
-                "commandline": "\"C:\\Program Files\\Git\\bin\\bash.exe\" -i -l",
+                "commandline": "\"C:\\Program Files\\Git\\bin\\bash.exe\"",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
                 "font": 
