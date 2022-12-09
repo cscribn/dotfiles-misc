@@ -1,0 +1,3 @@
+eval "$(oh-my-posh init bash --config ~/.config/oh-my-posh/themes/powerlevel10k_lean_ansi.omp.json)"
+export LANG=en_US.UTF-8
+alias ls='ls -h --color=auto --group-directories-first'
