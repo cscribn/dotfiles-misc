@@ -1,6 +1,6 @@
 export PATH=/opt/homebrew/bin:$PATH
 [ "${BASH_VERSINFO:-0}" -ge 4 ] && eval "$(oh-my-posh init bash --config ~/.config/oh-my-posh/themes/powerlevel10k_lean_ansi.omp.json)"
-alias ls="gls -h --color=auto --group-directories-first"
+alias ls='lsd --group-directories-first'
 
 # nvm with lazy loading
 lazynvm() {
