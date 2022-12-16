@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <key name="Software">
 	<key name="ConEmu">
-		<key name=".Vanilla" modified="2022-12-16 12:55:23" build="220807">
+		<key name=".Vanilla" modified="2022-12-16 13:24:08" build="220807">
 			<value name="StartType" type="hex" data="02"/>
 			<value name="CmdLine" type="string" data=""/>
 			<value name="StartTasksFile" type="string" data=""/>
@@ -245,8 +245,8 @@
 			<value name="Cascaded" type="hex" data="01"/>
 			<value name="IntegralSize" type="hex" data="00"/>
 			<value name="WindowMode" type="dword" data="0000051f"/>
-			<value name="ConWnd X" type="long" data="320"/>
-			<value name="ConWnd Y" type="long" data="113"/>
+			<value name="ConWnd X" type="long" data="141"/>
+			<value name="ConWnd Y" type="long" data="89"/>
 			<value name="LastMonitor" type="string" data="0,0,1920,922"/>
 			<value name="ConWnd Width" type="dword" data="00000085"/>
 			<value name="ConWnd Height" type="dword" data="00000026"/>
@@ -662,23 +662,23 @@
 					<value name="Count" type="long" data="1"/>
 					<value name="Cmd1" type="string" data='pwsh.exe -new_console:a -new_console:P:"Cyberpunk Scarlet"'/>
 				</key>
-				<key name="Task9" modified="2022-12-16 11:20:38" build="220807">
+				<key name="Task9" modified="2022-12-16 13:24:08" build="220807">
 					<value name="Name" type="string" data="{Bash::Git bash}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
-					<value name="Cmd1" type="string" data='set "PATH=%ProgramFiles%\Git\usr\bin;%PATH%" &amp; %ProgramFiles%\Git\git-cmd.exe --no-cd --command=%ConEmuBaseDirShort%\conemu-msys2-64.exe /usr/bin/bash.exe -l -i -new_console:P:"Pitaya Smoothie"'/>
+					<value name="Cmd1" type="string" data='%ProgramFiles%\Git\bin\bash.exe -l -i -new_console:P:"Pitaya Smoothie"'/>
 				</key>
-				<key name="Task10" modified="2022-12-16 12:55:23" build="220807">
+				<key name="Task10" modified="2022-12-16 13:24:08" build="220807">
 					<value name="Name" type="string" data="{Zsh::Git bash}"/>
 					<value name="Flags" type="dword" data="00000000"/>
 					<value name="Hotkey" type="dword" data="00000000"/>
 					<value name="GuiArgs" type="string" data='/icon "C:\Program Files\Git\usr\share\icons\locolor\32x32\apps\zsh.ico"'/>
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
-					<value name="Cmd1" type="string" data='%ProgramFiles%\Git\bin\bash.exe -c "export TERM=cygwin;exec zsh" -new_console:P:"Synthwave Alpha" -new_console:n -new_console:p1'/>
+					<value name="Cmd1" type="string" data='%ProgramFiles%\Git\bin\bash.exe -c "export TERM=xterm;exec zsh" -new_console:P:"Synthwave Alpha" -new_console:n -new_console:p'/>
 				</key>
 				<key name="Task11" modified="2022-11-29 20:49:03" build="220807">
 					<value name="Name" type="string" data="{Bash::Msys2-64}"/>
