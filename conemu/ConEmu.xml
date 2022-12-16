@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <key name="Software">
 	<key name="ConEmu">
-		<key name=".Vanilla" modified="2022-12-16 10:19:19" build="220807">
+		<key name=".Vanilla" modified="2022-12-16 10:35:21" build="220807">
 			<value name="StartType" type="hex" data="02"/>
 			<value name="CmdLine" type="string" data=""/>
 			<value name="StartTasksFile" type="string" data=""/>
@@ -24,9 +24,9 @@
 			<value name="ColorTable13" type="dword" data="00ff00b7"/>
 			<value name="ColorTable14" type="dword" data="0058fcff"/>
 			<value name="ColorTable15" type="dword" data="00ffffee"/>
-			<value name="TextColorIdx" type="hex" data="0C"/>
+			<value name="TextColorIdx" type="hex" data="0F"/>
 			<value name="BackColorIdx" type="hex" data="00"/>
-			<value name="PopTextColorIdx" type="hex" data="0C"/>
+			<value name="PopTextColorIdx" type="hex" data="0F"/>
 			<value name="PopBackColorIdx" type="hex" data="00"/>
 			<value name="SingleInstance" type="hex" data="00"/>
 			<value name="QuakeStyle" type="hex" data="00"/>
@@ -245,8 +245,8 @@
 			<value name="Cascaded" type="hex" data="01"/>
 			<value name="IntegralSize" type="hex" data="00"/>
 			<value name="WindowMode" type="dword" data="0000051f"/>
-			<value name="ConWnd X" type="long" data="340"/>
-			<value name="ConWnd Y" type="long" data="105"/>
+			<value name="ConWnd X" type="long" data="106"/>
+			<value name="ConWnd Y" type="long" data="79"/>
 			<value name="LastMonitor" type="string" data="0,0,1920,922"/>
 			<value name="ConWnd Width" type="dword" data="00000085"/>
 			<value name="ConWnd Height" type="dword" data="00000026"/>
