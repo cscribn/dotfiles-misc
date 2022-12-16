@@ -1,32 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <key name="Software">
 	<key name="ConEmu">
-		<key name=".Vanilla" modified="2022-12-16 10:52:49" build="220807">
+		<key name=".Vanilla" modified="2022-12-16 10:59:21" build="220807">
 			<value name="StartType" type="hex" data="02"/>
 			<value name="CmdLine" type="string" data=""/>
 			<value name="StartTasksFile" type="string" data=""/>
 			<value name="StartTasksName" type="string" data="{Shells::PowerShell Core (Admin)}"/>
 			<value name="StartFarFolders" type="hex" data="00"/>
 			<value name="StartFarEditors" type="hex" data="00"/>
-			<value name="ColorTable00" type="dword" data="00361018"/>
-			<value name="ColorTable01" type="dword" data="00f29879"/>
-			<value name="ColorTable02" type="dword" data="00c0de31"/>
-			<value name="ColorTable03" type="dword" data="00cb2e9e"/>
-			<value name="ColorTable04" type="dword" data="006b30ea"/>
-			<value name="ColorTable05" type="dword" data="00f8579a"/>
-			<value name="ColorTable06" type="dword" data="005ec1ff"/>
-			<value name="ColorTable07" type="dword" data="00d3d2d2"/>
-			<value name="ColorTable08" type="dword" data="00897878"/>
-			<value name="ColorTable09" type="dword" data="00f1ac95"/>
-			<value name="ColorTable10" type="dword" data="00c7cf78"/>
-			<value name="ColorTable11" type="dword" data="00cc5dac"/>
-			<value name="ColorTable12" type="dword" data="009c6eff"/>
-			<value name="ColorTable13" type="dword" data="00fe92bf"/>
-			<value name="ColorTable14" type="dword" data="008ecdf5"/>
-			<value name="ColorTable15" type="dword" data="00f1eff0"/>
-			<value name="TextColorIdx" type="hex" data="0F"/>
+			<value name="ColorTable00" type="dword" data="00070800"/>
+			<value name="ColorTable01" type="dword" data="00ffa200"/>
+			<value name="ColorTable02" type="dword" data="0000ff9d"/>
+			<value name="ColorTable03" type="dword" data="00ffc300"/>
+			<value name="ColorTable04" type="dword" data="000000ff"/>
+			<value name="ColorTable05" type="dword" data="00ff00a2"/>
+			<value name="ColorTable06" type="dword" data="0000ffff"/>
+			<value name="ColorTable07" type="dword" data="00ffffff"/>
+			<value name="ColorTable08" type="dword" data="007e7365"/>
+			<value name="ColorTable09" type="dword" data="00ff8820"/>
+			<value name="ColorTable10" type="dword" data="009cff00"/>
+			<value name="ColorTable11" type="dword" data="00ffdd89"/>
+			<value name="ColorTable12" type="dword" data="007032ff"/>
+			<value name="ColorTable13" type="dword" data="00ff00b7"/>
+			<value name="ColorTable14" type="dword" data="0058fcff"/>
+			<value name="ColorTable15" type="dword" data="00ffffee"/>
+			<value name="TextColorIdx" type="hex" data="07"/>
 			<value name="BackColorIdx" type="hex" data="00"/>
-			<value name="PopTextColorIdx" type="hex" data="0F"/>
+			<value name="PopTextColorIdx" type="hex" data="0C"/>
 			<value name="PopBackColorIdx" type="hex" data="00"/>
 			<value name="SingleInstance" type="hex" data="00"/>
 			<value name="QuakeStyle" type="hex" data="00"/>
@@ -245,8 +245,8 @@
 			<value name="Cascaded" type="hex" data="01"/>
 			<value name="IntegralSize" type="hex" data="00"/>
 			<value name="WindowMode" type="dword" data="0000051f"/>
-			<value name="ConWnd X" type="long" data="60"/>
-			<value name="ConWnd Y" type="long" data="69"/>
+			<value name="ConWnd X" type="long" data="825"/>
+			<value name="ConWnd Y" type="long" data="84"/>
 			<value name="LastMonitor" type="string" data="0,0,1920,922"/>
 			<value name="ConWnd Width" type="dword" data="00000085"/>
 			<value name="ConWnd Height" type="dword" data="00000026"/>
@@ -722,9 +722,9 @@
 			</key>
 			<key name="Colors" modified="2022-12-16 10:19:19" build="220807">
 				<value name="Count" type="long" data="4"/>
-				<key name="Palette1" modified="2022-09-17 21:31:25" build="220807">
+				<key name="Palette1" modified="2022-12-16 10:59:21" build="220807">
 					<value name="Name" type="string" data="Cyberpunk Scarlet"/>
-					<value name="TextColorIdx" type="hex" data="0C"/>
+					<value name="TextColorIdx" type="hex" data="07"/>
 					<value name="BackColorIdx" type="hex" data="00"/>
 					<value name="PopTextColorIdx" type="hex" data="0C"/>
 					<value name="PopBackColorIdx" type="hex" data="00"/>
@@ -791,7 +791,7 @@
 					<value name="ColorTable14" type="dword" data="008ecdf5"/>
 					<value name="ColorTable15" type="dword" data="00f1eff0"/>
 				</key>
-				<key name="Palette4" modified="2022-12-16 10:19:19" build="220807">
+				<key name="Palette4" modified="2022-12-16 10:59:21" build="220807">
 					<value name="Name" type="string" data="Synthwave Alpha"/>
 					<value name="TextColorIdx" type="hex" data="0F"/>
 					<value name="BackColorIdx" type="hex" data="00"/>
@@ -803,7 +803,7 @@
 					<value name="ColorTable03" type="dword" data="00b1b000"/>
 					<value name="ColorTable04" type="dword" data="00700ae6"/>
 					<value name="ColorTable05" type="dword" data="00ad00b3"/>
-					<value name="ColorTable06" type="dword" data="000026ff"/>
+					<value name="ColorTable06" type="dword" data="003eadad"/>
 					<value name="ColorTable07" type="dword" data="00bcb1b9"/>
 					<value name="ColorTable08" type="dword" data="0094707f"/>
 					<value name="ColorTable09" type="dword" data="00f954aa"/>
