@@ -6,7 +6,7 @@ If ($IsMacOS) {
   $Env:PATH += ":/opt/homebrew/bin"
 }
 
-oh-my-posh init pwsh --config $HOME\.config\oh-my-posh\themes\powerlevel10k_modern_ansi.omp.json | Invoke-Expression
+oh-my-posh init pwsh --config $HOME\.config\oh-my-posh\themes\powerlevel10k_amped_modern.omp.json | Invoke-Expression
 Import-Module posh-git
 Import-Module PSReadLine
 Import-Module -Name Terminal-Icons
