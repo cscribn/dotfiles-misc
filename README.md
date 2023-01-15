@@ -1,9 +1,3 @@
-# config-misc
-
-## colorls/dark_colors_ansi.yaml
-
-A dark Colorls theme that uses ANSI colors. Allows your colorls to take on the colors of your terminal profile.
-
 ## conemu/ConEmu.xml
 
 A ConEmu settings file that includes Cyberpunk and Synthwave themes.
