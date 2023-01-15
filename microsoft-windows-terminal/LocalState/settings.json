@@ -82,7 +82,7 @@
                 "useAcrylic": false
             },
             {
-                "colorScheme": "Cyberpunk Scarlet",
+                "colorScheme": "Pitaya Smoothie",
                 "commandline": "\"C:\\Program Files\\Git\\bin\\bash.exe\"",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
@@ -118,7 +118,7 @@
                 "startingDirectory": "%USERPROFILE%"
             },
             {
-                "colorScheme": "Pitaya Smoothie",
+                "colorScheme": "Cyberpunk Scarlet",
                 "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\"",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
