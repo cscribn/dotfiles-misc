@@ -118,7 +118,7 @@
                 "startingDirectory": "%USERPROFILE%"
             },
             {
-                "colorScheme": "Cyberpunk Scarlet",
+                "colorScheme": "Cyberpunk Umbra",
                 "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\"",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
@@ -136,7 +136,7 @@
                 "startingDirectory": "%USERPROFILE%"
             },
             {
-                "colorScheme": "Cyberpunk Scarlet",
+                "colorScheme": "Cyberpunk Umbra",
                 "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\"",
                 "cursorShape": "vintage",
                 "elevate": true,
