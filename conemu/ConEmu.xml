@@ -651,7 +651,7 @@
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
-					<value name="Cmd1" type="string" data='pwsh.exe -new_console:P:"Cyberpunk Umbra"'/>
+					<value name="Cmd1" type="string" data='pwsh.exe -new_console:P:"Pitaya Smoothie"'/>
 				</key>
 				<key name="Task8" modified="2022-11-29 20:55:35" build="220807">
 					<value name="Name" type="string" data="{Shells::PowerShell Core (Admin)}"/>
@@ -660,7 +660,7 @@
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
-					<value name="Cmd1" type="string" data='pwsh.exe -new_console:a -new_console:P:"Cyberpunk Umbra"'/>
+					<value name="Cmd1" type="string" data='pwsh.exe -new_console:a -new_console:P:"Pitaya Smoothie"'/>
 				</key>
 				<key name="Task9" modified="2022-12-16 13:24:08" build="220807">
 					<value name="Name" type="string" data="{Bash::Git bash}"/>
@@ -669,7 +669,7 @@
 					<value name="GuiArgs" type="string" data=""/>
 					<value name="Active" type="long" data="0"/>
 					<value name="Count" type="long" data="1"/>
-					<value name="Cmd1" type="string" data='%ProgramFiles%\Git\bin\bash.exe -l -i -new_console:P:"Pitaya Smoothie"'/>
+					<value name="Cmd1" type="string" data='%ProgramFiles%\Git\bin\bash.exe -l -i -new_console:P:"Cyberpunk Umbra"'/>
 				</key>
 				<key name="Task10" modified="2022-12-16 13:24:08" build="220807">
 					<value name="Name" type="string" data="{Zsh::Git bash}"/>
