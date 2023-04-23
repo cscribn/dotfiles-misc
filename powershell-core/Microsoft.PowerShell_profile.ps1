@@ -1,4 +1,4 @@
-Function Run-Step([string] $Description, [ScriptBlock]$Script)
+Function Invoke-Step([string] $Description, [ScriptBlock]$Script)
 {
   & $Script
 }
@@ -11,26 +11,25 @@ If ($IsMacOS) {
   $Env:PATH += ":/opt/homebrew/bin"
 }
 
-Run-Step "oh-my-posh" {
+Invoke-Step "oh-my-posh" {
 	oh-my-posh init pwsh --config $HOME\.config\oh-my-posh\themes\powerlevel10k_amped_modern.omp.json | Invoke-Expression
 }
 
-Run-Step "posh-git" {
+Invoke-Step "posh-git" {
   Import-Module posh-git
 }
 
-Run-Step "PSReadline" {
+Invoke-Step "PSReadline" {
   Import-Module PSReadLine
   Set-PSReadLineOption -PredictionSource HistoryAndPlugin
-  Set-PSReadLineOption -PredictionViewStyle ListView
   Set-PSReadLineOption -EditMode Windows
 }
 
-Run-Step "Terminal-Icons" {
+Invoke-Step "Terminal-Icons" {
   Import-Module -Name Terminal-Icons
 }
 
-Run-Step "Chocolatey" {
+Invoke-Step "Chocolatey" {
   $ChocolateyProfile = "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"
 
   If (Test-Path($ChocolateyProfile)) {
