@@ -88,7 +88,7 @@
                 "experimental.retroTerminalEffect": false,
                 "font":
                 {
-                    "face": "MesloLGS Nerd Font",
+                    "face": "MesloLGS Nerd Font Mono",
                     "size": 11,
                     "weight": "normal"
                 },
@@ -106,7 +106,7 @@
                 "experimental.retroTerminalEffect": false,
                 "font":
                 {
-                    "face": "MesloLGS Nerd Font",
+                    "face": "MesloLGS Nerd Font Mono",
                     "size": 11,
                     "weight": "normal"
                 },
@@ -124,7 +124,7 @@
                 "experimental.retroTerminalEffect": false,
                 "font":
                 {
-                    "face": "MesloLGS Nerd Font",
+                    "face": "MesloLGS Nerd Font Mono",
                     "size": 11,
                     "weight": "normal"
                 },
@@ -143,7 +143,7 @@
                 "experimental.retroTerminalEffect": false,
                 "font":
                 {
-                    "face": "MesloLGS Nerd Font",
+                    "face": "MesloLGS Nerd Font Mono",
                     "size": 11,
                     "weight": "normal"
                 },
