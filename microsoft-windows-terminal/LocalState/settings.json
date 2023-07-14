@@ -1,14 +1,14 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions":
+    "actions": 
     [
         {
             "command": "paste",
             "keys": "ctrl+v"
         },
         {
-            "command":
+            "command": 
             {
                 "action": "copy",
                 "singleLine": false
@@ -20,7 +20,7 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "command":
+            "command": 
             {
                 "action": "splitPane",
                 "split": "auto",
@@ -34,10 +34,16 @@
     "defaultProfile": "{607571d3-e7d9-466f-885d-c229f3e37cde}",
     "initialCols": 123,
     "initialRows": 40,
-    "profiles":
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "profiles": 
     {
         "defaults": {},
-        "list":
+        "list": 
         [
             {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
@@ -49,7 +55,7 @@
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
                 "cursorShape": "vintage",
                 "elevate": false,
-                "font":
+                "font": 
                 {
                     "weight": "semi-bold"
                 },
@@ -65,10 +71,10 @@
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
                 "cursorShape": "vintage",
                 "elevate": true,
-                "font":
+                "font": 
                 {
                     "face": "Cascadia Mono",
-                    "size": 12,
+                    "size": 12.0,
                     "weight": "normal"
                 },
                 "guid": "{3057364b-0577-4a4b-9af7-e9046fbf36d3}",
@@ -82,14 +88,14 @@
                 "useAcrylic": false
             },
             {
-                "colorScheme": "Cyberpunk Umbra",
+                "colorScheme": "BlueDolphin",
                 "commandline": "\"C:\\Program Files\\Git\\bin\\bash.exe\"",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
-                "font":
+                "font": 
                 {
                     "face": "MesloLGS Nerd Font Mono",
-                    "size": 11,
+                    "size": 11.0,
                     "weight": "normal"
                 },
                 "guid": "{be8674d1-c791-43d9-8d74-7dddac94c358}",
@@ -100,14 +106,14 @@
                 "startingDirectory": "%USERPROFILE%"
             },
             {
-                "colorScheme": "Synthwave Alpha",
+                "colorScheme": "cyberpunk",
                 "commandline": "\"C:\\Program Files\\Git\\bin\\bash.exe\" -c \"export TERM=cygwin;exec zsh\"",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
-                "font":
+                "font": 
                 {
                     "face": "MesloLGS Nerd Font Mono",
-                    "size": 11,
+                    "size": 11.0,
                     "weight": "normal"
                 },
                 "guid": "{656ea7b5-6536-4373-b5a4-029f7a895fcf}",
@@ -118,14 +124,14 @@
                 "startingDirectory": "%USERPROFILE%"
             },
             {
-                "colorScheme": "Cyberpunk Scarlet",
+                "colorScheme": "AdventureTime",
                 "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\"",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
-                "font":
+                "font": 
                 {
                     "face": "MesloLGS Nerd Font Mono",
-                    "size": 11,
+                    "size": 11.0,
                     "weight": "normal"
                 },
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
@@ -136,15 +142,15 @@
                 "startingDirectory": "%USERPROFILE%"
             },
             {
-                "colorScheme": "Cyberpunk Scarlet",
+                "colorScheme": "AdventureTime",
                 "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\"",
                 "cursorShape": "vintage",
                 "elevate": true,
                 "experimental.retroTerminalEffect": false,
-                "font":
+                "font": 
                 {
                     "face": "MesloLGS Nerd Font Mono",
-                    "size": 11,
+                    "size": 11.0,
                     "weight": "normal"
                 },
                 "guid": "{607571d3-e7d9-466f-885d-c229f3e37cde}",
@@ -162,7 +168,7 @@
             },
             {
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-                "font":
+                "font": 
                 {
                     "face": "Cascadia Mono"
                 },
@@ -172,8 +178,54 @@
             }
         ]
     },
-    "schemes":
+    "schemes": 
     [
+        {
+            "background": "#1F1D45",
+            "black": "#050404",
+            "blue": "#0F4AC6",
+            "brightBlack": "#4E7CBF",
+            "brightBlue": "#1997C6",
+            "brightCyan": "#C8FAF4",
+            "brightGreen": "#9EFF6E",
+            "brightPurple": "#9B5953",
+            "brightRed": "#FC5F5A",
+            "brightWhite": "#F6F5FB",
+            "brightYellow": "#EFC11A",
+            "cursorColor": "#EFBF38",
+            "cyan": "#70A598",
+            "foreground": "#F8DCC0",
+            "green": "#4AB118",
+            "name": "AdventureTime",
+            "purple": "#665993",
+            "red": "#BD0013",
+            "selectionBackground": "#706B4E",
+            "white": "#F8DCC0",
+            "yellow": "#E7741E"
+        },
+        {
+            "background": "#006984",
+            "black": "#292D3E",
+            "blue": "#82AAFF",
+            "brightBlack": "#434758",
+            "brightBlue": "#9CC4FF",
+            "brightCyan": "#A3F7FF",
+            "brightGreen": "#DDFFA7",
+            "brightPurple": "#DDB0F6",
+            "brightRed": "#FF8B92",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFE585",
+            "cursorColor": "#FFCC00",
+            "cyan": "#89EBFF",
+            "foreground": "#C5F2FF",
+            "green": "#B4E88D",
+            "name": "BlueDolphin",
+            "purple": "#E9C1FF",
+            "red": "#FF8288",
+            "selectionBackground": "#2BAECA",
+            "white": "#D0D0D0",
+            "yellow": "#F4D69F"
+        },
         {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
@@ -219,52 +271,6 @@
             "selectionBackground": "#FFFFFF",
             "white": "#CCCCCC",
             "yellow": "#C19C00"
-        },
-        {
-            "background": "#000807",
-            "black": "#65737E",
-            "blue": "#00A2FF",
-            "brightBlack": "#65737E",
-            "brightBlue": "#2088FF",
-            "brightCyan": "#89DDFF",
-            "brightGreen": "#00FF9C",
-            "brightPurple": "#B700FF",
-            "brightRed": "#FF0059",
-            "brightWhite": "#EEFFFF",
-            "brightYellow": "#FFFC58",
-            "cursorColor": "#FFFFFF",
-            "cyan": "#00C3FF",
-            "foreground": "#FF3270",
-            "green": "#9DFF00",
-            "name": "Cyberpunk Scarlet",
-            "purple": "#A200FF",
-            "red": "#FF0000",
-            "selectionBackground": "#FFFFFF",
-            "white": "#FFFFFF",
-            "yellow": "#FFFF00"
-        },
-        {
-            "background": "#100D23",
-            "black": "#272932",
-            "blue": "#00B0FF",
-            "brightBlack": "#65737E",
-            "brightBlue": "#00B0FF",
-            "brightCyan": "#37EBF3",
-            "brightGreen": "#00FF9C",
-            "brightPurple": "#CB1DCD",
-            "brightRed": "#F02C35",
-            "brightWhite": "#C1DEFF",
-            "brightYellow": "#FFFC4C",
-            "cursorColor": "#FDF500",
-            "cyan": "#00D0DB",
-            "foreground": "#04FF87",
-            "green": "#1AC5B0",
-            "name": "Cyberpunk Umbra",
-            "purple": "#742D8B",
-            "red": "#F02C35",
-            "selectionBackground": "#5E35B1",
-            "white": "#D1C5C0",
-            "yellow": "#FDF500"
         },
         {
             "background": "#282C34",
@@ -313,27 +319,50 @@
             "yellow": "#C18301"
         },
         {
-            "background": "#181036",
+            "background": "#21084A",
             "black": "#000000",
-            "blue": "#7998F2",
-            "brightBlack": "#787889",
-            "brightBlue": "#95ACF1",
-            "brightCyan": "#AC5DCC",
-            "brightGreen": "#78CFC7",
-            "brightPurple": "#BF92FE",
-            "brightRed": "#FF6E9C",
-            "brightWhite": "#F0EFF1",
-            "brightYellow": "#F5CD8E",
-            "cursorColor": "#FEFEFF",
-            "cyan": "#9E2ECB",
-            "foreground": "#FEFEFF",
-            "green": "#31DEC0",
-            "name": "Pitaya Smoothie",
-            "purple": "#9A57F8",
-            "red": "#EA306B",
-            "selectionBackground": "#FEFEFF",
-            "white": "#D2D2D3",
-            "yellow": "#FFC15E"
+            "blue": "#00A2FA",
+            "brightBlack": "#565656",
+            "brightBlue": "#00A6FF",
+            "brightCyan": "#74FDF3",
+            "brightGreen": "#B8E36E",
+            "brightPurple": "#AC7BF0",
+            "brightRed": "#FF4250",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFD852",
+            "cursorColor": "#FF271D",
+            "cyan": "#00DEEF",
+            "foreground": "#FFFBF6",
+            "green": "#9BE205",
+            "name": "Purple Rain",
+            "purple": "#815BB5",
+            "red": "#FF260E",
+            "selectionBackground": "#287691",
+            "white": "#FFFFFF",
+            "yellow": "#FFC400"
+        },
+        {
+            "background": "#1C153D",
+            "black": "#101116",
+            "blue": "#0271B6",
+            "brightBlack": "#686868",
+            "brightBlue": "#6871FF",
+            "brightCyan": "#60FDFF",
+            "brightGreen": "#5FFA68",
+            "brightPurple": "#BD35EC",
+            "brightRed": "#FF6E67",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFFC67",
+            "cursorColor": "#76FF9F",
+            "cyan": "#00C5C7",
+            "foreground": "#E41951",
+            "green": "#00DC84",
+            "name": "Scarlet Protocol",
+            "purple": "#CA30C7",
+            "red": "#FF0051",
+            "selectionBackground": "#C1DEFF",
+            "white": "#C7C7C7",
+            "yellow": "#FAF945"
         },
         {
             "background": "#002B36",
@@ -380,29 +409,6 @@
             "selectionBackground": "#FFFFFF",
             "white": "#EEE8D5",
             "yellow": "#B58900"
-        },
-        {
-            "background": "#241B30",
-            "black": "#241B30",
-            "blue": "#AA54F9",
-            "brightBlack": "#7F7094",
-            "brightBlue": "#AA54F9",
-            "brightCyan": "#00FBFD",
-            "brightGreen": "#0AE4A4",
-            "brightPurple": "#FF00F6",
-            "brightRed": "#E60A70",
-            "brightWhite": "#F2F2E3",
-            "brightYellow": "#F9F972",
-            "cursorColor": "#F2F2E3",
-            "cyan": "#00B0B1",
-            "foreground": "#F2F2E3",
-            "green": "#00986C",
-            "name": "Synthwave Alpha",
-            "purple": "#B300AD",
-            "red": "#E60A70",
-            "selectionBackground": "#F2F2E3",
-            "white": "#B9B1BC",
-            "yellow": "#ADAD3E"
         },
         {
             "background": "#000000",
@@ -472,6 +478,74 @@
             "selectionBackground": "#FFFFFF",
             "white": "#C0C0C0",
             "yellow": "#808000"
+        },
+        {
+            "background": "#332A57",
+            "black": "#000000",
+            "blue": "#00BFFF",
+            "brightBlack": "#000000",
+            "brightBlue": "#1BCCFD",
+            "brightCyan": "#99D6FC",
+            "brightGreen": "#21F6BC",
+            "brightPurple": "#E6AEFE",
+            "brightRed": "#FF8AA4",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFF787",
+            "cursorColor": "#21F6BC",
+            "cyan": "#86CBFE",
+            "foreground": "#E5E5E5",
+            "green": "#00FBAC",
+            "name": "cyberpunk",
+            "purple": "#DF95FF",
+            "red": "#FF7092",
+            "selectionBackground": "#C1DEFF",
+            "white": "#FFFFFF",
+            "yellow": "#FFFA6A"
+        }
+    ],
+    "themes": 
+    [
+        {
+            "name": "legacyDark",
+            "tab": 
+            {
+                "background": null,
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "window": 
+            {
+                "applicationTheme": "dark",
+                "useMica": false
+            }
+        },
+        {
+            "name": "legacyLight",
+            "tab": 
+            {
+                "background": null,
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "window": 
+            {
+                "applicationTheme": "light",
+                "useMica": false
+            }
+        },
+        {
+            "name": "legacySystem",
+            "tab": 
+            {
+                "background": null,
+                "showCloseButton": "always",
+                "unfocusedBackground": null
+            },
+            "window": 
+            {
+                "applicationTheme": "system",
+                "useMica": false
+            }
         }
     ]
 }
