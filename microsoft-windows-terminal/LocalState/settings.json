@@ -106,7 +106,7 @@
                 "startingDirectory": "%USERPROFILE%"
             },
             {
-                "colorScheme": "cyberpunk",
+                "colorScheme": "AdventureTime",
                 "commandline": "\"C:\\Program Files\\Git\\bin\\bash.exe\" -c \"export TERM=cygwin;exec zsh\"",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
@@ -124,7 +124,7 @@
                 "startingDirectory": "%USERPROFILE%"
             },
             {
-                "colorScheme": "AdventureTime",
+                "colorScheme": "Scarlet Protocol",
                 "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\"",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
@@ -142,7 +142,7 @@
                 "startingDirectory": "%USERPROFILE%"
             },
             {
-                "colorScheme": "AdventureTime",
+                "colorScheme": "Scarlet Protocol",
                 "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\"",
                 "cursorShape": "vintage",
                 "elevate": true,
