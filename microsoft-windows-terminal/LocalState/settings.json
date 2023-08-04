@@ -32,8 +32,8 @@
     "copyFormatting": "none",
     "copyOnSelect": true,
     "defaultProfile": "{607571d3-e7d9-466f-885d-c229f3e37cde}",
-    "initialCols": 123,
-    "initialRows": 40,
+    "initialCols": 120,
+    "initialRows": 35,
     "newTabMenu": 
     [
         {
@@ -159,12 +159,6 @@
                 "name": "PowerShell (Administrator)",
                 "opacity": 100,
                 "startingDirectory": "%USERPROFILE%"
-            },
-            {
-                "guid": "{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}",
-                "hidden": true,
-                "name": "Ubuntu-20.04",
-                "source": "Windows.Terminal.Wsl"
             },
             {
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
