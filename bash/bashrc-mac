@@ -2,30 +2,6 @@ export PATH=/opt/homebrew/bin:${PATH}
 [[ "${BASH_VERSINFO:-0}" -ge 4 ]] && eval "$(oh-my-posh init bash --config ~/.config/oh-my-posh/themes/powerlevel10k_amped_lean.omp.json)"
 alias ls='lsd --group-directories-first'
 
-# nvm with lazy loading
-lazynvm() {
-	unset -f nvm node npm
-	export NVM_DIR="${HOME}/.nvm"
-	[[ -s "/opt/homebrew/opt/nvm/nvm.sh" ]] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
-}
-
-[[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ]] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
-
-nvm() {
-  lazynvm
-  nvm "$@"
-}
-
-node() {
-  lazynvm
-  node "$@"
-}
-
-npm() {
-  lazynvm
-  npm "$@"
-}
-
 export PYENV_ROOT="${HOME}/.pyenv"
 command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:${PATH}"
 eval "$(pyenv init -)"
