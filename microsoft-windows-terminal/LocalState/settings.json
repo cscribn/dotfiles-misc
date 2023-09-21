@@ -88,7 +88,7 @@
                 "useAcrylic": false
             },
             {
-                "colorScheme": "BlueDolphin",
+                "colorScheme": "synthwave-everything",
                 "commandline": "\"C:\\Program Files\\Git\\bin\\bash.exe\"",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
@@ -106,7 +106,7 @@
                 "startingDirectory": "%USERPROFILE%"
             },
             {
-                "colorScheme": "AdventureTime",
+                "colorScheme": "cyberpunk",
                 "commandline": "\"C:\\Program Files\\Git\\bin\\bash.exe\" -c \"export TERM=cygwin;exec zsh\"",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
@@ -124,7 +124,7 @@
                 "startingDirectory": "%USERPROFILE%"
             },
             {
-                "colorScheme": "Scarlet Protocol",
+                "colorScheme": "AdventureTime",
                 "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\"",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
@@ -142,7 +142,7 @@
                 "startingDirectory": "%USERPROFILE%"
             },
             {
-                "colorScheme": "Scarlet Protocol",
+                "colorScheme": "AdventureTime",
                 "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\"",
                 "cursorShape": "vintage",
                 "elevate": true,
@@ -196,29 +196,6 @@
             "selectionBackground": "#706B4E",
             "white": "#F8DCC0",
             "yellow": "#E7741E"
-        },
-        {
-            "background": "#006984",
-            "black": "#292D3E",
-            "blue": "#82AAFF",
-            "brightBlack": "#434758",
-            "brightBlue": "#9CC4FF",
-            "brightCyan": "#A3F7FF",
-            "brightGreen": "#DDFFA7",
-            "brightPurple": "#DDB0F6",
-            "brightRed": "#FF8B92",
-            "brightWhite": "#FFFFFF",
-            "brightYellow": "#FFE585",
-            "cursorColor": "#FFCC00",
-            "cyan": "#89EBFF",
-            "foreground": "#C5F2FF",
-            "green": "#B4E88D",
-            "name": "BlueDolphin",
-            "purple": "#E9C1FF",
-            "red": "#FF8288",
-            "selectionBackground": "#2BAECA",
-            "white": "#D0D0D0",
-            "yellow": "#F4D69F"
         },
         {
             "background": "#0C0C0C",
@@ -311,52 +288,6 @@
             "selectionBackground": "#FFFFFF",
             "white": "#FAFAFA",
             "yellow": "#C18301"
-        },
-        {
-            "background": "#21084A",
-            "black": "#000000",
-            "blue": "#00A2FA",
-            "brightBlack": "#565656",
-            "brightBlue": "#00A6FF",
-            "brightCyan": "#74FDF3",
-            "brightGreen": "#B8E36E",
-            "brightPurple": "#AC7BF0",
-            "brightRed": "#FF4250",
-            "brightWhite": "#FFFFFF",
-            "brightYellow": "#FFD852",
-            "cursorColor": "#FF271D",
-            "cyan": "#00DEEF",
-            "foreground": "#FFFBF6",
-            "green": "#9BE205",
-            "name": "Purple Rain",
-            "purple": "#815BB5",
-            "red": "#FF260E",
-            "selectionBackground": "#287691",
-            "white": "#FFFFFF",
-            "yellow": "#FFC400"
-        },
-        {
-            "background": "#1C153D",
-            "black": "#101116",
-            "blue": "#0271B6",
-            "brightBlack": "#686868",
-            "brightBlue": "#6871FF",
-            "brightCyan": "#60FDFF",
-            "brightGreen": "#5FFA68",
-            "brightPurple": "#BD35EC",
-            "brightRed": "#FF6E67",
-            "brightWhite": "#FFFFFF",
-            "brightYellow": "#FFFC67",
-            "cursorColor": "#76FF9F",
-            "cyan": "#00C5C7",
-            "foreground": "#E41951",
-            "green": "#00DC84",
-            "name": "Scarlet Protocol",
-            "purple": "#CA30C7",
-            "red": "#FF0051",
-            "selectionBackground": "#C1DEFF",
-            "white": "#C7C7C7",
-            "yellow": "#FAF945"
         },
         {
             "background": "#002B36",
@@ -495,6 +426,29 @@
             "selectionBackground": "#C1DEFF",
             "white": "#FFFFFF",
             "yellow": "#FFFA6A"
+        },
+        {
+            "background": "#2A2139",
+            "black": "#FEFEFE",
+            "blue": "#6D77B3",
+            "brightBlack": "#FEFEFE",
+            "brightBlue": "#36F9F6",
+            "brightCyan": "#F92AAD",
+            "brightGreen": "#72F1B8",
+            "brightPurple": "#E1ACFF",
+            "brightRed": "#F88414",
+            "brightWhite": "#FEFEFE",
+            "brightYellow": "#FFF951",
+            "cursorColor": "#72F1B8",
+            "cyan": "#F772E0",
+            "foreground": "#F0EFF1",
+            "green": "#72F1B8",
+            "name": "synthwave-everything",
+            "purple": "#C792EA",
+            "red": "#F97E72",
+            "selectionBackground": "#181521",
+            "white": "#FEFEFE",
+            "yellow": "#FEDE5D"
         }
     ],
     "themes": 
