@@ -88,6 +88,54 @@
                 "useAcrylic": false
             },
             {
+                "altGrAliasing": true,
+                "antialiasingMode": "grayscale",
+                "closeOnExit": "graceful",
+                "colorScheme": "Campbell",
+                "commandline": "cmd /k \"C:\\Program Files (x86)\\clink\\clink\" inject",
+                "cursorShape": "vintage",
+                "elevate": false,
+                "font": 
+                {
+                    "face": "MesloLGS Nerd Font Mono",
+                    "size": 11.0,
+                    "weight": "normal"
+                },
+                "guid": "{b53c485c-111c-4815-9ea9-084330d541d3}",
+                "hidden": false,
+                "historySize": 9001,
+                "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
+                "name": "Command Prompt Clink",
+                "padding": "8, 8, 8, 8",
+                "snapOnInput": true,
+                "startingDirectory": "%USERPROFILE%",
+                "useAcrylic": false
+            },
+            {
+                "altGrAliasing": true,
+                "antialiasingMode": "grayscale",
+                "closeOnExit": "graceful",
+                "colorScheme": "Campbell",
+                "commandline": "cmd /k \"C:\\Program Files (x86)\\clink\\clink\" inject",
+                "cursorShape": "vintage",
+                "elevate": true,
+                "font": 
+                {
+                    "face": "MesloLGS Nerd Font Mono",
+                    "size": 11.0,
+                    "weight": "normal"
+                },
+                "guid": "{22476eae-a702-4b01-9885-ef5d9f7cc2ba}",
+                "hidden": false,
+                "historySize": 9001,
+                "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
+                "name": "Command Prompt Clink (Administrator)",
+                "padding": "8, 8, 8, 8",
+                "snapOnInput": true,
+                "startingDirectory": "%USERPROFILE%",
+                "useAcrylic": false
+            },
+            {
                 "colorScheme": "synthwave-everything",
                 "commandline": "\"C:\\Program Files\\Git\\bin\\bash.exe\"",
                 "cursorShape": "vintage",
