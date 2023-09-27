@@ -1,3 +1,4 @@
 *								text=auto	eol=lf
+/clink/*	                    text		eol=crlf
 /microsoft-windows-terminal/*	text		eol=crlf
 /powershell-core/*				text		eol=crlf
