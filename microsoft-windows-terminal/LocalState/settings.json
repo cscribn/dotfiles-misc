@@ -52,42 +52,6 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "commandline": "%SystemRoot%\\System32\\cmd.exe",
-                "cursorShape": "vintage",
-                "elevate": false,
-                "font": 
-                {
-                    "weight": "semi-bold"
-                },
-                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "hidden": false,
-                "name": "Command Prompt"
-            },
-            {
-                "altGrAliasing": true,
-                "antialiasingMode": "grayscale",
-                "closeOnExit": "graceful",
-                "colorScheme": "Campbell",
-                "commandline": "%SystemRoot%\\System32\\cmd.exe",
-                "cursorShape": "vintage",
-                "elevate": true,
-                "font": 
-                {
-                    "face": "Cascadia Mono",
-                    "size": 12.0,
-                    "weight": "normal"
-                },
-                "guid": "{3057364b-0577-4a4b-9af7-e9046fbf36d3}",
-                "hidden": false,
-                "historySize": 9001,
-                "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
-                "name": "Command Prompt (Administrator)",
-                "padding": "8, 8, 8, 8",
-                "snapOnInput": true,
-                "startingDirectory": "%USERPROFILE%",
-                "useAcrylic": false
-            },
-            {
                 "altGrAliasing": true,
                 "antialiasingMode": "grayscale",
                 "closeOnExit": "graceful",
@@ -105,7 +69,7 @@
                 "hidden": false,
                 "historySize": 9001,
                 "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
-                "name": "Command Prompt Clink",
+                "name": "Command Prompt",
                 "padding": "8, 8, 8, 8",
                 "snapOnInput": true,
                 "startingDirectory": "%USERPROFILE%",
@@ -129,7 +93,43 @@
                 "hidden": false,
                 "historySize": 9001,
                 "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
-                "name": "Command Prompt Clink (Administrator)",
+                "name": "Command Prompt (Admin)",
+                "padding": "8, 8, 8, 8",
+                "snapOnInput": true,
+                "startingDirectory": "%USERPROFILE%",
+                "useAcrylic": false
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "cursorShape": "vintage",
+                "elevate": false,
+                "font": 
+                {
+                    "weight": "semi-bold"
+                },
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt (Basic)"
+            },
+            {
+                "altGrAliasing": true,
+                "antialiasingMode": "grayscale",
+                "closeOnExit": "graceful",
+                "colorScheme": "Campbell",
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "cursorShape": "vintage",
+                "elevate": true,
+                "font": 
+                {
+                    "face": "Cascadia Mono",
+                    "size": 12.0,
+                    "weight": "normal"
+                },
+                "guid": "{3057364b-0577-4a4b-9af7-e9046fbf36d3}",
+                "hidden": false,
+                "historySize": 9001,
+                "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
+                "name": "Command Prompt (Basic Admin)",
                 "padding": "8, 8, 8, 8",
                 "snapOnInput": true,
                 "startingDirectory": "%USERPROFILE%",
