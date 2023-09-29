@@ -204,7 +204,7 @@
                 "guid": "{607571d3-e7d9-466f-885d-c229f3e37cde}",
                 "hidden": false,
                 "icon": "ms-appx:///ProfileIcons/pwsh.png",
-                "name": "PowerShell (Administrator)",
+                "name": "PowerShell (Admin)",
                 "opacity": 100,
                 "startingDirectory": "%USERPROFILE%"
             },
