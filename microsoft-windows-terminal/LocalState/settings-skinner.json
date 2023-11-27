@@ -217,6 +217,23 @@
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": true,
                 "name": "Windows PowerShell"
+            },
+            {
+                "colorScheme": "Grass",
+                "commandline": "ssh -t pi@retrobar.local \"zsh\"",
+                "cursorShape": "vintage",
+                "experimental.retroTerminalEffect": false,
+                "font": 
+                {
+                    "face": "MesloLGS Nerd Font Mono",
+                    "size": 11.0,
+                    "weight": "normal"
+                },
+                "guid": "{8ef59a50-6872-44da-9250-9ba3ff05fc2c}",
+                "hidden": false,
+                "icon": "C:\\Program Files\\Git\\usr\\share\\icons\\locolor\\32x32\\apps\\zsh.ico",
+                "name": "ssh retrobar",
+                "opacity": 100
             }
         ]
     },
@@ -290,6 +307,29 @@
             "selectionBackground": "#FFFFFF",
             "white": "#CCCCCC",
             "yellow": "#C19C00"
+        },
+        {
+            "background": "#13773D",
+            "black": "#000000",
+            "blue": "#0000A3",
+            "brightBlack": "#555555",
+            "brightBlue": "#0000BB",
+            "brightCyan": "#55FFFF",
+            "brightGreen": "#00BB00",
+            "brightPurple": "#FF55FF",
+            "brightRed": "#BB0000",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#E7B000",
+            "cursorColor": "#8C2800",
+            "cyan": "#00BBBB",
+            "foreground": "#FFF0A5",
+            "green": "#00BB00",
+            "name": "Grass",
+            "purple": "#950062",
+            "red": "#BB0000",
+            "selectionBackground": "#B64926",
+            "white": "#BBBBBB",
+            "yellow": "#E7B000"
         },
         {
             "background": "#282C34",
@@ -499,49 +539,5 @@
             "yellow": "#FEDE5D"
         }
     ],
-    "themes": 
-    [
-        {
-            "name": "legacyDark",
-            "tab": 
-            {
-                "background": null,
-                "showCloseButton": "always",
-                "unfocusedBackground": null
-            },
-            "window": 
-            {
-                "applicationTheme": "dark",
-                "useMica": false
-            }
-        },
-        {
-            "name": "legacyLight",
-            "tab": 
-            {
-                "background": null,
-                "showCloseButton": "always",
-                "unfocusedBackground": null
-            },
-            "window": 
-            {
-                "applicationTheme": "light",
-                "useMica": false
-            }
-        },
-        {
-            "name": "legacySystem",
-            "tab": 
-            {
-                "background": null,
-                "showCloseButton": "always",
-                "unfocusedBackground": null
-            },
-            "window": 
-            {
-                "applicationTheme": "system",
-                "useMica": false
-            }
-        }
-    ]
+    "themes": []
 }
