@@ -209,16 +209,6 @@
                 "startingDirectory": "%USERPROFILE%"
             },
             {
-                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-                "font": 
-                {
-                    "face": "Cascadia Mono"
-                },
-                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-                "hidden": true,
-                "name": "Windows PowerShell"
-            },
-            {
                 "colorScheme": "Grass",
                 "commandline": "ssh -t pi@retrobar.local \"zsh\"",
                 "cursorShape": "vintage",
@@ -231,9 +221,19 @@
                 },
                 "guid": "{8ef59a50-6872-44da-9250-9ba3ff05fc2c}",
                 "hidden": false,
-                "icon": "C:\\Program Files\\Git\\usr\\share\\icons\\locolor\\32x32\\apps\\zsh.ico",
+                "icon": "C:\\ProgramData\\chocolatey\\lib\\kitty\\tools\\klink.exe",
                 "name": "ssh retrobar",
                 "opacity": 100
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "font": 
+                {
+                    "face": "Cascadia Mono"
+                },
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": true,
+                "name": "Windows PowerShell"
             }
         ]
     },
