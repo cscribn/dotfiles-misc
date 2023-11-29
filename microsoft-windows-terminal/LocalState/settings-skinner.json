@@ -46,36 +46,6 @@
         "list": 
         [
             {
-                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
-                "hidden": true,
-                "name": "Azure Cloud Shell",
-                "source": "Windows.Terminal.Azure"
-            },
-            {
-                "altGrAliasing": true,
-                "antialiasingMode": "grayscale",
-                "closeOnExit": "graceful",
-                "colorScheme": "Campbell",
-                "commandline": "cmd /k \"C:\\Program Files (x86)\\clink\\clink\" inject",
-                "cursorShape": "vintage",
-                "elevate": false,
-                "font": 
-                {
-                    "face": "MesloLGS Nerd Font Mono",
-                    "size": 11.0,
-                    "weight": "normal"
-                },
-                "guid": "{b53c485c-111c-4815-9ea9-084330d541d3}",
-                "hidden": true,
-                "historySize": 9001,
-                "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
-                "name": "Command Prompt",
-                "padding": "8, 8, 8, 8",
-                "snapOnInput": true,
-                "startingDirectory": "%USERPROFILE%",
-                "useAcrylic": false
-            },
-            {
                 "altGrAliasing": true,
                 "antialiasingMode": "grayscale",
                 "closeOnExit": "graceful",
@@ -94,42 +64,6 @@
                 "historySize": 9001,
                 "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
                 "name": "Command Prompt (Admin)",
-                "padding": "8, 8, 8, 8",
-                "snapOnInput": true,
-                "startingDirectory": "%USERPROFILE%",
-                "useAcrylic": false
-            },
-            {
-                "commandline": "%SystemRoot%\\System32\\cmd.exe",
-                "cursorShape": "vintage",
-                "elevate": false,
-                "font": 
-                {
-                    "weight": "semi-bold"
-                },
-                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
-                "hidden": true,
-                "name": "Command Prompt (Basic)"
-            },
-            {
-                "altGrAliasing": true,
-                "antialiasingMode": "grayscale",
-                "closeOnExit": "graceful",
-                "colorScheme": "Campbell",
-                "commandline": "%SystemRoot%\\System32\\cmd.exe",
-                "cursorShape": "vintage",
-                "elevate": true,
-                "font": 
-                {
-                    "face": "Cascadia Mono",
-                    "size": 12.0,
-                    "weight": "normal"
-                },
-                "guid": "{3057364b-0577-4a4b-9af7-e9046fbf36d3}",
-                "hidden": true,
-                "historySize": 9001,
-                "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
-                "name": "Command Prompt (Basic Admin)",
                 "padding": "8, 8, 8, 8",
                 "snapOnInput": true,
                 "startingDirectory": "%USERPROFILE%",
@@ -175,24 +109,6 @@
                 "colorScheme": "AdventureTime",
                 "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\"",
                 "cursorShape": "vintage",
-                "experimental.retroTerminalEffect": false,
-                "font": 
-                {
-                    "face": "MesloLGS Nerd Font Mono",
-                    "size": 11.0,
-                    "weight": "normal"
-                },
-                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-                "hidden": true,
-                "name": "PowerShell",
-                "opacity": 100,
-                "source": "Windows.Terminal.PowershellCore",
-                "startingDirectory": "%USERPROFILE%"
-            },
-            {
-                "colorScheme": "AdventureTime",
-                "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\"",
-                "cursorShape": "vintage",
                 "elevate": true,
                 "experimental.retroTerminalEffect": false,
                 "font": 
@@ -207,6 +123,23 @@
                 "name": "PowerShell (Admin)",
                 "opacity": 100,
                 "startingDirectory": "%USERPROFILE%"
+            },
+            {
+                "colorScheme": "Red Sands",
+                "commandline": "ssh -t pi@pidns.local \"zsh\"",
+                "cursorShape": "vintage",
+                "experimental.retroTerminalEffect": false,
+                "font": 
+                {
+                    "face": "MesloLGS Nerd Font Mono",
+                    "size": 11.0,
+                    "weight": "normal"
+                },
+                "guid": "{5da76ee2-031a-4dfd-ab07-f00c5e4d4982}",
+                "hidden": false,
+                "icon": "C:\\ProgramData\\chocolatey\\lib\\kitty\\tools\\klink.exe",
+                "name": "ssh pidns",
+                "opacity": 100
             },
             {
                 "colorScheme": "Grass",
@@ -224,16 +157,6 @@
                 "icon": "C:\\ProgramData\\chocolatey\\lib\\kitty\\tools\\klink.exe",
                 "name": "ssh retrobar",
                 "opacity": 100
-            },
-            {
-                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-                "font": 
-                {
-                    "face": "Cascadia Mono"
-                },
-                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
-                "hidden": true,
-                "name": "Windows PowerShell"
             },
             {
                 "colorScheme": "Vaughn",
@@ -270,57 +193,6 @@
                 "opacity": 100
             },
             {
-                "colorScheme": "Red Sands",
-                "commandline": "ssh -t pi@pidns.local \"zsh\"",
-                "cursorShape": "vintage",
-                "experimental.retroTerminalEffect": false,
-                "font": 
-                {
-                    "face": "MesloLGS Nerd Font Mono",
-                    "size": 11.0,
-                    "weight": "normal"
-                },
-                "guid": "{5da76ee2-031a-4dfd-ab07-f00c5e4d4982}",
-                "hidden": false,
-                "icon": "C:\\ProgramData\\chocolatey\\lib\\kitty\\tools\\klink.exe",
-                "name": "ssh pidns",
-                "opacity": 100
-            },
-            {
-                "colorScheme": "Twilight",
-                "commandline": "ssh -t pi@piwatch.local \"zsh\"",
-                "cursorShape": "vintage",
-                "experimental.retroTerminalEffect": false,
-                "font": 
-                {
-                    "face": "MesloLGS Nerd Font Mono",
-                    "size": 11.0,
-                    "weight": "normal"
-                },
-                "guid": "{a2cc27c9-903d-4cc3-b953-ccad2cef421b}",
-                "hidden": true,
-                "icon": "C:\\ProgramData\\chocolatey\\lib\\kitty\\tools\\klink.exe",
-                "name": "ssh piwatch",
-                "opacity": 100
-            },
-            {
-                "colorScheme": "Campbell",
-                "commandline": "ssh -t pi@retrovlieg.local \"zsh\"",
-                "cursorShape": "vintage",
-                "experimental.retroTerminalEffect": false,
-                "font": 
-                {
-                    "face": "MesloLGS Nerd Font Mono",
-                    "size": 11.0,
-                    "weight": "normal"
-                },
-                "guid": "{1e20fa53-aa7e-4e9b-b36a-b9842d67c946}",
-                "hidden": true,
-                "icon": "C:\\ProgramData\\chocolatey\\lib\\kitty\\tools\\klink.exe",
-                "name": "ssh retrovlieg",
-                "opacity": 100
-            },
-            {
                 "colorScheme": "Campbell",
                 "commandline": "ssh cscribn@cscribn.cloud.seedboxes.cc -p 3232",
                 "cursorShape": "vintage",
@@ -338,6 +210,90 @@
                 "opacity": 100
             },
             {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": true,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "altGrAliasing": true,
+                "antialiasingMode": "grayscale",
+                "closeOnExit": "graceful",
+                "colorScheme": "Campbell",
+                "commandline": "cmd /k \"C:\\Program Files (x86)\\clink\\clink\" inject",
+                "cursorShape": "vintage",
+                "elevate": false,
+                "font": 
+                {
+                    "face": "MesloLGS Nerd Font Mono",
+                    "size": 11.0,
+                    "weight": "normal"
+                },
+                "guid": "{b53c485c-111c-4815-9ea9-084330d541d3}",
+                "hidden": false,
+                "historySize": 9001,
+                "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
+                "name": "Command Prompt",
+                "padding": "8, 8, 8, 8",
+                "snapOnInput": true,
+                "startingDirectory": "%USERPROFILE%",
+                "useAcrylic": false
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "cursorShape": "vintage",
+                "elevate": false,
+                "font": 
+                {
+                    "weight": "semi-bold"
+                },
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt (Basic)"
+            },
+            {
+                "altGrAliasing": true,
+                "antialiasingMode": "grayscale",
+                "closeOnExit": "graceful",
+                "colorScheme": "Campbell",
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "cursorShape": "vintage",
+                "elevate": true,
+                "font": 
+                {
+                    "face": "Cascadia Mono",
+                    "size": 12.0,
+                    "weight": "normal"
+                },
+                "guid": "{3057364b-0577-4a4b-9af7-e9046fbf36d3}",
+                "hidden": false,
+                "historySize": 9001,
+                "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
+                "name": "Command Prompt (Basic Admin)",
+                "padding": "8, 8, 8, 8",
+                "snapOnInput": true,
+                "startingDirectory": "%USERPROFILE%",
+                "useAcrylic": false
+            },
+            {
+                "colorScheme": "AdventureTime",
+                "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\"",
+                "cursorShape": "vintage",
+                "experimental.retroTerminalEffect": false,
+                "font": 
+                {
+                    "face": "MesloLGS Nerd Font Mono",
+                    "size": 11.0,
+                    "weight": "normal"
+                },
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell",
+                "opacity": 100,
+                "source": "Windows.Terminal.PowershellCore",
+                "startingDirectory": "%USERPROFILE%"
+            },
+            {
                 "colorScheme": "Campbell",
                 "commandline": "ssh root@169.254.215.100",
                 "cursorShape": "vintage",
@@ -349,10 +305,54 @@
                     "weight": "normal"
                 },
                 "guid": "{32b01b07-edad-433b-8f73-1faf55ead9fc}",
-                "hidden": true,
+                "hidden": false,
                 "icon": "C:\\ProgramData\\chocolatey\\lib\\kitty\\tools\\klink.exe",
                 "name": "ssh modmyclassic",
                 "opacity": 100
+            },
+            {
+                "colorScheme": "Twilight",
+                "commandline": "ssh -t pi@piwatch.local \"zsh\"",
+                "cursorShape": "vintage",
+                "experimental.retroTerminalEffect": false,
+                "font": 
+                {
+                    "face": "MesloLGS Nerd Font Mono",
+                    "size": 11.0,
+                    "weight": "normal"
+                },
+                "guid": "{a2cc27c9-903d-4cc3-b953-ccad2cef421b}",
+                "hidden": false,
+                "icon": "C:\\ProgramData\\chocolatey\\lib\\kitty\\tools\\klink.exe",
+                "name": "ssh piwatch",
+                "opacity": 100
+            },
+            {
+                "colorScheme": "Campbell",
+                "commandline": "ssh -t pi@retrovlieg.local \"zsh\"",
+                "cursorShape": "vintage",
+                "experimental.retroTerminalEffect": false,
+                "font": 
+                {
+                    "face": "MesloLGS Nerd Font Mono",
+                    "size": 11.0,
+                    "weight": "normal"
+                },
+                "guid": "{1e20fa53-aa7e-4e9b-b36a-b9842d67c946}",
+                "hidden": false,
+                "icon": "C:\\ProgramData\\chocolatey\\lib\\kitty\\tools\\klink.exe",
+                "name": "ssh retrovlieg",
+                "opacity": 100
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "font": 
+                {
+                    "face": "Cascadia Mono"
+                },
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": true,
+                "name": "Windows PowerShell"
             }
         ]
     },
