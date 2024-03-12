@@ -389,5 +389,4 @@ endfunction
 " => cscribn changes
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 colorscheme default
-set number
 set t_Co=256
