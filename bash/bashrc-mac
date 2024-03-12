@@ -2,6 +2,7 @@ export PATH=/opt/homebrew/bin:/opt/homebrew/sbin:${PATH}
 [[ "${BASH_VERSINFO:-0}" -ge 4 ]] && eval "$(oh-my-posh init bash --config ~/.config/oh-my-posh/themes/powerlevel10k_amped_lean.omp.json)"
 alias ls='lsd --group-directories-first'
 
+export VIRTUAL_ENV_DISABLE_PROMPT=1
 source ~/.venv/bin/activate
 
 export PATH="${HOME}/.rbenv/bin:${PATH}"
