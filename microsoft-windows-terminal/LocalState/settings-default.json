@@ -1,14 +1,14 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
+    "actions":
     [
         {
             "command": "paste",
             "keys": "ctrl+v"
         },
         {
-            "command": 
+            "command":
             {
                 "action": "copy",
                 "singleLine": false
@@ -20,7 +20,7 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "command": 
+            "command":
             {
                 "action": "splitPane",
                 "split": "auto",
@@ -34,16 +34,16 @@
     "defaultProfile": "{607571d3-e7d9-466f-885d-c229f3e37cde}",
     "initialCols": 120,
     "initialRows": 35,
-    "newTabMenu": 
+    "newTabMenu":
     [
         {
             "type": "remainingProfiles"
         }
     ],
-    "profiles": 
+    "profiles":
     {
         "defaults": {},
-        "list": 
+        "list":
         [
             {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
@@ -59,7 +59,7 @@
                 "commandline": "cmd /k \"C:\\Program Files (x86)\\clink\\clink\" inject",
                 "cursorShape": "vintage",
                 "elevate": false,
-                "font": 
+                "font":
                 {
                     "face": "MesloLGS Nerd Font Mono",
                     "size": 11.0,
@@ -83,7 +83,7 @@
                 "commandline": "cmd /k \"C:\\Program Files (x86)\\clink\\clink\" inject",
                 "cursorShape": "vintage",
                 "elevate": true,
-                "font": 
+                "font":
                 {
                     "face": "MesloLGS Nerd Font Mono",
                     "size": 11.0,
@@ -103,7 +103,7 @@
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
                 "cursorShape": "vintage",
                 "elevate": false,
-                "font": 
+                "font":
                 {
                     "weight": "semi-bold"
                 },
@@ -119,7 +119,7 @@
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
                 "cursorShape": "vintage",
                 "elevate": true,
-                "font": 
+                "font":
                 {
                     "face": "Cascadia Mono",
                     "size": 12.0,
@@ -140,7 +140,7 @@
                 "commandline": "\"C:\\Program Files\\Git\\bin\\bash.exe\"",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
-                "font": 
+                "font":
                 {
                     "face": "MesloLGS Nerd Font Mono",
                     "size": 11.0,
@@ -158,7 +158,7 @@
                 "commandline": "\"C:\\Program Files\\Git\\bin\\bash.exe\" -c \"export TERM=cygwin;exec zsh\"",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
-                "font": 
+                "font":
                 {
                     "face": "MesloLGS Nerd Font Mono",
                     "size": 11.0,
@@ -176,7 +176,7 @@
                 "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\"",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
-                "font": 
+                "font":
                 {
                     "face": "MesloLGS Nerd Font Mono",
                     "size": 11.0,
@@ -195,7 +195,7 @@
                 "cursorShape": "vintage",
                 "elevate": true,
                 "experimental.retroTerminalEffect": false,
-                "font": 
+                "font":
                 {
                     "face": "MesloLGS Nerd Font Mono",
                     "size": 11.0,
@@ -210,7 +210,7 @@
             },
             {
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-                "font": 
+                "font":
                 {
                     "face": "Cascadia Mono"
                 },
@@ -220,7 +220,7 @@
             }
         ]
     },
-    "schemes": 
+    "schemes":
     [
         {
             "background": "#1F1D45",
@@ -499,17 +499,17 @@
             "yellow": "#FEDE5D"
         }
     ],
-    "themes": 
+    "themes":
     [
         {
             "name": "legacyDark",
-            "tab": 
+            "tab":
             {
                 "background": null,
                 "showCloseButton": "always",
                 "unfocusedBackground": null
             },
-            "window": 
+            "window":
             {
                 "applicationTheme": "dark",
                 "useMica": false
@@ -517,13 +517,13 @@
         },
         {
             "name": "legacyLight",
-            "tab": 
+            "tab":
             {
                 "background": null,
                 "showCloseButton": "always",
                 "unfocusedBackground": null
             },
-            "window": 
+            "window":
             {
                 "applicationTheme": "light",
                 "useMica": false
@@ -531,17 +531,18 @@
         },
         {
             "name": "legacySystem",
-            "tab": 
+            "tab":
             {
                 "background": null,
                 "showCloseButton": "always",
                 "unfocusedBackground": null
             },
-            "window": 
+            "window":
             {
                 "applicationTheme": "system",
                 "useMica": false
             }
         }
-    ]
+    ],
+    "theme": "system"
 }
