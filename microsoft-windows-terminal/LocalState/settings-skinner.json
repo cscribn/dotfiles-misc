@@ -70,7 +70,7 @@
                 "useAcrylic": false
             },
             {
-                "colorScheme": "synthwave-everything",
+                "colorScheme": "One Half Dark",
                 "commandline": "\"C:\\Program Files\\Git\\bin\\bash.exe\"",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
@@ -88,7 +88,7 @@
                 "startingDirectory": "%USERPROFILE%"
             },
             {
-                "colorScheme": "cyberpunk",
+                "colorScheme": "Tango Dark",
                 "commandline": "\"C:\\Program Files\\Git\\bin\\bash.exe\" -c \"export TERM=cygwin;exec zsh\"",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
@@ -106,7 +106,7 @@
                 "startingDirectory": "%USERPROFILE%"
             },
             {
-                "colorScheme": "AdventureTime",
+                "colorScheme": "Campbell Powershell",
                 "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\"",
                 "cursorShape": "vintage",
                 "elevate": true,
@@ -276,7 +276,7 @@
                 "useAcrylic": false
             },
             {
-                "colorScheme": "AdventureTime",
+                "colorScheme": "Campbell Powershell",
                 "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\"",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
@@ -750,5 +750,6 @@
             "yellow": "#FEDE5D"
         }
     ],
-    "theme": "system"
+    "theme": "system",
+    "themes": []
 }

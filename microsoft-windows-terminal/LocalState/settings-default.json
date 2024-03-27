@@ -46,6 +46,85 @@
         "list":
         [
             {
+                "altGrAliasing": true,
+                "antialiasingMode": "grayscale",
+                "closeOnExit": "graceful",
+                "colorScheme": "Campbell",
+                "commandline": "cmd /k \"C:\\Program Files (x86)\\clink\\clink\" inject",
+                "cursorShape": "vintage",
+                "elevate": true,
+                "font":
+                {
+                    "face": "MesloLGS Nerd Font Mono",
+                    "size": 11.0,
+                    "weight": "normal"
+                },
+                "guid": "{22476eae-a702-4b01-9885-ef5d9f7cc2ba}",
+                "hidden": false,
+                "historySize": 9001,
+                "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
+                "name": "Command Prompt (Admin)",
+                "padding": "8, 8, 8, 8",
+                "snapOnInput": true,
+                "startingDirectory": "%USERPROFILE%",
+                "useAcrylic": false
+            },
+            {
+                "colorScheme": "One Half Dark",
+                "commandline": "\"C:\\Program Files\\Git\\bin\\bash.exe\"",
+                "cursorShape": "vintage",
+                "experimental.retroTerminalEffect": false,
+                "font":
+                {
+                    "face": "MesloLGS Nerd Font Mono",
+                    "size": 11.0,
+                    "weight": "normal"
+                },
+                "guid": "{be8674d1-c791-43d9-8d74-7dddac94c358}",
+                "hidden": false,
+                "icon": "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
+                "name": "Git Bash",
+                "opacity": 100,
+                "startingDirectory": "%USERPROFILE%"
+            },
+            {
+                "colorScheme": "Tango Dark",
+                "commandline": "\"C:\\Program Files\\Git\\bin\\bash.exe\" -c \"export TERM=cygwin;exec zsh\"",
+                "cursorShape": "vintage",
+                "experimental.retroTerminalEffect": false,
+                "font":
+                {
+                    "face": "MesloLGS Nerd Font Mono",
+                    "size": 11.0,
+                    "weight": "normal"
+                },
+                "guid": "{656ea7b5-6536-4373-b5a4-029f7a895fcf}",
+                "hidden": false,
+                "icon": "C:\\Program Files\\Git\\usr\\share\\icons\\locolor\\32x32\\apps\\zsh.ico",
+                "name": "Git Bash Zsh",
+                "opacity": 100,
+                "startingDirectory": "%USERPROFILE%"
+            },
+            {
+                "colorScheme": "Campbell Powershell",
+                "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\"",
+                "cursorShape": "vintage",
+                "elevate": true,
+                "experimental.retroTerminalEffect": false,
+                "font":
+                {
+                    "face": "MesloLGS Nerd Font Mono",
+                    "size": 11.0,
+                    "weight": "normal"
+                },
+                "guid": "{607571d3-e7d9-466f-885d-c229f3e37cde}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/pwsh.png",
+                "name": "PowerShell (Admin)",
+                "opacity": 100,
+                "startingDirectory": "%USERPROFILE%"
+            },
+            {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "hidden": true,
                 "name": "Azure Cloud Shell",
@@ -70,30 +149,6 @@
                 "historySize": 9001,
                 "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
                 "name": "Command Prompt",
-                "padding": "8, 8, 8, 8",
-                "snapOnInput": true,
-                "startingDirectory": "%USERPROFILE%",
-                "useAcrylic": false
-            },
-            {
-                "altGrAliasing": true,
-                "antialiasingMode": "grayscale",
-                "closeOnExit": "graceful",
-                "colorScheme": "Campbell",
-                "commandline": "cmd /k \"C:\\Program Files (x86)\\clink\\clink\" inject",
-                "cursorShape": "vintage",
-                "elevate": true,
-                "font":
-                {
-                    "face": "MesloLGS Nerd Font Mono",
-                    "size": 11.0,
-                    "weight": "normal"
-                },
-                "guid": "{22476eae-a702-4b01-9885-ef5d9f7cc2ba}",
-                "hidden": false,
-                "historySize": 9001,
-                "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
-                "name": "Command Prompt (Admin)",
                 "padding": "8, 8, 8, 8",
                 "snapOnInput": true,
                 "startingDirectory": "%USERPROFILE%",
@@ -136,43 +191,7 @@
                 "useAcrylic": false
             },
             {
-                "colorScheme": "synthwave-everything",
-                "commandline": "\"C:\\Program Files\\Git\\bin\\bash.exe\"",
-                "cursorShape": "vintage",
-                "experimental.retroTerminalEffect": false,
-                "font":
-                {
-                    "face": "MesloLGS Nerd Font Mono",
-                    "size": 11.0,
-                    "weight": "normal"
-                },
-                "guid": "{be8674d1-c791-43d9-8d74-7dddac94c358}",
-                "hidden": false,
-                "icon": "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
-                "name": "Git Bash",
-                "opacity": 100,
-                "startingDirectory": "%USERPROFILE%"
-            },
-            {
-                "colorScheme": "cyberpunk",
-                "commandline": "\"C:\\Program Files\\Git\\bin\\bash.exe\" -c \"export TERM=cygwin;exec zsh\"",
-                "cursorShape": "vintage",
-                "experimental.retroTerminalEffect": false,
-                "font":
-                {
-                    "face": "MesloLGS Nerd Font Mono",
-                    "size": 11.0,
-                    "weight": "normal"
-                },
-                "guid": "{656ea7b5-6536-4373-b5a4-029f7a895fcf}",
-                "hidden": false,
-                "icon": "C:\\Program Files\\Git\\usr\\share\\icons\\locolor\\32x32\\apps\\zsh.ico",
-                "name": "Git Bash Zsh",
-                "opacity": 100,
-                "startingDirectory": "%USERPROFILE%"
-            },
-            {
-                "colorScheme": "AdventureTime",
+                "colorScheme": "Campbell Powershell",
                 "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\"",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
@@ -183,17 +202,16 @@
                     "weight": "normal"
                 },
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
-                "hidden": true,
+                "hidden": false,
                 "name": "PowerShell",
                 "opacity": 100,
                 "source": "Windows.Terminal.PowershellCore",
                 "startingDirectory": "%USERPROFILE%"
             },
             {
-                "colorScheme": "AdventureTime",
-                "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\"",
+                "colorScheme": "Campbell",
+                "commandline": "ssh root@169.254.215.100",
                 "cursorShape": "vintage",
-                "elevate": true,
                 "experimental.retroTerminalEffect": false,
                 "font":
                 {
@@ -201,12 +219,45 @@
                     "size": 11.0,
                     "weight": "normal"
                 },
-                "guid": "{607571d3-e7d9-466f-885d-c229f3e37cde}",
+                "guid": "{32b01b07-edad-433b-8f73-1faf55ead9fc}",
                 "hidden": false,
-                "icon": "ms-appx:///ProfileIcons/pwsh.png",
-                "name": "PowerShell (Admin)",
-                "opacity": 100,
-                "startingDirectory": "%USERPROFILE%"
+                "icon": "C:\\ProgramData\\chocolatey\\lib\\kitty\\tools\\klink.exe",
+                "name": "ssh modmyclassic",
+                "opacity": 100
+            },
+            {
+                "colorScheme": "Twilight",
+                "commandline": "ssh -t pi@piwatch.local \"zsh\"",
+                "cursorShape": "vintage",
+                "experimental.retroTerminalEffect": false,
+                "font":
+                {
+                    "face": "MesloLGS Nerd Font Mono",
+                    "size": 11.0,
+                    "weight": "normal"
+                },
+                "guid": "{a2cc27c9-903d-4cc3-b953-ccad2cef421b}",
+                "hidden": false,
+                "icon": "C:\\ProgramData\\chocolatey\\lib\\kitty\\tools\\klink.exe",
+                "name": "ssh piwatch",
+                "opacity": 100
+            },
+            {
+                "colorScheme": "Campbell",
+                "commandline": "ssh -t pi@retrovlieg.local \"zsh\"",
+                "cursorShape": "vintage",
+                "experimental.retroTerminalEffect": false,
+                "font":
+                {
+                    "face": "MesloLGS Nerd Font Mono",
+                    "size": 11.0,
+                    "weight": "normal"
+                },
+                "guid": "{1e20fa53-aa7e-4e9b-b36a-b9842d67c946}",
+                "hidden": false,
+                "icon": "C:\\ProgramData\\chocolatey\\lib\\kitty\\tools\\klink.exe",
+                "name": "ssh retrovlieg",
+                "opacity": 100
             },
             {
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
@@ -292,6 +343,52 @@
             "yellow": "#C19C00"
         },
         {
+            "background": "#13773D",
+            "black": "#000000",
+            "blue": "#0000A3",
+            "brightBlack": "#555555",
+            "brightBlue": "#0000BB",
+            "brightCyan": "#55FFFF",
+            "brightGreen": "#00BB00",
+            "brightPurple": "#FF55FF",
+            "brightRed": "#BB0000",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#E7B000",
+            "cursorColor": "#8C2800",
+            "cyan": "#00BBBB",
+            "foreground": "#FFF0A5",
+            "green": "#00BB00",
+            "name": "Grass",
+            "purple": "#950062",
+            "red": "#BB0000",
+            "selectionBackground": "#B64926",
+            "white": "#BBBBBB",
+            "yellow": "#E7B000"
+        },
+        {
+            "background": "#DFDBC3",
+            "black": "#000000",
+            "blue": "#0000CC",
+            "brightBlack": "#808080",
+            "brightBlue": "#0000CC",
+            "brightCyan": "#0087CC",
+            "brightGreen": "#009600",
+            "brightPurple": "#CC00CC",
+            "brightRed": "#CC0000",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#D06B00",
+            "cursorColor": "#73635A",
+            "cyan": "#0087CC",
+            "foreground": "#3B2322",
+            "green": "#009600",
+            "name": "Novel",
+            "purple": "#CC00CC",
+            "red": "#CC0000",
+            "selectionBackground": "#A4A390",
+            "white": "#CCCCCC",
+            "yellow": "#D06B00"
+        },
+        {
             "background": "#282C34",
             "black": "#282C34",
             "blue": "#61AFEF",
@@ -336,6 +433,29 @@
             "selectionBackground": "#FFFFFF",
             "white": "#FAFAFA",
             "yellow": "#C18301"
+        },
+        {
+            "background": "#7A251E",
+            "black": "#000000",
+            "blue": "#0072FF",
+            "brightBlack": "#555555",
+            "brightBlue": "#0072AE",
+            "brightCyan": "#55FFFF",
+            "brightGreen": "#00BB00",
+            "brightPurple": "#FF55FF",
+            "brightRed": "#BB0000",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#E7B000",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#00BBBB",
+            "foreground": "#D7C9A7",
+            "green": "#00BB00",
+            "name": "Red Sands",
+            "purple": "#BB00BB",
+            "red": "#FF3F00",
+            "selectionBackground": "#A4A390",
+            "white": "#BBBBBB",
+            "yellow": "#E7B000"
         },
         {
             "background": "#002B36",
@@ -430,6 +550,52 @@
             "yellow": "#C4A000"
         },
         {
+            "background": "#141414",
+            "black": "#141414",
+            "blue": "#44474A",
+            "brightBlack": "#262626",
+            "brightBlue": "#5A5E62",
+            "brightCyan": "#8A989B",
+            "brightGreen": "#CCD88C",
+            "brightPurple": "#D0DC8E",
+            "brightRed": "#DE7C4C",
+            "brightWhite": "#FFFFD4",
+            "brightYellow": "#E2C47E",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#778385",
+            "foreground": "#FFFFD4",
+            "green": "#AFB97A",
+            "name": "Twilight",
+            "purple": "#B4BE7C",
+            "red": "#C06D44",
+            "selectionBackground": "#313131",
+            "white": "#FFFFD4",
+            "yellow": "#C2A86C"
+        },
+        {
+            "background": "#25234F",
+            "black": "#25234F",
+            "blue": "#5555FF",
+            "brightBlack": "#709080",
+            "brightBlue": "#5555FF",
+            "brightCyan": "#93E0E3",
+            "brightGreen": "#60B48A",
+            "brightPurple": "#EC93D3",
+            "brightRed": "#DCA3A3",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#F0DFAF",
+            "cursorColor": "#FF5555",
+            "cyan": "#8CD0D3",
+            "foreground": "#DCDCCC",
+            "green": "#60B48A",
+            "name": "Vaughn",
+            "purple": "#F08CC3",
+            "red": "#705050",
+            "selectionBackground": "#B5D5FF",
+            "white": "#709080",
+            "yellow": "#DFAF8F"
+        },
+        {
             "background": "#000000",
             "black": "#000000",
             "blue": "#000080",
@@ -499,50 +665,6 @@
             "yellow": "#FEDE5D"
         }
     ],
-    "themes":
-    [
-        {
-            "name": "legacyDark",
-            "tab":
-            {
-                "background": null,
-                "showCloseButton": "always",
-                "unfocusedBackground": null
-            },
-            "window":
-            {
-                "applicationTheme": "dark",
-                "useMica": false
-            }
-        },
-        {
-            "name": "legacyLight",
-            "tab":
-            {
-                "background": null,
-                "showCloseButton": "always",
-                "unfocusedBackground": null
-            },
-            "window":
-            {
-                "applicationTheme": "light",
-                "useMica": false
-            }
-        },
-        {
-            "name": "legacySystem",
-            "tab":
-            {
-                "background": null,
-                "showCloseButton": "always",
-                "unfocusedBackground": null
-            },
-            "window":
-            {
-                "applicationTheme": "system",
-                "useMica": false
-            }
-        }
-    ],
-    "theme": "system"
+    "theme": "system",
+    "themes": []
 }
