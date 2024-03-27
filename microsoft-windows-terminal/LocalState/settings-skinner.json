@@ -176,7 +176,7 @@
                 "opacity": 100
             },
             {
-                "colorScheme": "Novel",
+                "colorScheme": "Solarized Light",
                 "commandline": "ssh -t pi@retroboy.local \"zsh\"",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
