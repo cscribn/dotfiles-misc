@@ -240,29 +240,6 @@
     "schemes":
     [
         {
-            "background": "#2C2B2B",
-            "black": "#000000",
-            "blue": "#0225C7",
-            "brightBlack": "#686868",
-            "brightBlue": "#6871FF",
-            "brightCyan": "#60FDFF",
-            "brightGreen": "#5FFA68",
-            "brightPurple": "#FF77FF",
-            "brightRed": "#FF6E67",
-            "brightWhite": "#FFFFFF",
-            "brightYellow": "#FFFC67",
-            "cursorColor": "#C7C7C7",
-            "cyan": "#00C5C7",
-            "foreground": "#D5A200",
-            "green": "#00C200",
-            "name": "Apple Classic",
-            "purple": "#CA30C7",
-            "red": "#C91B00",
-            "selectionBackground": "#6B5B02",
-            "white": "#C7C7C7",
-            "yellow": "#C7C400"
-        },
-        {
             "background": "#0C0C0C",
             "black": "#0C0C0C",
             "blue": "#0037DA",
