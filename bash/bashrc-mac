@@ -8,7 +8,20 @@ else
     export VIRTUAL_ENV_DISABLE_PROMPT=1
 fi
 
-source "${HOME}/.venv/bin/activate"
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 export PATH="${HOME}/.rbenv/bin:${PATH}"
 eval "$(rbenv init -)"
+
+source ~/.venv/bin/activate
+
+# zscaler
+export ZSCALER_CERTIFICATE_BUNDLE="${HOME}/.ssl/zscaler-bundle.pem"
+export REQUESTS_CA_BUNDLE=$ZSCALER_CERTIFICATE_BUNDLE
+export CURL_CA_BUNDLE=$ZSCALER_CERTIFICATE_BUNDLE
+export NODE_EXTRA_CA_CERTS=$ZSCALER_CERTIFICATE_BUNDLE
+export AWS_CA_BUNDLE=$ZSCALER_CERTIFICATE_BUNDLE
+export SSL_CERT_FILE=$ZSCALER_CERTIFICATE_BUNDLE
+export HEX_CACERTS_PATH=$ZSCALER_CERTIFICATE_BUNDLE
