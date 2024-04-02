@@ -391,7 +391,9 @@ endfunction
 colorscheme default
 set t_Co=256
 
-" Powerline-like statusline https://www.tdaly.co.uk/projects/vim-statusline-generator/
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" => Powerline-like statusline https://www.tdaly.co.uk/projects/vim-statusline-generator/
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 set laststatus=2
 set statusline=
 set statusline+=%2*
