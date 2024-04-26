@@ -159,7 +159,7 @@
                 "opacity": 100
             },
             {
-                "colorScheme": "Campbell Powershell",
+                "colorScheme": "Campbell Cyan",
                 "commandline": "ssh -t pi@retrobed.local \"zsh\"",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
