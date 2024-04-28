@@ -193,23 +193,6 @@
                 "opacity": 100
             },
             {
-                "colorScheme": "Campbell Orange",
-                "commandline": "ssh -t pi@retropad.local \"zsh\"",
-                "cursorShape": "vintage",
-                "experimental.retroTerminalEffect": false,
-                "font":
-                {
-                    "face": "MesloLGS Nerd Font Mono",
-                    "size": 11.0,
-                    "weight": "normal"
-                },
-                "guid": "{8ef59a50-6872-44da-9250-9ba3ff05fc2c}",
-                "hidden": false,
-                "icon": "C:\\ProgramData\\chocolatey\\lib\\kitty\\tools\\klink.exe",
-                "name": "ssh retropad",
-                "opacity": 100
-            },
-            {
                 "colorScheme": "Campbell",
                 "commandline": "ssh cscribn@cscribn.cloud.seedboxes.cc -p 3232",
                 "cursorShape": "vintage",
