@@ -125,23 +125,6 @@
                 "startingDirectory": "%USERPROFILE%"
             },
             {
-                "colorScheme": "Campbell Red",
-                "commandline": "ssh -t pi@pidns.local \"zsh\"",
-                "cursorShape": "vintage",
-                "experimental.retroTerminalEffect": false,
-                "font":
-                {
-                    "face": "MesloLGS Nerd Font Mono",
-                    "size": 11.0,
-                    "weight": "normal"
-                },
-                "guid": "{5da76ee2-031a-4dfd-ab07-f00c5e4d4982}",
-                "hidden": false,
-                "icon": "C:\\ProgramData\\chocolatey\\lib\\kitty\\tools\\klink.exe",
-                "name": "ssh pidns",
-                "opacity": 100
-            },
-            {
                 "colorScheme": "Campbell Green",
                 "commandline": "ssh -t pi@retrobar.local \"zsh\"",
                 "cursorShape": "vintage",
