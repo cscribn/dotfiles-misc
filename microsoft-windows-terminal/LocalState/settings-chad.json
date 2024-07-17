@@ -193,6 +193,23 @@
                 "opacity": 100
             },
             {
+                "colorScheme": "Campbell Red",
+                "commandline": "ssh -t pi@retrotg16.local \"zsh\"",
+                "cursorShape": "vintage",
+                "experimental.retroTerminalEffect": false,
+                "font":
+                {
+                    "face": "MesloLGS Nerd Font Mono",
+                    "size": 11.0,
+                    "weight": "normal"
+                },
+                "guid": "{5a3635ca-5880-4958-be0d-84a3b5d0678e}",
+                "hidden": false,
+                "icon": "C:\\ProgramData\\chocolatey\\lib\\kitty\\tools\\klink.exe",
+                "name": "ssh retrotg16",
+                "opacity": 100
+            },
+            {
                 "colorScheme": "Campbell",
                 "commandline": "ssh cscribn@cscribn.cloud.seedboxes.cc -p 3232",
                 "cursorShape": "vintage",
