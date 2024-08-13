@@ -1,4 +1,4 @@
-# config-misc
+# dotfiles-misc
 
 ## bash
 
