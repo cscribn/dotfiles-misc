@@ -1,1 +1,1 @@
-eval "$(/userdata/system/oh-my-posh/oh-my-posh init bash)"
+eval "$(/userdata/system/oh-my-posh/oh-my-posh init bash --config ~/.config/oh-my-posh/themes/powerlevel10k_amped_lean.omp.json))"
