@@ -177,7 +177,7 @@
             },
             {
                 "colorScheme": "Campbell Magenta",
-                "commandline": "ssh -t root@retropad.local",
+                "commandline": "ssh -t ark@retropad.local \"zsh\"",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
                 "font":
