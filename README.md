@@ -12,9 +12,9 @@ A lua file for loading oh-my-posh.
 
 Some additional themes for iterm2.
 
-## microsoft-windows-terminal/LocalState
+## microsoft-windows-terminal
 
-Settings files for Windows Terminal.
+Settings and icon files for Windows Terminal.
 
 ## powershell-core
 
