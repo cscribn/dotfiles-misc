@@ -100,7 +100,7 @@
                 },
                 "guid": "{656ea7b5-6536-4373-b5a4-029f7a895fcf}",
                 "hidden": false,
-                "icon": "C:\\Program Files\\Git\\usr\\share\\icons\\locolor\\32x32\\apps\\zsh.ico",
+                "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\zsh.ico",
                 "name": "Git Bash Zsh",
                 "opacity": 100,
                 "startingDirectory": "%USERPROFILE%"
@@ -137,7 +137,7 @@
                 },
                 "guid": "{8ef59a50-6872-44da-9250-9ba3ff05fc2c}",
                 "hidden": false,
-                "icon": "C:\\ProgramData\\chocolatey\\lib\\kitty\\tools\\klink.exe",
+                "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
                 "name": "ssh retrobar",
                 "opacity": 100
             },
@@ -154,7 +154,7 @@
                 },
                 "guid": "{756d8e85-0a0e-49f8-9b4b-27a314adad3c}",
                 "hidden": false,
-                "icon": "C:\\ProgramData\\chocolatey\\lib\\kitty\\tools\\klink.exe",
+                "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
                 "name": "ssh retrobed",
                 "opacity": 100
             },
@@ -171,7 +171,7 @@
                 },
                 "guid": "{0ceab75f-d8f3-442a-8e60-74a4ba89b45b}",
                 "hidden": false,
-                "icon": "C:\\ProgramData\\chocolatey\\lib\\kitty\\tools\\klink.exe",
+                "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
                 "name": "ssh retroboy",
                 "opacity": 100
             },
@@ -188,7 +188,7 @@
                 },
                 "guid": "{4c1bc08e-cc6f-4d58-b2aa-22bb5b5135a5}",
                 "hidden": false,
-                "icon": "C:\\ProgramData\\chocolatey\\lib\\kitty\\tools\\klink.exe",
+                "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
                 "name": "ssh retropad",
                 "opacity": 100
             },
@@ -205,7 +205,7 @@
                 },
                 "guid": "{5a3635ca-5880-4958-be0d-84a3b5d0678e}",
                 "hidden": false,
-                "icon": "C:\\ProgramData\\chocolatey\\lib\\kitty\\tools\\klink.exe",
+                "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
                 "name": "ssh retrotg16",
                 "opacity": 100
             },
@@ -222,7 +222,7 @@
                 },
                 "guid": "{15948977-c412-44f3-9740-8cbb5e8c2906}",
                 "hidden": false,
-                "icon": "C:\\ProgramData\\chocolatey\\lib\\kitty\\tools\\klink.exe",
+                "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
                 "name": "ssh seedboxes.cc",
                 "opacity": 100
             },
@@ -323,7 +323,7 @@
                 },
                 "guid": "{32b01b07-edad-433b-8f73-1faf55ead9fc}",
                 "hidden": false,
-                "icon": "C:\\ProgramData\\chocolatey\\lib\\kitty\\tools\\klink.exe",
+                "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
                 "name": "ssh modmyclassic",
                 "opacity": 100
             },
@@ -340,7 +340,7 @@
                 },
                 "guid": "{1e20fa53-aa7e-4e9b-b36a-b9842d67c946}",
                 "hidden": false,
-                "icon": "C:\\ProgramData\\chocolatey\\lib\\kitty\\tools\\klink.exe",
+                "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
                 "name": "ssh retrovlieg",
                 "opacity": 100
             },
