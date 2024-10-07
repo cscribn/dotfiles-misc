@@ -328,6 +328,23 @@
                 "opacity": 100
             },
             {
+                "colorScheme": "One Half Light",
+                "commandline": "ssh -t pi@piwatch.local \"zsh\"",
+                "cursorShape": "vintage",
+                "experimental.retroTerminalEffect": false,
+                "font":
+                {
+                    "face": "MesloLGS Nerd Font Mono",
+                    "size": 11,
+                    "weight": "normal"
+                },
+                "guid": "{8e3a215e-42c0-47bd-b101-bc010d417857}",
+                "hidden": false,
+                "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
+                "name": "ssh piwatch",
+                "opacity": 100
+            },
+            {
                 "colorScheme": "Campbell",
                 "commandline": "ssh -t pi@retrovlieg.local \"zsh\"",
                 "cursorShape": "vintage",
