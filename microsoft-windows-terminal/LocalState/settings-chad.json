@@ -328,7 +328,7 @@
                 "opacity": 100
             },
             {
-                "colorScheme": "One Half Light",
+                "colorScheme": "Campbell",
                 "commandline": "ssh -t pi@piwatch.local \"zsh\"",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
