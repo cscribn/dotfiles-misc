@@ -1,3 +1,7 @@
 eval "$(oh-my-posh init bash --config ~/.config/oh-my-posh/themes/powerlevel10k_amped_lean.omp.json)" >/dev/null 2>&1
 export LANG=en_US.UTF-8
 alias ls='lsd --group-directories-first'
+
+if whence mise > /dev/null; then
+    eval "$(mise activate bash)"
+fi
