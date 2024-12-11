@@ -2,6 +2,6 @@ eval "$(oh-my-posh init bash --config ~/.config/oh-my-posh/themes/powerlevel10k_
 export LANG=en_US.UTF-8
 alias ls='lsd --group-directories-first'
 
-if whence mise > /dev/null; then
-    eval "$(mise activate bash)"
+if command -v mise > /dev/null; then
+    export PATH="$PATH:$LOCALAPPDATA/mise/shims"
 fi
