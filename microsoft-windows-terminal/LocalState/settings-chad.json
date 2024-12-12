@@ -180,6 +180,23 @@
                 "opacity": 100
             },
             {
+                "colorScheme": "Campbell Red",
+                "commandline": "ssh -t root@retrocube.local \"zsh\"",
+                "cursorShape": "vintage",
+                "experimental.retroTerminalEffect": false,
+                "font":
+                {
+                    "face": "MesloLGS Nerd Font Mono",
+                    "size": 11,
+                    "weight": "normal"
+                },
+                "guid": "{5a3635ca-5880-4958-be0d-84a3b5d0678e}",
+                "hidden": false,
+                "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
+                "name": "ssh retrocube",
+                "opacity": 100
+            },
+            {
                 "colorScheme": "Campbell Magenta",
                 "commandline": "ssh -t ark@retropad.local \"zsh\"",
                 "cursorShape": "vintage",
@@ -194,23 +211,6 @@
                 "hidden": false,
                 "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
                 "name": "ssh retropad",
-                "opacity": 100
-            },
-            {
-                "colorScheme": "Campbell Red",
-                "commandline": "ssh -t pi@retrotg16.local \"zsh\"",
-                "cursorShape": "vintage",
-                "experimental.retroTerminalEffect": false,
-                "font":
-                {
-                    "face": "MesloLGS Nerd Font Mono",
-                    "size": 11,
-                    "weight": "normal"
-                },
-                "guid": "{5a3635ca-5880-4958-be0d-84a3b5d0678e}",
-                "hidden": false,
-                "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
-                "name": "ssh retrotg16",
                 "opacity": 100
             },
             {
