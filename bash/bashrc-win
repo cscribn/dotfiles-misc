@@ -1,7 +1,3 @@
 eval "$(oh-my-posh init bash --config ~/.config/oh-my-posh/themes/powerlevel10k_amped_lean.omp.json)" >/dev/null 2>&1
 export LANG=en_US.UTF-8
 alias ls='lsd --group-directories-first'
-
-if command -v mise > /dev/null; then
-    export PATH="$PATH:$LOCALAPPDATA/mise/shims"
-fi
