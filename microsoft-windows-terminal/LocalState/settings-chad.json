@@ -181,7 +181,7 @@
             },
             {
                 "colorScheme": "Campbell Red",
-                "commandline": "ssh -t root@retrocube.local \"zsh\"",
+                "commandline": "ssh -t root@retrocube.local,
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
                 "font":
