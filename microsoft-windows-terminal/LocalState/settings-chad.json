@@ -181,7 +181,7 @@
             },
             {
                 "colorScheme": "Campbell Red",
-                "commandline": "ssh -t root@retrocube.local",
+                "commandline": "plink -batch root@retrocube.local -pw linux",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
                 "font":
