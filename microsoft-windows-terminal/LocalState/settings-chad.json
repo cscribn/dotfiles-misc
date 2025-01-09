@@ -164,7 +164,7 @@
             },
             {
                 "colorScheme": "Campbell Yellow",
-                "commandline": "ssh -t pi@retroboy.local \"zsh\"",
+                "commandline": "ssh -t root@retroboy.local",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
                 "font":
