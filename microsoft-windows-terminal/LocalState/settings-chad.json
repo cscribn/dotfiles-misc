@@ -130,7 +130,7 @@
             },
             {
                 "colorScheme": "Campbell Green",
-                "commandline": "ssh -t pi@retrobar.local \"zsh\"",
+                "commandline": "ssh -t pi@retrobar.local",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
                 "font":
@@ -147,7 +147,7 @@
             },
             {
                 "colorScheme": "Campbell Cyan",
-                "commandline": "ssh -t pi@retrobed.local \"zsh\"",
+                "commandline": "ssh -t root@retrobed.local",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
                 "font":
