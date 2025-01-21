@@ -129,7 +129,7 @@
                 "startingDirectory": "%USERPROFILE%"
             },
             {
-                "colorScheme": "Campbell Green",
+                "colorScheme": "Campbell Yellow",
                 "commandline": "ssh -t root@retrobar.local",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
@@ -146,7 +146,7 @@
                 "opacity": 100
             },
             {
-                "colorScheme": "Campbell Cyan",
+                "colorScheme": "Campbell Powershell",
                 "commandline": "ssh -t root@retrobed.local",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
@@ -163,7 +163,7 @@
                 "opacity": 100
             },
             {
-                "colorScheme": "Campbell Yellow",
+                "colorScheme": "Campbell Green",
                 "commandline": "ssh -t root@retroboy.local",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
