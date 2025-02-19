@@ -1,7 +1,3 @@
-export PATH=/opt/homebrew/bin:/opt/homebrew/sbin:${PATH}
-
-eval "$(fzf --bash)"
-
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
@@ -16,8 +12,10 @@ export SSL_CERT_FILE=$ZSCALER_CERTIFICATE_BUNDLE
 export HEX_CACERTS_PATH=$ZSCALER_CERTIFICATE_BUNDLE
 
 if [[ "${BASH_VERSINFO:-0}" -ge 4 ]]; then
+    export PATH=/opt/homebrew/bin:/opt/homebrew/sbin:${PATH}
     alias ls='lsd --group-directories-first'
     eval "$(oh-my-posh init bash --config ~/.config/oh-my-posh/themes/powerlevel10k_amped_lean.omp.json)"
+    eval "$(fzf --bash)"
 else
     export BASH_SILENCE_DEPRECATION_WARNING=1
     export VIRTUAL_ENV_DISABLE_PROMPT=1
