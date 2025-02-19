@@ -197,23 +197,6 @@
                 "opacity": 100
             },
             {
-                "colorScheme": "Campbell Magenta",
-                "commandline": "ssh -t ark@retropad.local \"zsh\"",
-                "cursorShape": "vintage",
-                "experimental.retroTerminalEffect": false,
-                "font":
-                {
-                    "face": "MesloLGS Nerd Font Mono",
-                    "size": 11,
-                    "weight": "normal"
-                },
-                "guid": "{4c1bc08e-cc6f-4d58-b2aa-22bb5b5135a5}",
-                "hidden": false,
-                "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
-                "name": "ssh retropad",
-                "opacity": 100
-            },
-            {
                 "colorScheme": "Campbell",
                 "commandline": "ssh cscribn@cscribn.cloud.seedboxes.cc -p 3232",
                 "cursorShape": "vintage",
