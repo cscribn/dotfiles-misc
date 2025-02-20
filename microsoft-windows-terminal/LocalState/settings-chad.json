@@ -305,57 +305,6 @@
                 "startingDirectory": "%USERPROFILE%"
             },
             {
-                "colorScheme": "Campbell",
-                "commandline": "ssh root@169.254.215.100",
-                "cursorShape": "vintage",
-                "experimental.retroTerminalEffect": false,
-                "font":
-                {
-                    "face": "MesloLGS Nerd Font Mono",
-                    "size": 11,
-                    "weight": "normal"
-                },
-                "guid": "{32b01b07-edad-433b-8f73-1faf55ead9fc}",
-                "hidden": false,
-                "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
-                "name": "ssh modmyclassic",
-                "opacity": 100
-            },
-            {
-                "colorScheme": "Campbell",
-                "commandline": "ssh -t pi@piwatch.local \"zsh\"",
-                "cursorShape": "vintage",
-                "experimental.retroTerminalEffect": false,
-                "font":
-                {
-                    "face": "MesloLGS Nerd Font Mono",
-                    "size": 11,
-                    "weight": "normal"
-                },
-                "guid": "{8e3a215e-42c0-47bd-b101-bc010d417857}",
-                "hidden": false,
-                "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
-                "name": "ssh piwatch",
-                "opacity": 100
-            },
-            {
-                "colorScheme": "Campbell",
-                "commandline": "ssh -t pi@retrovlieg.local \"zsh\"",
-                "cursorShape": "vintage",
-                "experimental.retroTerminalEffect": false,
-                "font":
-                {
-                    "face": "MesloLGS Nerd Font Mono",
-                    "size": 11,
-                    "weight": "normal"
-                },
-                "guid": "{1e20fa53-aa7e-4e9b-b36a-b9842d67c946}",
-                "hidden": false,
-                "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
-                "name": "ssh retrovlieg",
-                "opacity": 100
-            },
-            {
                 "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
                 "font":
                 {
