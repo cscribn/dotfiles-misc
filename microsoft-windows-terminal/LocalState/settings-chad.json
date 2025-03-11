@@ -5,8 +5,7 @@
     [
         {
             "command": "paste",
-            "id": "User.paste",
-            "keys": "ctrl+v"
+            "id": "User.paste"
         },
         {
             "command":
@@ -14,13 +13,11 @@
                 "action": "copy",
                 "singleLine": false
             },
-            "id": "User.copy.644BA8F2",
-            "keys": "ctrl+c"
+            "id": "User.copy.644BA8F2"
         },
         {
             "command": "find",
-            "id": "User.find",
-            "keys": "ctrl+shift+f"
+            "id": "User.find"
         },
         {
             "command":
@@ -29,15 +26,33 @@
                 "split": "auto",
                 "splitMode": "duplicate"
             },
-            "id": "User.splitPane.A6751878",
-            "keys": "alt+shift+d"
+            "id": "User.splitPane.A6751878"
         }
     ],
     "copyFormatting": "none",
     "copyOnSelect": true,
-    "defaultProfile": "{607571d3-e7d9-466f-885d-c229f3e37cde}",
+    "defaultProfile": "{a2ca0b9c-4259-5314-bb0f-5227aa65401f}",
     "initialCols": 120,
     "initialRows": 35,
+    "keybindings":
+    [
+        {
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        },
+        {
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
+        }
+    ],
     "newTabMenu":
     [
         {
@@ -63,7 +78,7 @@
                     "size": 11,
                     "weight": "normal"
                 },
-                "guid": "{22476eae-a702-4b01-9885-ef5d9f7cc2ba}",
+                "guid": "{1250e26e-47e2-5a04-b776-ab1d02ac12ca}",
                 "hidden": false,
                 "historySize": 9001,
                 "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
@@ -84,7 +99,7 @@
                     "size": 11,
                     "weight": "normal"
                 },
-                "guid": "{be8674d1-c791-43d9-8d74-7dddac94c358}",
+                "guid": "{d15b228a-05d7-50d1-8472-f60aaba86efc}",
                 "hidden": false,
                 "icon": "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
                 "name": "Git Bash",
@@ -102,7 +117,7 @@
                     "size": 11,
                     "weight": "normal"
                 },
-                "guid": "{656ea7b5-6536-4373-b5a4-029f7a895fcf}",
+                "guid": "{ab008384-2baa-52e8-8ad4-d7c9e1b7806a}",
                 "hidden": false,
                 "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\zsh.ico",
                 "name": "Git Bash Zsh",
@@ -121,7 +136,7 @@
                     "size": 11,
                     "weight": "normal"
                 },
-                "guid": "{607571d3-e7d9-466f-885d-c229f3e37cde}",
+                "guid": "{a2ca0b9c-4259-5314-bb0f-5227aa65401f}",
                 "hidden": false,
                 "icon": "ms-appx:///ProfileIcons/pwsh.png",
                 "name": "PowerShell (Admin)",
@@ -139,7 +154,7 @@
                     "size": 11,
                     "weight": "normal"
                 },
-                "guid": "{8ef59a50-6872-44da-9250-9ba3ff05fc2c}",
+                "guid": "{160dd2d7-39fc-5d2a-9445-cde961fab565}",
                 "hidden": false,
                 "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
                 "name": "ssh retrobar",
@@ -156,7 +171,7 @@
                     "size": 11,
                     "weight": "normal"
                 },
-                "guid": "{756d8e85-0a0e-49f8-9b4b-27a314adad3c}",
+                "guid": "{a24c8e2a-9cea-506e-a2ac-2cae36068362}",
                 "hidden": false,
                 "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
                 "name": "ssh retrobed",
@@ -173,7 +188,7 @@
                     "size": 11,
                     "weight": "normal"
                 },
-                "guid": "{0ceab75f-d8f3-442a-8e60-74a4ba89b45b}",
+                "guid": "{1ff41436-9d68-5abc-9161-14f2587b860f}",
                 "hidden": false,
                 "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
                 "name": "ssh retroboy",
@@ -190,10 +205,27 @@
                     "size": 11,
                     "weight": "normal"
                 },
-                "guid": "{5a3635ca-5880-4958-be0d-84a3b5d0678e}",
+                "guid": "{3e8c89e3-66ed-552c-bd5d-fe8d9850cb66}",
                 "hidden": false,
                 "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
                 "name": "ssh retrocube",
+                "opacity": 100
+            },
+            {
+                "colorScheme": "Campbell",
+                "commandline": "ssh -t pi@scribcast2.local zsh",
+                "cursorShape": "vintage",
+                "experimental.retroTerminalEffect": false,
+                "font":
+                {
+                    "face": "MesloLGS Nerd Font Mono",
+                    "size": 11,
+                    "weight": "normal"
+                },
+                "guid": "{8b601bfb-822c-57d6-a35c-4104023b7f82}",
+                "hidden": false,
+                "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
+                "name": "ssh scribcast2",
                 "opacity": 100
             },
             {
@@ -207,7 +239,7 @@
                     "size": 11,
                     "weight": "normal"
                 },
-                "guid": "{15948977-c412-44f3-9740-8cbb5e8c2906}",
+                "guid": "{137c50e1-a96c-5a11-9d92-7f13a79b750c}",
                 "hidden": false,
                 "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
                 "name": "ssh seedboxes.cc",
@@ -215,13 +247,13 @@
             },
             {
                 "elevate": true,
-                "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
+                "guid": "{889d1fb3-8214-5586-b931-24a8b04fd2d7}",
                 "hidden": false,
                 "name": "Ubuntu",
                 "source": "Windows.Terminal.Wsl"
             },
             {
-                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "guid": "{79e2eb8e-0d22-5087-b388-e3ee92ec453f}",
                 "hidden": true,
                 "name": "Azure Cloud Shell",
                 "source": "Windows.Terminal.Azure"
@@ -240,7 +272,7 @@
                     "size": 11,
                     "weight": "normal"
                 },
-                "guid": "{b53c485c-111c-4815-9ea9-084330d541d3}",
+                "guid": "{0c63d969-ef2e-52d4-8736-68efbb78152d}",
                 "hidden": false,
                 "historySize": 9001,
                 "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
@@ -258,7 +290,7 @@
                 {
                     "weight": "semi-bold"
                 },
-                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "guid": "{b98d2775-5f2f-575d-96c8-4b95ca1a2050}",
                 "hidden": false,
                 "name": "Command Prompt (Basic)"
             },
@@ -276,7 +308,7 @@
                     "size": 12,
                     "weight": "normal"
                 },
-                "guid": "{3057364b-0577-4a4b-9af7-e9046fbf36d3}",
+                "guid": "{b7df8e07-3437-5fde-90a8-83fa5f632925}",
                 "hidden": false,
                 "historySize": 9001,
                 "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
@@ -297,7 +329,7 @@
                     "size": 11,
                     "weight": "normal"
                 },
-                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "guid": "{395d2c9a-11b3-5223-b038-cc2ee1259659}",
                 "hidden": false,
                 "name": "PowerShell",
                 "opacity": 100,
@@ -310,37 +342,24 @@
                 {
                     "face": "Cascadia Mono"
                 },
-                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "guid": "{c993c0b6-0023-5562-a928-3ea11eb283ce}",
                 "hidden": true,
                 "name": "Windows PowerShell"
+            },
+            {
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "Command Prompt"
             }
         ]
     },
     "schemes":
     [
-        {
-            "background": "#0C0C0C",
-            "black": "#0C0C0C",
-            "blue": "#0037DA",
-            "brightBlack": "#767676",
-            "brightBlue": "#3B78FF",
-            "brightCyan": "#61D6D6",
-            "brightGreen": "#16C60C",
-            "brightPurple": "#B4009E",
-            "brightRed": "#E74856",
-            "brightWhite": "#F2F2F2",
-            "brightYellow": "#F9F1A5",
-            "cursorColor": "#FFFFFF",
-            "cyan": "#3A96DD",
-            "foreground": "#CCCCCC",
-            "green": "#13A10E",
-            "name": "Campbell",
-            "purple": "#881798",
-            "red": "#C50F1F",
-            "selectionBackground": "#FFFFFF",
-            "white": "#CCCCCC",
-            "yellow": "#C19C00"
-        },
         {
             "background": "#285959",
             "black": "#000000",
@@ -411,29 +430,6 @@
             "yellow": "#C19C00"
         },
         {
-            "background": "#012456",
-            "black": "#0C0C0C",
-            "blue": "#0037DA",
-            "brightBlack": "#767676",
-            "brightBlue": "#3B78FF",
-            "brightCyan": "#61D6D6",
-            "brightGreen": "#16C60C",
-            "brightPurple": "#B4009E",
-            "brightRed": "#E74856",
-            "brightWhite": "#F2F2F2",
-            "brightYellow": "#F9F1A5",
-            "cursorColor": "#FFFFFF",
-            "cyan": "#3A96DD",
-            "foreground": "#CCCCCC",
-            "green": "#13A10E",
-            "name": "Campbell Powershell",
-            "purple": "#881798",
-            "red": "#C50F1F",
-            "selectionBackground": "#FFFFFF",
-            "white": "#CCCCCC",
-            "yellow": "#C19C00"
-        },
-        {
             "background": "#59070E",
             "black": "#8C8C8C",
             "blue": "#3B78FF",
@@ -480,144 +476,6 @@
             "yellow": "#C19C00"
         },
         {
-            "background": "#282C34",
-            "black": "#282C34",
-            "blue": "#61AFEF",
-            "brightBlack": "#5A6374",
-            "brightBlue": "#61AFEF",
-            "brightCyan": "#56B6C2",
-            "brightGreen": "#98C379",
-            "brightPurple": "#C678DD",
-            "brightRed": "#E06C75",
-            "brightWhite": "#DCDFE4",
-            "brightYellow": "#E5C07B",
-            "cursorColor": "#FFFFFF",
-            "cyan": "#56B6C2",
-            "foreground": "#DCDFE4",
-            "green": "#98C379",
-            "name": "One Half Dark",
-            "purple": "#C678DD",
-            "red": "#E06C75",
-            "selectionBackground": "#FFFFFF",
-            "white": "#DCDFE4",
-            "yellow": "#E5C07B"
-        },
-        {
-            "background": "#FAFAFA",
-            "black": "#383A42",
-            "blue": "#0184BC",
-            "brightBlack": "#4F525D",
-            "brightBlue": "#61AFEF",
-            "brightCyan": "#56B5C1",
-            "brightGreen": "#98C379",
-            "brightPurple": "#C577DD",
-            "brightRed": "#DF6C75",
-            "brightWhite": "#FFFFFF",
-            "brightYellow": "#E4C07A",
-            "cursorColor": "#4F525D",
-            "cyan": "#0997B3",
-            "foreground": "#383A42",
-            "green": "#50A14F",
-            "name": "One Half Light",
-            "purple": "#A626A4",
-            "red": "#E45649",
-            "selectionBackground": "#FFFFFF",
-            "white": "#FAFAFA",
-            "yellow": "#C18301"
-        },
-        {
-            "background": "#002B36",
-            "black": "#002B36",
-            "blue": "#268BD2",
-            "brightBlack": "#073642",
-            "brightBlue": "#839496",
-            "brightCyan": "#93A1A1",
-            "brightGreen": "#586E75",
-            "brightPurple": "#6C71C4",
-            "brightRed": "#CB4B16",
-            "brightWhite": "#FDF6E3",
-            "brightYellow": "#657B83",
-            "cursorColor": "#FFFFFF",
-            "cyan": "#2AA198",
-            "foreground": "#839496",
-            "green": "#859900",
-            "name": "Solarized Dark",
-            "purple": "#D33682",
-            "red": "#DC322F",
-            "selectionBackground": "#FFFFFF",
-            "white": "#EEE8D5",
-            "yellow": "#B58900"
-        },
-        {
-            "background": "#FDF6E3",
-            "black": "#002B36",
-            "blue": "#268BD2",
-            "brightBlack": "#073642",
-            "brightBlue": "#839496",
-            "brightCyan": "#93A1A1",
-            "brightGreen": "#586E75",
-            "brightPurple": "#6C71C4",
-            "brightRed": "#CB4B16",
-            "brightWhite": "#FDF6E3",
-            "brightYellow": "#657B83",
-            "cursorColor": "#002B36",
-            "cyan": "#2AA198",
-            "foreground": "#657B83",
-            "green": "#859900",
-            "name": "Solarized Light",
-            "purple": "#D33682",
-            "red": "#DC322F",
-            "selectionBackground": "#FFFFFF",
-            "white": "#EEE8D5",
-            "yellow": "#B58900"
-        },
-        {
-            "background": "#000000",
-            "black": "#000000",
-            "blue": "#3465A4",
-            "brightBlack": "#555753",
-            "brightBlue": "#729FCF",
-            "brightCyan": "#34E2E2",
-            "brightGreen": "#8AE234",
-            "brightPurple": "#AD7FA8",
-            "brightRed": "#EF2929",
-            "brightWhite": "#EEEEEC",
-            "brightYellow": "#FCE94F",
-            "cursorColor": "#FFFFFF",
-            "cyan": "#06989A",
-            "foreground": "#D3D7CF",
-            "green": "#4E9A06",
-            "name": "Tango Dark",
-            "purple": "#75507B",
-            "red": "#CC0000",
-            "selectionBackground": "#FFFFFF",
-            "white": "#D3D7CF",
-            "yellow": "#C4A000"
-        },
-        {
-            "background": "#FFFFFF",
-            "black": "#000000",
-            "blue": "#3465A4",
-            "brightBlack": "#555753",
-            "brightBlue": "#729FCF",
-            "brightCyan": "#34E2E2",
-            "brightGreen": "#8AE234",
-            "brightPurple": "#AD7FA8",
-            "brightRed": "#EF2929",
-            "brightWhite": "#EEEEEC",
-            "brightYellow": "#FCE94F",
-            "cursorColor": "#000000",
-            "cyan": "#06989A",
-            "foreground": "#555753",
-            "green": "#4E9A06",
-            "name": "Tango Light",
-            "purple": "#75507B",
-            "red": "#CC0000",
-            "selectionBackground": "#FFFFFF",
-            "white": "#D3D7CF",
-            "yellow": "#C4A000"
-        },
-        {
             "background": "#300A24",
             "black": "#2E3436",
             "blue": "#3465A4",
@@ -639,29 +497,6 @@
             "selectionBackground": "#B5D5FF",
             "white": "#D3D7CF",
             "yellow": "#C4A000"
-        },
-        {
-            "background": "#000000",
-            "black": "#000000",
-            "blue": "#000080",
-            "brightBlack": "#808080",
-            "brightBlue": "#0000FF",
-            "brightCyan": "#00FFFF",
-            "brightGreen": "#00FF00",
-            "brightPurple": "#FF00FF",
-            "brightRed": "#FF0000",
-            "brightWhite": "#FFFFFF",
-            "brightYellow": "#FFFF00",
-            "cursorColor": "#FFFFFF",
-            "cyan": "#008080",
-            "foreground": "#C0C0C0",
-            "green": "#008000",
-            "name": "Vintage",
-            "purple": "#800080",
-            "red": "#800000",
-            "selectionBackground": "#FFFFFF",
-            "white": "#C0C0C0",
-            "yellow": "#808000"
         }
     ],
     "theme": "system",
