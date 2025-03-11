@@ -61,14 +61,17 @@
     ],
     "profiles":
     {
-        "defaults": {},
+        "defaults":
+        {
+            "colorScheme": "Campbell Bright"
+        },
         "list":
         [
             {
                 "altGrAliasing": true,
                 "antialiasingMode": "grayscale",
                 "closeOnExit": "graceful",
-                "colorScheme": "Campbell",
+                "colorScheme": "Campbell Bright",
                 "commandline": "cmd /k \"C:\\Program Files (x86)\\clink\\clink\" inject",
                 "cursorShape": "vintage",
                 "elevate": true,
@@ -212,7 +215,8 @@
                 "opacity": 100
             },
             {
-                "colorScheme": "Campbell",
+                "adjustIndistinguishableColors": "never",
+                "colorScheme": "Campbell Bright",
                 "commandline": "ssh -t pi@scribcast2.local zsh",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
@@ -262,7 +266,7 @@
                 "altGrAliasing": true,
                 "antialiasingMode": "grayscale",
                 "closeOnExit": "graceful",
-                "colorScheme": "Campbell",
+                "colorScheme": "Campbell Bright",
                 "commandline": "cmd /k \"C:\\Program Files (x86)\\clink\\clink\" inject",
                 "cursorShape": "vintage",
                 "elevate": false,
@@ -298,7 +302,7 @@
                 "altGrAliasing": true,
                 "antialiasingMode": "grayscale",
                 "closeOnExit": "graceful",
-                "colorScheme": "Campbell",
+                "colorScheme": "Campbell Bright",
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
                 "cursorShape": "vintage",
                 "elevate": true,
@@ -360,6 +364,29 @@
     },
     "schemes":
     [
+        {
+            "background": "#0C0C0C",
+            "black": "#0C0C0C",
+            "blue": "#3164D4",
+            "brightBlack": "#767676",
+            "brightBlue": "#3B78FF",
+            "brightCyan": "#61D6D6",
+            "brightGreen": "#16C60C",
+            "brightPurple": "#B4009E",
+            "brightRed": "#E74856",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#F9F1A5",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#43ADFF",
+            "foreground": "#CCCCCC",
+            "green": "#17BF11",
+            "name": "Campbell Bright",
+            "purple": "#B21EC7",
+            "red": "#FF1328",
+            "selectionBackground": "#FFFFFF",
+            "white": "#EBEBEB",
+            "yellow": "#FFCE00"
+        },
         {
             "background": "#285959",
             "black": "#000000",
