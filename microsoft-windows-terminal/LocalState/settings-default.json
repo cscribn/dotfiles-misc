@@ -247,7 +247,7 @@
                     "weight": "normal"
                 },
                 "guid": "{5a7c25ef-ce14-4695-92a9-6b30fad564a7}",
-                "hidden": false,
+                "hidden": true,
                 "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
                 "name": "ssh retrobed",
                 "opacity": 100
