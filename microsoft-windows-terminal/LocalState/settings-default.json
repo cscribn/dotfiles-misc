@@ -270,23 +270,6 @@
                 "opacity": 100
             },
             {
-                "colorScheme": "Campbell Magenta",
-                "commandline": "ssh -t root@retrogen.local",
-                "cursorShape": "vintage",
-                "experimental.retroTerminalEffect": false,
-                "font":
-                {
-                    "face": "MesloLGS Nerd Font Mono",
-                    "size": 11,
-                    "weight": "normal"
-                },
-                "guid": "{3d9efe5b-f591-4dda-8dd1-43ce4bcf05eb}",
-                "hidden": true,
-                "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
-                "name": "ssh retrogen",
-                "opacity": 100
-            },
-            {
                 "colorScheme": "Campbell Red",
                 "commandline": "ssh -t root@retrocube.local",
                 "cursorShape": "vintage",
@@ -301,6 +284,23 @@
                 "hidden": true,
                 "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
                 "name": "ssh retrocube",
+                "opacity": 100
+            },
+            {
+                "colorScheme": "Campbell Magenta",
+                "commandline": "ssh -t root@retrogen.local",
+                "cursorShape": "vintage",
+                "experimental.retroTerminalEffect": false,
+                "font":
+                {
+                    "face": "MesloLGS Nerd Font Mono",
+                    "size": 11,
+                    "weight": "normal"
+                },
+                "guid": "{3d9efe5b-f591-4dda-8dd1-43ce4bcf05eb}",
+                "hidden": true,
+                "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
+                "name": "ssh retrogen",
                 "opacity": 100
             },
             {
