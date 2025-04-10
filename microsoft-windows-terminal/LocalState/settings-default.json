@@ -304,6 +304,23 @@
                 "opacity": 100
             },
             {
+                "colorScheme": "One Half Dark",
+                "commandline": "ssh -t root@retroplay.local",
+                "cursorShape": "vintage",
+                "experimental.retroTerminalEffect": false,
+                "font":
+                {
+                    "face": "MesloLGS Nerd Font Mono",
+                    "size": 11,
+                    "weight": "normal"
+                },
+                "guid": "{d4694f1a-66c5-43b7-a530-9c2b2c31a968}",
+                "hidden": true,
+                "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
+                "name": "ssh retroplay",
+                "opacity": 100
+            },
+            {
                 "adjustIndistinguishableColors": "never",
                 "colorScheme": "Campbell Bright",
                 "commandline": "ssh -t pi@scribcast2.local zsh",
