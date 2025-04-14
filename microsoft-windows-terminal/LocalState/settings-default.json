@@ -304,6 +304,23 @@
                 "opacity": 100
             },
             {
+                "colorScheme": "Campbell Red",
+                "commandline": "ssh -t root@retromig.local",
+                "cursorShape": "vintage",
+                "experimental.retroTerminalEffect": false,
+                "font":
+                {
+                    "face": "MesloLGS Nerd Font Mono",
+                    "size": 11,
+                    "weight": "normal"
+                },
+                "guid": "{5257a261-4f95-491c-b31a-0a5dbde4da6e}",
+                "hidden": true,
+                "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
+                "name": "ssh retromig",
+                "opacity": 100
+            },
+            {
                 "colorScheme": "Campbell Magenta",
                 "commandline": "ssh -t root@retroplay.local",
                 "cursorShape": "vintage",
