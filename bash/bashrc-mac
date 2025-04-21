@@ -6,11 +6,6 @@ export NVM_DIR="$HOME/.nvm"
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
-# teleport
-alias tsh-login="tsh login --proxy pluralsight.teleport.sh --auth okta"
-alias tsh-prod="tsh ssh -L 3333:localhost:5432 prod-gitprime-db-03a"
-alias tsh-logout="tsh logout"
-
 # netskope
 export NETSKOPE_CERTIFICATE_BUNDLE="$HOME/.ssl/certs/ca_bundle.pem"
 export REQUESTS_CA_BUNDLE=$NETSKOPE_CERTIFICATE_BUNDLE
