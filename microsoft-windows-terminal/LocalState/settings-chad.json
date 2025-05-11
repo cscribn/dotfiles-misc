@@ -321,6 +321,23 @@
                 "opacity": 100
             },
             {
+                "colorScheme": "Campbell Cyan",
+                "commandline": "ssh -t root@retropad.local",
+                "cursorShape": "vintage",
+                "experimental.retroTerminalEffect": false,
+                "font":
+                {
+                    "face": "MesloLGS Nerd Font Mono",
+                    "size": 11,
+                    "weight": "normal"
+                },
+                "guid": "{65dcd39a-c386-4b5a-9f0f-6dea6bd27125}",
+                "hidden": false,
+                "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
+                "name": "ssh retropad",
+                "opacity": 100
+            },
+            {
                 "colorScheme": "Campbell Magenta",
                 "commandline": "ssh -t root@retroplay.local",
                 "cursorShape": "vintage",
