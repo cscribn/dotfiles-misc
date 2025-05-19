@@ -220,7 +220,7 @@
             },
             {
                 "colorScheme": "Campbell Yellow",
-                "commandline": "ssh -t root@retrobar.local",
+                "commandline": "klink.exe -ssh root@retrobar.local -pw linux",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
                 "font":
@@ -237,7 +237,7 @@
             },
             {
                 "colorScheme": "Campbell Powershell",
-                "commandline": "ssh -t root@retrobed.local",
+                "commandline": "klink.exe -ssh root@retrobed.local -pw linux",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
                 "font":
@@ -254,7 +254,7 @@
             },
             {
                 "colorScheme": "Campbell Green",
-                "commandline": "ssh -t root@retroboy.local",
+                "commandline": "klink.exe -ssh root@retroboy.local -pw linux",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
                 "font":
@@ -271,7 +271,7 @@
             },
             {
                 "colorScheme": "Campbell Orange",
-                "commandline": "ssh -t root@retrocube.local",
+                "commandline": "klink.exe -ssh root@retrocube.local -pw linux",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
                 "font":
@@ -288,7 +288,7 @@
             },
             {
                 "colorScheme": "One Half Dark",
-                "commandline": "ssh -t root@retrogen.local",
+                "commandline": "klink.exe -ssh root@retrogen.local -pw linux",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
                 "font":
@@ -305,7 +305,7 @@
             },
             {
                 "colorScheme": "Campbell Red",
-                "commandline": "ssh -t root@retromig.local",
+                "commandline": "klink.exe -ssh root@retromig.local -pw linux",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
                 "font":
@@ -322,7 +322,7 @@
             },
             {
                 "colorScheme": "Campbell Cyan",
-                "commandline": "ssh -t root@retropad.local",
+                "commandline": "klink.exe -ssh root@retropad.local -pw linux",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
                 "font":
@@ -339,7 +339,7 @@
             },
             {
                 "colorScheme": "Campbell Magenta",
-                "commandline": "ssh -t root@retroplay.local",
+                "commandline": "klink.exe -ssh root@retroplay.local -pw linux",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
                 "font":
