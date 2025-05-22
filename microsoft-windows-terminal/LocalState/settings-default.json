@@ -219,6 +219,177 @@
                 "startingDirectory": "%USERPROFILE%"
             },
             {
+                "colorScheme": "Campbell Yellow",
+                "commandline": "klink.exe -ssh root@retrobar.local -pw linux",
+                "cursorShape": "vintage",
+                "experimental.retroTerminalEffect": false,
+                "font":
+                {
+                    "face": "MesloLGS Nerd Font Mono",
+                    "size": 11,
+                    "weight": "normal"
+                },
+                "guid": "{3d05a199-ad95-4f0c-b59f-e33f91b603a0}",
+                "hidden": true,
+                "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
+                "name": "ssh retrobar",
+                "opacity": 100
+            },
+            {
+                "colorScheme": "Campbell Powershell",
+                "commandline": "klink.exe -ssh root@retrobed.local -pw linux",
+                "cursorShape": "vintage",
+                "experimental.retroTerminalEffect": false,
+                "font":
+                {
+                    "face": "MesloLGS Nerd Font Mono",
+                    "size": 11,
+                    "weight": "normal"
+                },
+                "guid": "{5a7c25ef-ce14-4695-92a9-6b30fad564a7}",
+                "hidden": true,
+                "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
+                "name": "ssh retrobed",
+                "opacity": 100
+            },
+            {
+                "colorScheme": "Campbell Green",
+                "commandline": "klink.exe -ssh root@retroboy.local -pw linux",
+                "cursorShape": "vintage",
+                "experimental.retroTerminalEffect": false,
+                "font":
+                {
+                    "face": "MesloLGS Nerd Font Mono",
+                    "size": 11,
+                    "weight": "normal"
+                },
+                "guid": "{61ee0d96-e741-46f7-8de0-e90188229346}",
+                "hidden": true,
+                "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
+                "name": "ssh retroboy",
+                "opacity": 100
+            },
+            {
+                "colorScheme": "Campbell Orange",
+                "commandline": "klink.exe -ssh root@retrocube.local -pw linux",
+                "cursorShape": "vintage",
+                "experimental.retroTerminalEffect": false,
+                "font":
+                {
+                    "face": "MesloLGS Nerd Font Mono",
+                    "size": 11,
+                    "weight": "normal"
+                },
+                "guid": "{e646c22f-e3d1-4eeb-ae4a-e9d80adcf68a}",
+                "hidden": true,
+                "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
+                "name": "ssh retrocube",
+                "opacity": 100
+            },
+            {
+                "colorScheme": "One Half Dark",
+                "commandline": "klink.exe -ssh root@retrogen.local -pw linux",
+                "cursorShape": "vintage",
+                "experimental.retroTerminalEffect": false,
+                "font":
+                {
+                    "face": "MesloLGS Nerd Font Mono",
+                    "size": 11,
+                    "weight": "normal"
+                },
+                "guid": "{3d9efe5b-f591-4dda-8dd1-43ce4bcf05eb}",
+                "hidden": true,
+                "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
+                "name": "ssh retrogen",
+                "opacity": 100
+            },
+            {
+                "colorScheme": "Campbell Red",
+                "commandline": "klink.exe -ssh root@retromig.local -pw linux",
+                "cursorShape": "vintage",
+                "experimental.retroTerminalEffect": false,
+                "font":
+                {
+                    "face": "MesloLGS Nerd Font Mono",
+                    "size": 11,
+                    "weight": "normal"
+                },
+                "guid": "{5257a261-4f95-491c-b31a-0a5dbde4da6e}",
+                "hidden": true,
+                "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
+                "name": "ssh retromig",
+                "opacity": 100
+            },
+            {
+                "colorScheme": "Campbell Cyan",
+                "commandline": "klink.exe -ssh root@retropad.local -pw linux",
+                "cursorShape": "vintage",
+                "experimental.retroTerminalEffect": false,
+                "font":
+                {
+                    "face": "MesloLGS Nerd Font Mono",
+                    "size": 11,
+                    "weight": "normal"
+                },
+                "guid": "{65dcd39a-c386-4b5a-9f0f-6dea6bd27125}",
+                "hidden": true,
+                "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
+                "name": "ssh retropad",
+                "opacity": 100
+            },
+            {
+                "colorScheme": "Campbell Magenta",
+                "commandline": "klink.exe -ssh root@retroplay.local -pw linux",
+                "cursorShape": "vintage",
+                "experimental.retroTerminalEffect": false,
+                "font":
+                {
+                    "face": "MesloLGS Nerd Font Mono",
+                    "size": 11,
+                    "weight": "normal"
+                },
+                "guid": "{d4694f1a-66c5-43b7-a530-9c2b2c31a968}",
+                "hidden": true,
+                "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
+                "name": "ssh retroplay",
+                "opacity": 100
+            },
+            {
+                "adjustIndistinguishableColors": "never",
+                "colorScheme": "Campbell Bright",
+                "commandline": "ssh -t pi@scribcast2.local zsh",
+                "cursorShape": "vintage",
+                "experimental.retroTerminalEffect": false,
+                "font":
+                {
+                    "face": "MesloLGS Nerd Font Mono",
+                    "size": 11,
+                    "weight": "normal"
+                },
+                "guid": "{33faf957-39bc-4edd-b03e-452581ac5eae}",
+                "hidden": true,
+                "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
+                "name": "ssh scribcast2",
+                "opacity": 100
+            },
+            {
+                "colorScheme": "Campbell",
+                "commandline": "ssh cscribn@cscribn.cloud.seedboxes.cc -p 3232",
+                "cursorShape": "vintage",
+                "experimental.retroTerminalEffect": false,
+                "font":
+                {
+                    "face": "MesloLGS Nerd Font Mono",
+                    "size": 11,
+                    "weight": "normal"
+                },
+                "guid": "{d053f506-56f6-4052-958d-7b2ee694703a}",
+                "hidden": true,
+                "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
+                "name": "ssh seedboxes.cc",
+                "opacity": 100
+            },
+            {
                 "elevate": true,
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
                 "hidden": true,
