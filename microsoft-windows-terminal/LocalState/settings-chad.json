@@ -271,7 +271,7 @@
             },
             {
                 "colorScheme": "Campbell Orange",
-                "commandline": "ssh -t root@retrocube.local",
+                "commandline": "powershell -File \"%USERPROFILE%\\.config\\microsoft-windows-terminal\\Scripts\\SshWithPassword.ps1\" root retrocube linux",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
                 "font":
@@ -280,7 +280,7 @@
                     "size": 11,
                     "weight": "normal"
                 },
-                "guid": "{e646c22f-e3d1-4eeb-ae4a-e9d80adcf68a}",
+                "guid": "{37ed0449-2028-423e-b4f8-e7e9c02ec2da}",
                 "hidden": false,
                 "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
                 "name": "ssh retrocube",
