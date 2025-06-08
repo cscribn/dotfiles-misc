@@ -220,7 +220,7 @@
             },
             {
                 "colorScheme": "Campbell Yellow",
-                "commandline": "powershell -File \"%USERPROFILE%\\.config\\microsoft-windows-terminal\\Scripts\\SshWithPassword.ps1\" root retrobar linux",
+                "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\" -NoProfile -ExecutionPolicy Bypass -File \"%USERPROFILE%\\.config\\microsoft-windows-terminal\\Scripts\\SshWithPassword.ps1\" root retrobar linux",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
                 "font":
@@ -237,7 +237,7 @@
             },
             {
                 "colorScheme": "Campbell Powershell",
-                "commandline": "powershell -File \"%USERPROFILE%\\.config\\microsoft-windows-terminal\\Scripts\\SshWithPassword.ps1\" root retrobed linux",
+                "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\" -NoProfile -ExecutionPolicy Bypass -File \"%USERPROFILE%\\.config\\microsoft-windows-terminal\\Scripts\\SshWithPassword.ps1\" root retrobed linux",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
                 "font":
@@ -254,7 +254,7 @@
             },
             {
                 "colorScheme": "Campbell Green",
-                "commandline": "powershell -File \"%USERPROFILE%\\.config\\microsoft-windows-terminal\\Scripts\\SshWithPassword.ps1\" root retroboy linux",
+                "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\" -NoProfile -ExecutionPolicy Bypass -File \"%USERPROFILE%\\.config\\microsoft-windows-terminal\\Scripts\\SshWithPassword.ps1\" root retroboy linux",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
                 "font":
@@ -271,7 +271,7 @@
             },
             {
                 "colorScheme": "Campbell Orange",
-                "commandline": "powershell -File \"%USERPROFILE%\\.config\\microsoft-windows-terminal\\Scripts\\SshWithPassword.ps1\" root retrocube linux",
+                "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\" -NoProfile -ExecutionPolicy Bypass -File \"%USERPROFILE%\\.config\\microsoft-windows-terminal\\Scripts\\SshWithPassword.ps1\" root retrocube linux",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
                 "font":
@@ -288,7 +288,7 @@
             },
             {
                 "colorScheme": "One Half Dark",
-                "commandline": "powershell -File \"%USERPROFILE%\\.config\\microsoft-windows-terminal\\Scripts\\SshWithPassword.ps1\" root retrogen linux",
+                "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\" -NoProfile -ExecutionPolicy Bypass -File \"%USERPROFILE%\\.config\\microsoft-windows-terminal\\Scripts\\SshWithPassword.ps1\" root retrogen linux",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
                 "font":
@@ -305,7 +305,7 @@
             },
             {
                 "colorScheme": "Campbell Red",
-                "commandline": "powershell -File \"%USERPROFILE%\\.config\\microsoft-windows-terminal\\Scripts\\SshWithPassword.ps1\" root retromig linux",
+                "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\" -NoProfile -ExecutionPolicy Bypass -File \"%USERPROFILE%\\.config\\microsoft-windows-terminal\\Scripts\\SshWithPassword.ps1\" root retromig linux",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
                 "font":
@@ -322,7 +322,7 @@
             },
             {
                 "colorScheme": "Campbell Magenta",
-                "commandline": "powershell -File \"%USERPROFILE%\\.config\\microsoft-windows-terminal\\Scripts\\SshWithPassword.ps1\" root retroplay linux",
+                "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\" -NoProfile -ExecutionPolicy Bypass -File \"%USERPROFILE%\\.config\\microsoft-windows-terminal\\Scripts\\SshWithPassword.ps1\" root retroplay linux",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
                 "font":
