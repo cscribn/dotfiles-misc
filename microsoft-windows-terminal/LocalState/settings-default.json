@@ -220,7 +220,7 @@
             },
             {
                 "colorScheme": "Campbell Yellow",
-                "commandline": "ssh -t root@retrobar.local",
+                "commandline": "powershell -File \"%USERPROFILE%\\.config\\microsoft-windows-terminal\\Scripts\\SshWithPassword.ps1\" root retrobar linux",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
                 "font":
@@ -237,7 +237,7 @@
             },
             {
                 "colorScheme": "Campbell Powershell",
-                "commandline": "ssh -t root@retrobed.local",
+                "commandline": "powershell -File \"%USERPROFILE%\\.config\\microsoft-windows-terminal\\Scripts\\SshWithPassword.ps1\" root retrobed linux",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
                 "font":
@@ -254,7 +254,7 @@
             },
             {
                 "colorScheme": "Campbell Green",
-                "commandline": "ssh -t root@retroboy.local",
+                "commandline": "powershell -File \"%USERPROFILE%\\.config\\microsoft-windows-terminal\\Scripts\\SshWithPassword.ps1\" root retroboy linux",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
                 "font":
@@ -288,7 +288,7 @@
             },
             {
                 "colorScheme": "One Half Dark",
-                "commandline": "ssh -t root@retrogen.local",
+                "commandline": "powershell -File \"%USERPROFILE%\\.config\\microsoft-windows-terminal\\Scripts\\SshWithPassword.ps1\" root retrogen linux",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
                 "font":
@@ -305,7 +305,7 @@
             },
             {
                 "colorScheme": "Campbell Red",
-                "commandline": "ssh -t root@retromig.local",
+                "commandline": "powershell -File \"%USERPROFILE%\\.config\\microsoft-windows-terminal\\Scripts\\SshWithPassword.ps1\" root retromig linux",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
                 "font":
@@ -322,7 +322,7 @@
             },
             {
                 "colorScheme": "Campbell Magenta",
-                "commandline": "ssh -t root@retroplay.local",
+                "commandline": "powershell -File \"%USERPROFILE%\\.config\\microsoft-windows-terminal\\Scripts\\SshWithPassword.ps1\" root retroplay linux",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
                 "font":
