@@ -270,7 +270,7 @@
                 "opacity": 100
             },
             {
-                "colorScheme": "Campbell Orange",
+                "colorScheme": "Campbell Red",
                 "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\" -NoProfile -ExecutionPolicy Bypass -File \"%USERPROFILE%\\.config\\microsoft-windows-terminal\\Scripts\\SshWithPassword.ps1\" root retrocube linux",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
@@ -304,7 +304,7 @@
                 "opacity": 100
             },
             {
-                "colorScheme": "Campbell Red",
+                "colorScheme": "Campbell Orange",
                 "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\" -NoProfile -ExecutionPolicy Bypass -File \"%USERPROFILE%\\.config\\microsoft-windows-terminal\\Scripts\\SshWithPassword.ps1\" root retromig linux",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
