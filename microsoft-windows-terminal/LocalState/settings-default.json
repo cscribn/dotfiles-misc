@@ -253,23 +253,6 @@
                 "opacity": 100
             },
             {
-                "colorScheme": "Campbell Green",
-                "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\" -NoProfile -ExecutionPolicy Bypass -File \"%USERPROFILE%\\.config\\microsoft-windows-terminal\\Scripts\\SshWithPassword.ps1\" root retroboy linux",
-                "cursorShape": "vintage",
-                "experimental.retroTerminalEffect": false,
-                "font":
-                {
-                    "face": "MesloLGS Nerd Font Mono",
-                    "size": 11,
-                    "weight": "normal"
-                },
-                "guid": "{61ee0d96-e741-46f7-8de0-e90188229346}",
-                "hidden": true,
-                "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
-                "name": "ssh retroboy",
-                "opacity": 100
-            },
-            {
                 "colorScheme": "Campbell Red",
                 "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\" -NoProfile -ExecutionPolicy Bypass -File \"%USERPROFILE%\\.config\\microsoft-windows-terminal\\Scripts\\SshWithPassword.ps1\" root retrocube linux",
                 "cursorShape": "vintage",
@@ -301,40 +284,6 @@
                 "hidden": true,
                 "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
                 "name": "ssh retrogen",
-                "opacity": 100
-            },
-            {
-                "colorScheme": "Campbell Orange",
-                "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\" -NoProfile -ExecutionPolicy Bypass -File \"%USERPROFILE%\\.config\\microsoft-windows-terminal\\Scripts\\SshWithPassword.ps1\" root retromig linux",
-                "cursorShape": "vintage",
-                "experimental.retroTerminalEffect": false,
-                "font":
-                {
-                    "face": "MesloLGS Nerd Font Mono",
-                    "size": 11,
-                    "weight": "normal"
-                },
-                "guid": "{5257a261-4f95-491c-b31a-0a5dbde4da6e}",
-                "hidden": true,
-                "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
-                "name": "ssh retromig",
-                "opacity": 100
-            },
-            {
-                "colorScheme": "Campbell Magenta",
-                "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\" -NoProfile -ExecutionPolicy Bypass -File \"%USERPROFILE%\\.config\\microsoft-windows-terminal\\Scripts\\SshWithPassword.ps1\" root retroplay linux",
-                "cursorShape": "vintage",
-                "experimental.retroTerminalEffect": false,
-                "font":
-                {
-                    "face": "MesloLGS Nerd Font Mono",
-                    "size": 11,
-                    "weight": "normal"
-                },
-                "guid": "{d4694f1a-66c5-43b7-a530-9c2b2c31a968}",
-                "hidden": true,
-                "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
-                "name": "ssh retroplay",
                 "opacity": 100
             },
             {
