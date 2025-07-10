@@ -289,6 +289,24 @@
             {
                 "adjustIndistinguishableColors": "never",
                 "colorScheme": "Campbell Bright",
+                "commandline": "ssh -t pi@scribcast1.local zsh",
+                "cursorShape": "vintage",
+                "experimental.retroTerminalEffect": false,
+                "font":
+                {
+                    "face": "MesloLGS Nerd Font Mono",
+                    "size": 11,
+                    "weight": "normal"
+                },
+                "guid": "{33faf957-39bc-4edd-b03e-452581ac5eae}",
+                "hidden": false,
+                "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
+                "name": "ssh scribcast1",
+                "opacity": 100
+            },
+            {
+                "adjustIndistinguishableColors": "never",
+                "colorScheme": "Campbell Bright",
                 "commandline": "ssh -t pi@scribcast2.local zsh",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
