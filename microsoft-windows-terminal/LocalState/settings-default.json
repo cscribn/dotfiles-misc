@@ -298,7 +298,7 @@
                     "size": 11,
                     "weight": "normal"
                 },
-                "guid": "{115db1a9-24ed-4044-9bc1-f210ef6123e1}",
+                "guid": "{3b7d89d0-ff9a-4396-9e81-40d1d6e53597}",
                 "hidden": true,
                 "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
                 "name": "ssh scribcast1",
@@ -317,7 +317,7 @@
                     "weight": "normal"
                 },
                 "guid": "{33faf957-39bc-4edd-b03e-452581ac5eae}",
-                "hidden": true,
+                "hidden": false,
                 "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
                 "name": "ssh scribcast2",
                 "opacity": 100
