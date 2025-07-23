@@ -1,3 +1,4 @@
+export PATH=/opt/homebrew/bin:/opt/homebrew/sbin:${PATH}
 alias mcp-atlassian='npx -y mcp-remote https://mcp.atlassian.com/v1/sse'
 
 export NVM_DIR="$HOME/.nvm"
@@ -18,7 +19,6 @@ export SSL_CERT_FILE=$NETSKOPE_CERTIFICATE_BUNDLE
 export HEX_CACERTS_PATH=$NETSKOPE_CERTIFICATE_BUNDLE
 
 if [[ "${BASH_VERSINFO:-0}" -ge 4 ]]; then
-    export PATH=/opt/homebrew/bin:/opt/homebrew/sbin:${PATH}
     alias ls='lsd --group-directories-first'
     eval "$(oh-my-posh init bash --config ~/.config/oh-my-posh/themes/powerlevel10k_amped_lean.omp.json)"
     eval "$(fzf --bash)"
