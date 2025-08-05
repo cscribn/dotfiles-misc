@@ -6,9 +6,15 @@ If ($IsMacOS) { $Env:PATH = "/opt/homebrew/bin:" + $Env:PATH }
 
 oh-my-posh init pwsh --config $HOME\.config\oh-my-posh\themes\powerlevel10k_amped_modern.omp.json | Invoke-Expression
 
-If (-Not $IsLinux) { Import-Module posh-git; Import-Module -Name Terminal-Icons }
+If (-Not $IsLinux) {
+  If (-Not (Get-Module -Name posh-git)) { Import-Module posh-git }
+  If (-Not (Get-Module -Name Terminal-Icons)) { Import-Module Terminal-Icons }
+}
 
-Import-Module PSReadLine; Set-PSReadLineOption -EditMode Windows -PredictionSource History
+If (-Not (Get-Module -Name PSReadLine)) {
+  Import-Module PSReadLine
+  Set-PSReadLineOption -EditMode Windows -PredictionSource History
+}
 
-$ChocolateyProfile = "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"
-If (Test-Path($ChocolateyProfile)) { Import-Module "$ChocolateyProfile" }
+# $ChocolateyProfile = "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"
+# If (Test-Path($ChocolateyProfile)) { Import-Module "$ChocolateyProfile" }
