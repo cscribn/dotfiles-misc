@@ -220,7 +220,7 @@
             },
             {
                 "colorScheme": "Campbell Yellow",
-                "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\" -NoProfile -ExecutionPolicy Bypass -File \"%USERPROFILE%\\.config\\microsoft-windows-terminal\\Scripts\\SshWithPassword.ps1\" root retrobar linux",
+                "commandline": "ssh -t root@retrobar.local",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
                 "font":
@@ -237,7 +237,7 @@
             },
             {
                 "colorScheme": "Campbell Powershell",
-                "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\" -NoProfile -ExecutionPolicy Bypass -File \"%USERPROFILE%\\.config\\microsoft-windows-terminal\\Scripts\\SshWithPassword.ps1\" root retrobed linux",
+                "commandline": "ssh -t root@retrobed.local",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
                 "font":
@@ -254,7 +254,7 @@
             },
             {
                 "colorScheme": "Campbell Red",
-                "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\" -NoProfile -ExecutionPolicy Bypass -File \"%USERPROFILE%\\.config\\microsoft-windows-terminal\\Scripts\\SshWithPassword.ps1\" root retrocube linux",
+                "commandline": "ssh -t root@retrocube.local",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
                 "font":
@@ -271,7 +271,7 @@
             },
             {
                 "colorScheme": "One Half Dark",
-                "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\" -NoProfile -ExecutionPolicy Bypass -File \"%USERPROFILE%\\.config\\microsoft-windows-terminal\\Scripts\\SshWithPassword.ps1\" root retrogen linux",
+                "commandline": "ssh -t root@retrogen.local",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
                 "font":
