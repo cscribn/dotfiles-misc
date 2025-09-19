@@ -18,6 +18,3 @@ If (-Not (Get-Module -Name PSReadLine)) {
   Import-Module PSReadLine
   Set-PSReadLineOption -EditMode Windows -PredictionSource History
 }
-
-# $ChocolateyProfile = "$env:ChocolateyInstall\helpers\chocolateyProfile.psm1"
-# If (Test-Path($ChocolateyProfile)) { Import-Module "$ChocolateyProfile" }
