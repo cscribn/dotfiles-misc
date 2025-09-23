@@ -236,7 +236,7 @@
                 "opacity": 100
             },
             {
-                "colorScheme": "Campbell Powershell",
+                "colorScheme": "Campbell Green",
                 "commandline": "ssh -t root@retrobed.local",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
