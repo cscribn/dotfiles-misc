@@ -1,6 +1,10 @@
 $Env:POWERSHELL_UPDATECHECK = 'Off'
 $Sep = [IO.Path]::DirectorySeparatorChar
 
+If ($IsWindows) {
+  Set-Alias -Name btop -Value "C:\Users\chadb\AppData\Local\Microsoft\WinGet\Links\btop4win.exe"
+}
+
 If (-Not (Test-Path -Path ~${Sep}.config${Sep}oh-my-posh)) {
   git clone https://github.com/cscribn/dotfiles-oh-my-posh.git  ~\.config\oh-my-posh
 }
