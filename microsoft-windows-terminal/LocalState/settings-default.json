@@ -287,6 +287,23 @@
                 "opacity": 100
             },
             {
+                "colorScheme": "Campbell Orange",
+                "commandline": "ssh -t root@retropad.local",
+                "cursorShape": "vintage",
+                "experimental.retroTerminalEffect": false,
+                "font":
+                {
+                    "face": "MesloLGS Nerd Font Mono",
+                    "size": 11,
+                    "weight": "normal"
+                },
+                "guid": "{9a6c414b-b6b7-4f62-90b8-3f42301f19ec}",
+                "hidden": true,
+                "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
+                "name": "ssh retropad",
+                "opacity": 100
+            },
+            {
                 "adjustIndistinguishableColors": "never",
                 "colorScheme": "Campbell Bright",
                 "commandline": "ssh -t pi@scribcast1.local zsh",
