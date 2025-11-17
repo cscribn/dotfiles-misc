@@ -304,6 +304,23 @@
                 "opacity": 100
             },
             {
+                "colorScheme": "Campbell Red",
+                "commandline": "ssh -t root@retropow.local",
+                "cursorShape": "vintage",
+                "experimental.retroTerminalEffect": false,
+                "font":
+                {
+                    "face": "MesloLGS Nerd Font Mono",
+                    "size": 11,
+                    "weight": "normal"
+                },
+                "guid": "{3a3940f1-88a1-48f9-b32f-5eec3b51e091}",
+                "hidden": false,
+                "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
+                "name": "ssh retropow",
+                "opacity": 100
+            },
+            {
                 "adjustIndistinguishableColors": "never",
                 "colorScheme": "Campbell Bright",
                 "commandline": "ssh -t pi@scribcast1.local zsh",
