@@ -164,7 +164,7 @@
                 "startingDirectory": "%USERPROFILE%"
             },
             {
-                "colorScheme": "Ubuntu",
+                "colorScheme": "Ubuntu-ColorScheme",
                 "commandline": "\"C:\\Program Files\\Git\\bin\\bash.exe\" -c \"export TERM=cygwin;exec zsh\"",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
@@ -497,29 +497,6 @@
             "selectionBackground": "#4D4100",
             "white": "#EBEBEB",
             "yellow": "#FFD700"
-        },
-        {
-            "background": "#300A24",
-            "black": "#2E3436",
-            "blue": "#3465A4",
-            "brightBlack": "#555753",
-            "brightBlue": "#729FCF",
-            "brightCyan": "#34E2E2",
-            "brightGreen": "#8AE234",
-            "brightPurple": "#AD7FA8",
-            "brightRed": "#EF2929",
-            "brightWhite": "#EEEEEC",
-            "brightYellow": "#FCE94F",
-            "cursorColor": "#BBBBBB",
-            "cyan": "#06989A",
-            "foreground": "#EEEEEC",
-            "green": "#4E9A06",
-            "name": "Ubuntu",
-            "purple": "#75507B",
-            "red": "#CC0000",
-            "selectionBackground": "#B5D5FF",
-            "white": "#D3D7CF",
-            "yellow": "#C4A000"
         }
     ],
     "theme": "system",
