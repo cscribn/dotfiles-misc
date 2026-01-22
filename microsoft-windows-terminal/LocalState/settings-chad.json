@@ -270,7 +270,7 @@
                 "opacity": 100
             },
             {
-                "colorScheme": "Campbell Orange",
+                "colorScheme": "Campbell Green",
                 "commandline": "ssh -t root@retropad.local",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
