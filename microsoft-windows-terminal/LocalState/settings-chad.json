@@ -148,7 +148,6 @@
                 "icon": "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
                 "name": "Git Bash",
                 "opacity": 100,
-                "source": "Git",
                 "startingDirectory": "%USERPROFILE%"
             },
             {
