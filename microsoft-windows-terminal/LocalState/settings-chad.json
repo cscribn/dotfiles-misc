@@ -133,18 +133,6 @@
                 "useAcrylic": false
             },
             {
-                "guid": "{994c2cdf-1e06-5acb-acf1-d837a00cef31}",
-                "hidden": true,
-                "name": "Developer Command Prompt for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{d6c8c409-4ba2-5187-a1f1-e69f4db80691}",
-                "hidden": true,
-                "name": "Developer PowerShell for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
                 "colorScheme": "One Half Dark",
                 "commandline": "\"C:\\Program Files\\Git\\bin\\bash.exe\"",
                 "cursorShape": "vintage",
