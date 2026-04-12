@@ -1,7 +1,0 @@
-export ADAPTER=rpi
-export COMPRESS=lzma
-export GCC_PATH="${HOME}/opt/xpack-arm-none-eabi-gcc-10.2.1-1.1/bin/"
-export OPENOCD="${HOME}/.local/xPacks/@xpack-dev-tools/openocd/0.11.0-1.1/.content/bin/openocd"
-export PATH="${PATH}:${HOME}/opt/xpack-arm-none-eabi-gcc-10.2.1-1.1/bin/"
-
-${HOME}/motd/motd-rpi.sh

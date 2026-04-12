@@ -27,7 +27,3 @@ A vimrc with:
 * https://github.com/amix/vimrc for default settings.
 * colorscheme disabled, so that vim will take on the colors of your terminal profile.
 * Powerline-like statusline https://www.tdaly.co.uk/projects/vim-statusline-generator/
-
-## zshrc-*
-
-Files beginning with "zshrc-" can be used as `.zshrc` files in home directories. Pick the one appropriate for your OS.
