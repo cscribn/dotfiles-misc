@@ -3,7 +3,7 @@
 ## General
 
 - **Git:** Respect `.gitignore`; exclude OS-specific and environment files from suggestions.
-- **Output:** Provide code edits in single chunks. Do not summarize changes, suggest whitespace-only edits, or remove unrelated code.
+- **Output:** Scope every change to the requested task only, and do not add, edit, or remove unrelated code. Deliver edits in single chunks, avoid whitespace-only suggestions, and include the real code changes rather than only summarizing what would change.
 - **Environment:** Load variables from `.env`. Always update `.env.example`. Never hardcode secrets.
 - **Context:** Don't ask to verify info visible in context or confirm provided instructions.
 - **Documentation:** Maintain `README.md`. Use real file paths in links.
