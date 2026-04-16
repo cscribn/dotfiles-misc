@@ -50,3 +50,13 @@ When creating prompts for external AI chat (ChatGPT, Gemini, etc.):
 - **Database:** Use SQLAlchemy 2.0+ syntax and Flask-Migrate. Keep DB logic separate from routes.
 - **Security:** Never use f-strings for SQL; use parameter substitution.
 - **Testing:** Use `pytest` for all tests.
+
+## Java & Spring Boot
+
+- **Standards:** Use explicit types, descriptive names, and Checkstyle-compatible formatting.
+- **Dependencies:** Use Maven Wrapper (`./mvnw`) for dependency management and consistent builds.
+- **Structure:** Use a `src/` layout (`src/main/java`, `src/test/java`). Separate logic into controllers, services, repositories, and models.
+- **Spring Patterns:** Use Spring Boot auto-configuration, constructor injection, and focused `@RestController` classes. Prefer async handling for I/O bound operations.
+- **Database:** Use Spring Data JPA with Hibernate and Flyway or Liquibase migrations. Keep DB logic separate from controllers.
+- **Security:** Never build SQL with string concatenation; use parameter binding, repositories, or prepared statements.
+- **Testing:** Use `JUnit 5` for all tests, with `Mockito` and `Spring Boot Test` where appropriate.
