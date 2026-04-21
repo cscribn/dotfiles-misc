@@ -47,8 +47,6 @@ When creating prompts for external AI chat (ChatGPT, Gemini, etc.):
 - **Standards:** Use explicit types, descriptive names, and Checkstyle-compatible formatting.
 - **Dependencies:** Standardize on Gradle for build management; always use the Gradle Wrapper (`./gradlew`) for execution.
 - **Building:** Compile, test, and assemble artifacts with `./gradlew build`. README and similar docs should show `build` as the normal full build.
-- **Running locally:** Run apps with `./gradlew run --args="..."` (adjust quoting so multi-word values stay grouped). Configure the Gradle Application plugin (or an equivalent `run` task) so `run` and `--args` work.
-- **CLI arguments:** For main-class entry points, parse every input with named flags (long options such as `--start-date`). Do not use positional-only arguments, unnamed trailing values, or implicit defaults for required parameters. README and similar docs must show the same named style in example commands.
 - **Provisioning:** Utilize Java Toolchains in `build.gradle` to automate JDK provisioning and ensure environment isolation.
 - **Structure:** Use a `src/` layout (`src/main/java`, `src/test/java`). Separate logic into controllers, services, repositories, and models.
 - **Spring Utilization:** Only use Spring when creating web applications or using databases.
@@ -56,6 +54,7 @@ When creating prompts for external AI chat (ChatGPT, Gemini, etc.):
 - **Database:** Use Spring Data JPA with Hibernate and Flyway or Liquibase migrations. Keep DB logic separate from controllers.
 - **Security:** Never build SQL with string concatenation; use parameter binding, repositories, or prepared statements.
 - **Testing:** Use `JUnit 5` for all tests, with `Mockito` and `Spring Boot Test` where appropriate.
+- **CLI Configuration:** Command line programs must not use command line arguments. Load configuration from environment variables only.
 
 ## JFreeChart
 
@@ -84,3 +83,4 @@ When creating prompts for external AI chat (ChatGPT, Gemini, etc.):
 - **Database:** Use SQLAlchemy 2.0+ syntax and Flask-Migrate. Keep DB logic separate from routes.
 - **Security:** Never use f-strings for SQL; use parameter substitution.
 - **Testing:** Use `pytest` for all tests.
+- **CLI Configuration:** Command line programs must not use command line arguments. Load configuration from environment variables only.
