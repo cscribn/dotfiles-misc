@@ -30,6 +30,22 @@
 - Be concise. Skip conversational filler.
 - If a task is trivial, provide code without explanation.
 
+## Code Quality
+
+Apply these improvements only when explicitly requested; do not apply them outside the scope of the current task (see Output in General). Use these practices for new code and when refactoring existing code.
+
+- **Unused Code:** Remove dead imports, unreachable code, unused variables, and unused functions.
+- **DRY (Don't Repeat Yourself):** Extract duplicated logic into shared functions, utilities, or base classes.
+- **Concurrency:** Improve threading and parallelization; adopt async/await patterns where applicable for I/O-bound operations.
+- **Testing:** Create tests for significant functionality lacking coverage; prioritize critical paths, edge cases, and error conditions.
+- **API/CLI Resilience:** Add exponential backoff, request batching, and rate limit handling to external calls to reduce timeout and rate limit failures.
+- **Documentation:** Ensure `README.md`, code comments, and `requirements.md` match the current implementation and reflect all documented behavior.
+- **Type Hints:** Add or improve type annotations to enhance IDE support and enable early detection of type-related errors.
+- **Dependencies:** Update to latest stable versions; remove deprecated or unused dependencies.
+- **Error Handling:** Improve error messages and recovery strategies to aid debugging and user troubleshooting.
+- **Complexity:** Reduce cyclomatic complexity by breaking large functions into smaller, focused units with single responsibilities.
+- **Performance**: Profile to identify bottlenecks; optimize algorithms, data structures, and I/O; use caching strategically.
+
 ## External AI Chat
 
 When creating prompts for external AI chat (ChatGPT, Gemini, etc.):
