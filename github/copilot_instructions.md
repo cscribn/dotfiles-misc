@@ -57,6 +57,7 @@ When creating prompts for external AI chat (ChatGPT, Gemini, etc.):
 - **Content hygiene rules:** State non-negotiable rules upfront (e.g., "No fabrication", "No meta-commentary inside deliverables"). These override default AI behavior.
 - **Analysis lives outside deliverables:** Analysis, rationale, and source citations belong in pre-output notes, not embedded in the final document.
 - **Validation gate:** Include a pre-output checklist to verify all claims are evidence-backed and unsupported gaps are omitted, not soft-matched.
+- **Stateless execution:** Instruct the AI to ignore its memory, prior conversations, and previous executions. Use only information supplied in the current prompt.
 
 ## Java & Spring Boot
 
