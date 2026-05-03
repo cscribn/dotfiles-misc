@@ -1,15 +1,5 @@
 # Agent Instructions/Rules
 
-## General
-
-- **Git:** Respect `.gitignore`; exclude OS-specific and environment files from suggestions.
-- **Output:** Scope every change to the requested task only, and do not add, edit, or remove unrelated code. Deliver edits in single chunks, avoid whitespace-only suggestions, and include the real code changes rather than only summarizing what would change.
-- **Environment:** Load variables from `.env`. Always update `.env.example`. Never hardcode secrets.
-- **Context:** Don't ask to verify info visible in context or confirm provided instructions.
-- **Documentation:** Maintain `README.md`. Use real file paths in links.
-- **Requirements:** Keep `requirements.md` aligned with the product: whenever you change code that affects documented behavior, scope, user-visible flows, or acceptance criteria, update `requirements.md` in the same change so it stays accurate.
-- **Punctuation:** Do not use em dashes (—) or en dashes (–). Use hyphens or rewrite the sentence instead.
-
 ## Bash
 
 - **Scope:** Apply this style to new scripts and when refactoring existing scripts.
@@ -24,11 +14,6 @@
 - **Validation:** Validate required positional inputs in `main()` and fail fast with clear error messages.
 - **Quoting:** Quote all variable expansions used in paths, tests, and command arguments.
 - **Tests:** Prefer `[[ ... ]]` for tests and pattern matching.
-
-## Behavior
-
-- Be concise. Skip conversational filler.
-- If a task is trivial, provide code without explanation.
 
 ## Code Quality
 
@@ -51,13 +36,17 @@ Apply these improvements only when explicitly requested; do not apply them outsi
 When creating prompts for external AI chat (ChatGPT, Gemini, etc.):
 
 - **Source anchoring:** Every claime must map to a source file. Never fabricate or infer facts. Never soft-match or creatively paraphrase.
-- **Evidence mapping:** Before the output, create an evidence map listing each planned claim and its supporting source snippet. Mark unsupported claims as `OMIT`.
-- **Step-by-step structure:** Break the task into numbered steps. This helps AI reproducibility.
+- **Step-by-step structure:** Break the task into numbered steps.
 - **Output format rules:** Specify exact deliverable format (HTML code blocks, plain text blocks, etc.), styling, encoding, and any parser-specific constraints.
-- **Content hygiene rules:** State non-negotiable rules upfront (e.g., "No fabrication", "No meta-commentary inside deliverables"). These override default AI behavior.
-- **Analysis lives outside deliverables:** Analysis, rationale, and source citations belong in pre-output notes, not embedded in the final document.
-- **Validation gate:** Include a pre-output checklist to verify all claims are evidence-backed and unsupported gaps are omitted, not soft-matched.
+- **Content hygiene rules:** State non-negotiable rules upfront (e.g., "No fabrication", "No meta-commentary inside deliverables").
+- **Analysis lives outside deliverables:** Analysis, rationale, and source citations belong in pre-output notes, not embedded in the final deliverable.
 - **Stateless execution:** Instruct the AI to ignore its memory, prior conversations, and previous executions. Use only information supplied in the current prompt.
+
+## General
+
+- Be concise. Skip conversational filler.
+- If a task is trivial, provide solution without explanation.
+- Do not use em dashes (—) or en dashes (–). Use hyphens or rewrite the sentence instead.
 
 ## Java & Spring Boot
 
@@ -101,3 +90,12 @@ When creating prompts for external AI chat (ChatGPT, Gemini, etc.):
 - **Security:** Never use f-strings for SQL; use parameter substitution.
 - **Testing:** Use `pytest` for all tests.
 - **CLI Configuration:** Command line programs must not use command line arguments. Load configuration from environment variables only.
+
+## Software Development
+
+- **Git:** Respect `.gitignore`; exclude OS-specific and environment files from suggestions.
+- **Output:** Scope every change to the requested task only, and do not add, edit, or remove unrelated code. Deliver edits in single chunks, avoid whitespace-only suggestions, and include the real code changes rather than only summarizing what would change.
+- **Environment:** Load variables from `.env`. Always update `.env.example`. Never hardcode secrets.
+- **Context:** Don't ask to verify info visible in context or confirm provided instructions.
+- **Documentation:** Maintain `README.md`. Use real file paths in links.
+- **Requirements:** Keep `requirements.md` aligned with the product: whenever you change code that affects documented behavior, scope, user-visible flows, or acceptance criteria, update `requirements.md` in the same change so it stays accurate.
