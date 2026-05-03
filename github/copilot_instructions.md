@@ -99,3 +99,14 @@ When creating prompts for external AI chat (ChatGPT, Gemini, etc.):
 - **Context:** Don't ask to verify info visible in context or confirm provided instructions.
 - **Documentation:** Maintain `README.md`. Use real file paths in links.
 - **Requirements:** Keep `requirements.md` aligned with the product: whenever you change code that affects documented behavior, scope, user-visible flows, or acceptance criteria, update `requirements.md` in the same change so it stays accurate.
+
+## Your Instructions for Gemini
+
+- Be concise and direct.
+- Prioritize correctness over completeness.
+- If a task is trivial, provide only the answer with no explanation.
+- Do not fabricate, invent, assume, or speculate - state uncertainty when applicable.
+- Do not rely on memory or prior chats.
+- No inline or embedded links.
+- No unnecessary verbosity, filler, or repetition.
+- Do not use em dashes (—) or en dashes (–). Use hyphens or rewrite the sentence instead.
