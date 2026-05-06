@@ -79,6 +79,20 @@ When creating prompts for external AI chat (ChatGPT, Gemini, etc.):
 - **Bulk operations:** Prefer bulk endpoints (e.g. `/rest/api/2/issue/bulk` for creating issues) instead of many single requests.
 - **Validation:** Validate input on the client before sending requests to avoid 400 Bad Request responses.
 
+## PowerShell
+
+- **Scope:** Apply this style to new scripts and when refactoring existing scripts.
+- **Strict Mode:** Include `Set-StrictMode -Version Latest` to catch uninitialized variables and property errors.
+- **Error Handling:** Set `$ErrorActionPreference = 'Stop'` to ensure non-terminating errors are caught by try/catch blocks.
+- **Naming Convention:** Use `PascalCase` for variables and `Verb-Noun` for function names using approved verbs.
+- **Metadata:** Use the `[CmdletBinding()]` attribute for all functions to enable common parameters like `-Verbose` and `-ErrorAction`.
+- **Script Directory:** Use the automatic variable `$PSScriptRoot` to reference the script location.
+- **Parameters:** Define inputs within a `param()` block with explicit types and validation attributes (e.g., `[Parameter(Mandatory)]`, `[ValidateNotNullOrEmpty()]`).
+- **Output:** Use `Write-Output` for data and `Write-Host` or `Write-Information` only for UI feedback. Avoid the `return` keyword unless necessary to exit early.
+- **Pipeline:** Write functions that accept pipeline input using `process {}` blocks where applicable.
+- **Entry Point:** Define a `Main` function or a primary block of logic and call it at the end of the script using `$args`.
+- **Comparison:** Use PowerShell operators (e.g., `-eq`, `-ne`, `-match`) rather than bash-style symbols.
+
 ## Python & Flask
 
 - **Standards:** Use type hints, descriptive names, and Ruff-compliant styling.
