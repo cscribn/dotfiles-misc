@@ -123,8 +123,6 @@ When creating prompts for external AI chat (ChatGPT, Gemini, etc.):
 - **Documentation:** Maintain `README.md`. Use real file paths in links.
 - **Requirements:**: Treat `requirements.md` as the authoritative specification but not as implementation details. It must remain complete enough for a developer to recreate the project from scratch (covering scope, features, behavior, criteria, architecture, and configuration). Update it alongside any code change that alters these elements.
 
-- **Requirements:**
-
 ## Your Instructions for Gemini
 
 - Be concise and direct.
