@@ -104,6 +104,7 @@ When creating prompts for external AI chat (ChatGPT, Gemini, etc.):
 
 - **Standards:** Use type hints, descriptive names, and Ruff-compliant styling.
 - **Dependencies:** Use `uv` for dependency management and virtual environments.
+- **Import Sorting:** Always include and use `isort` as the project import sorter. Keep `isort` installed in the project environment so IDE extensions use the project version and avoid interpreter errors.
 - **Structure:** Use a `src/` layout. Separate logic into models, services, and utilities.
 - **Flask Utilization:** Only use Flask when creating web applications or using databases.
 - **Flask Patterns:** Use the Application Factory pattern and Blueprints. Prefer `async def` for I/O bound routes.
