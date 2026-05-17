@@ -121,7 +121,9 @@ When creating prompts for external AI chat (ChatGPT, Gemini, etc.):
 - **Environment:** Load variables from `.env`. Always update `.env.example`. Never hardcode secrets.
 - **Context:** Don't ask to verify info visible in context or confirm provided instructions.
 - **Documentation:** Maintain `README.md`. Use real file paths in links.
-- **Requirements:** Keep `requirements.md` aligned with the product: whenever you change code that affects documented behavior, scope, user-visible flows, or acceptance criteria, update `requirements.md` in the same change so it stays accurate.
+- **Requirements:**: Treat `requirements.md` as the authoritative specification but not as implementation details. It must remain complete enough for a developer to recreate the project from scratch (covering scope, features, behavior, criteria, architecture, and configuration). Update it alongside any code change that alters these elements.
+
+- **Requirements:**
 
 ## Your Instructions for Gemini
 
