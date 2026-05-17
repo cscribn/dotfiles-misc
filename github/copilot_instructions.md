@@ -79,6 +79,13 @@ When creating prompts for external AI chat (ChatGPT, Gemini, etc.):
 - **Bulk operations:** Prefer bulk endpoints (e.g. `/rest/api/2/issue/bulk` for creating issues) instead of many single requests.
 - **Validation:** Validate input on the client before sending requests to avoid 400 Bad Request responses.
 
+## Local LLM
+
+- **Runtime:** Use Ollama for all local LLM calls.
+- **Model:** Use `llama3.2:3b` for local LLM execution.
+- **Model freshness:** Before each project run, pull the model to ensure it is up to date (for example, `ollama pull llama3.2:3b`).
+- **Status indicator:** When a local LLM is running, or when a project is waiting on a local LLM response, show a clear indicator in output or UI.
+
 ## PowerShell
 
 - **Scope:** Apply this style to new scripts and when refactoring existing scripts.
