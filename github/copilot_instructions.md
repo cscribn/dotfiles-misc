@@ -53,6 +53,7 @@ When creating prompts for external AI chat (ChatGPT, Gemini, etc.):
 - **Standards:** Use explicit types, descriptive names, and Checkstyle-compatible formatting.
 - **Dependencies:** Standardize on Gradle for build management. Always use the Gradle Wrapper (`./gradlew`) for execution and tasks instead of calling `java` or `javac` directly.
 - **Building:** Compile, test, and assemble artifacts with `./gradlew build`. README and similar docs should show `build` as the normal full build.
+- **Run Command:** Configure projects so running the app uses a single command with no trailing file/class arguments (prefer `./gradlew run`).
 - **Provisioning:** Utilize Java Toolchains in `build.gradle` to automate JDK provisioning and ensure environment isolation.
 - **Structure:** Use a `src/` layout (`src/main/java`, `src/test/java`). Separate logic into controllers, services, repositories, and models.
 - **Spring Utilization:** Only use Spring when creating web applications or using databases.
@@ -104,6 +105,7 @@ When creating prompts for external AI chat (ChatGPT, Gemini, etc.):
 
 - **Standards:** Use type hints, descriptive names, and Ruff-compliant styling.
 - **Dependencies:** Use `uv` for dependency management and virtual environments. Use `uv run`, `uv sync`, `uv lock`, and related `uv` commands instead of calling `python` or `pip` directly.
+- **Run Command:** Configure projects so running the app uses a single command with no trailing file/module arguments (prefer `uv run`).
 - **Import Sorting:** Always include and use `isort` as the project import sorter. Keep `isort` installed in the project environment so IDE extensions use the project version and avoid interpreter errors.
 - **Structure:** Use a `src/` layout. Separate logic into models, services, and utilities.
 - **Flask Utilization:** Only use Flask when creating web applications or using databases.
@@ -118,6 +120,7 @@ When creating prompts for external AI chat (ChatGPT, Gemini, etc.):
 - **Git:** Respect `.gitignore`; exclude OS-specific and environment files from suggestions.
 - **Output:** Scope every change to the requested task only, and do not add, edit, or remove unrelated code. Deliver edits in single chunks, avoid whitespace-only suggestions, and include the real code changes rather than only summarizing what would change.
 - **Build Tool First:** For run/build/test/troubleshooting workflows, prefer project build tools and wrappers over calling language runtimes directly. Direct runtime calls are allowed only when troubleshooting the build tool itself, verifying runtime/toolchain state independently, or when the build tool is unavailable/broken.
+- **Run Command:** Set up projects so the normal execution path is one command with no extra target argument. Prefer wrapper/tool-native run commands (for example `./gradlew run` and `uv run`). When a project has multiple runtime behaviors, choose behavior through environment variables (for example `APP_MODE=primary` or `APP_MODE=secondary`).
 - **Environment:** Load variables from `.env`. Always update `.env.example`. Never hardcode secrets.
 - **Context:** Don't ask to verify info visible in context or confirm provided instructions.
 - **Documentation:** Maintain `README.md`. Use real file paths in links.
