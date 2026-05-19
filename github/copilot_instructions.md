@@ -24,7 +24,7 @@ Apply these improvements only when explicitly requested; do not apply them outsi
 - **Concurrency:** Improve threading and parallelization; adopt async/await patterns where applicable for I/O-bound operations.
 - **Testing:** Create tests for significant functionality lacking coverage; prioritize critical paths, edge cases, and error conditions.
 - **API/CLI Resilience:** Add exponential backoff, request batching, and rate limit handling to external calls to reduce timeout and rate limit failures.
-- **Documentation:** Ensure `README.md`, code comments, and `requirements.md` match the current implementation and reflect all documented behavior.
+- **Documentation:** Ensure `README.md` and code comments match the current implementation and reflect all documented behavior.
 - **Type Hints:** Add or improve type annotations to enhance IDE support and enable early detection of type-related errors.
 - **Dependencies:** Update to latest stable versions; remove deprecated or unused dependencies.
 - **Error Handling:** Improve error messages and recovery strategies to aid debugging and user troubleshooting.
