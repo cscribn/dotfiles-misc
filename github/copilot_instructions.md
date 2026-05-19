@@ -86,6 +86,13 @@ When creating prompts for external AI chat (ChatGPT, Gemini, etc.):
 - **Model:** Use `llama3.2:3b` for local LLM execution.
 - **Model freshness:** Before each project run, pull the model to ensure it is up to date (for example, `ollama pull llama3.2:3b`).
 - **Status indicator:** When a local LLM is running, or when a project is waiting on a local LLM response, show a clear indicator in output or UI.
+- **Structured output:** Enforce JSON responses at the API level (for example, Ollama `format="json"`).
+- **Timeout floor:** Default local LLM request timeout should be at least 120 seconds on CPU-first environments.
+- **Prompt budget:** Keep prompts compact.
+- **Retry policy:** Retry only transient transport/service errors with bounded exponential backoff. Fail fast on non-retryable errors.
+- **Operational diagnostics:** When troubleshooting, first verify Ollama reachability, loaded model list, timeout settings, and prompt size.
+- **Example selection:** Use synthetic (fictional) examples in prompts, not real data from files.
+- **Content separation:** Clearly label FORMAT EXAMPLE sections separate from ACTUAL DOCUMENT sections with explicit markers and instructions to analyze only the actual content.
 
 ## PowerShell
 
