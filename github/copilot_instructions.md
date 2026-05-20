@@ -129,7 +129,7 @@ When creating prompts for external AI chat (ChatGPT, Gemini, etc.):
 
 - **Git:** Respect `.gitignore`; exclude OS-specific and environment files from suggestions.
 - **Output:** Scope every change to the requested task only, and do not add, edit, or remove unrelated code. Deliver edits in single chunks, avoid whitespace-only suggestions, and include the real code changes rather than only summarizing what would change.
-- **Build Tool First:** For run/build/test/troubleshooting workflows, prefer project build tools and wrappers over calling language runtimes directly. Direct runtime calls are allowed only when troubleshooting the build tool itself, verifying runtime/toolchain state independently, or when the build tool is unavailable/broken.
+- **Build Tool First:** For run/build/test/troubleshooting workflows, prefer project build tools and wrappers over calling language runtimes directly. Direct runtime calls are allowed only when troubleshooting the build tool itself, verifying runtime/toolchain state independently, or when the build tool is unavailable/broken. Assume the build tool is installed and available in the system PATH.
 - **Run Command:** Set up projects so the normal execution path is one command with no extra target argument. Prefer wrapper/tool-native run commands (for example `./gradlew run` and `uv run <project>`). When a project has multiple runtime behaviors, choose behavior through environment variables (for example `APP_MODE=primary` or `APP_MODE=secondary`).
 - **Environment:** Load variables from `.env`. Always update `.env.example`. Never hardcode secrets.
 - **Context:** Don't ask to verify info visible in context or confirm provided instructions.
