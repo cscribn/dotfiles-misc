@@ -41,6 +41,9 @@ When creating prompts for external AI chat (ChatGPT, Gemini, etc.):
 - **Content hygiene rules:** State non-negotiable rules upfront (e.g., "No fabrication", "No meta-commentary inside deliverables").
 - **Analysis lives outside deliverables:** Analysis, rationale, and source citations belong in pre-output notes, not embedded in the final deliverable.
 - **Stateless execution:** Instruct the AI to ignore its memory, prior conversations, and previous executions. Use only information supplied in the current prompt.
+- **Deterministic validation:** Validate every non-deterministic AI response using deterministic checks (required sections, forbidden content checks, and rule assertions).
+- **Warning behavior:** If validation detects prompt-instruction drift, emit a clear warning that lists each failed check. Warnings must include concise, concrete examples (expected vs actual, plus a suggested correction). Keep validation warnings outside the generated deliverable so the output format remains intact.
+- **No automatic correction loop:** Validation warnings must not trigger retries, re-prompts, or execution failure by default. Retry or re-prompt only when the user or calling workflow explicitly asks for it.
 
 ## General
 
