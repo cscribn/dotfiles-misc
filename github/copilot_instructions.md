@@ -132,7 +132,7 @@ When creating prompts for external AI chat (ChatGPT, Gemini, etc.):
 - **Context:** Don't ask to verify info visible in context or confirm provided instructions.
 - **Documentation:** Maintain `README.md`. Use real file paths in links.
 - **Requirements:**: Treat `requirements.md` as the authoritative specification but not as implementation details. It must remain complete enough for a developer to recreate the project from scratch (covering scope, features, behavior, criteria, architecture, and configuration). Update it alongside any code change that alters these elements.
-- **Deterministic validation:** Validate every non-deterministic AI response using deterministic checks. If validation detects drift, emit a clear warning that lists each failed check. Warnings must include concise, concrete examples. Keep validation warnings outside the generated deliverable so the output format remains intact.
+- **Deterministic validation:** Validate every non-deterministic AI response using non-AI deterministic checks. If validation detects drift, emit a clear warning that lists each failed check. Warnings must include concise, concrete examples. Keep validation warnings outside the generated deliverable so the output format remains intact.
 
 ## Your Instructions for Gemini
 
