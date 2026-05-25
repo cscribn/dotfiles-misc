@@ -19,8 +19,9 @@
 
 Apply these improvements only when explicitly requested; do not apply them outside the scope of the current task (see Output in General). Use these practices for new code and when refactoring existing code.
 
+- **Function Hygiene:** Keep functions small and cohesive, with low cyclomatic complexity and no more than 4-5 arguments.
 - **Unused Code:** Remove dead imports, unreachable code, unused variables, and unused functions.
-- **DRY (Don't Repeat Yourself):** Extract duplicated logic into shared functions, utilities, or base classes.
+- **DRY (Don't Repeat Yourself):** Avoid copy-pasting. When a pattern appears a third time, extract shared logic into a function, utility, wrapper, or base class.
 - **Concurrency:** Improve threading and parallelization; adopt async/await patterns where applicable for I/O-bound operations.
 - **Testing:** Create tests for significant functionality lacking coverage; prioritize critical paths, edge cases, and error conditions.
 - **API/CLI Resilience:** Add exponential backoff, request batching, and rate limit handling to external calls to reduce timeout and rate limit failures.
@@ -58,6 +59,7 @@ When creating prompts for external AI chat (ChatGPT, Gemini, etc.):
 - **Structure:** Use a `src/` layout (`src/main/java`, `src/test/java`). Separate logic into controllers, services, repositories, and models.
 - **Spring Utilization:** Only use Spring when creating web applications or using databases.
 - **Spring Patterns:** Use Spring Boot auto-configuration, constructor injection, and focused `@RestController` classes. Prefer async handling for I/O bound operations.
+- **Layer Boundaries:** Controllers must be kept thin, not talk to repositories directly, and route all data acces through services.
 - **Database:** Use Spring Data JPA with Hibernate and Flyway or Liquibase migrations. Keep DB logic separate from controllers.
 - **Security:** Never build SQL with string concatenation; use parameter binding, repositories, or prepared statements.
 - **Testing:** Use `JUnit 5` for all tests, with `Mockito` and `Spring Boot Test` where appropriate.
@@ -114,6 +116,8 @@ When creating prompts for external AI chat (ChatGPT, Gemini, etc.):
 - **Dependencies:** Use `uv` for dependency management and virtual environments. Use `uv run`, `uv sync`, `uv lock`, and related `uv` commands instead of calling `python` or `pip` directly.
 - **Run Command:** Configure projects so running the app uses a single command with no trailing file/module arguments (prefer `uv run <project>`).
 - **Import Sorting:** Always include and use `isort` as the project import sorter. Keep `isort` installed in the project environment so IDE extensions use the project version and avoid interpreter errors.
+- **Logging:** Use the environment's standard logging module instead of `print()` for debugging or status output.
+- **Type Hygiene:** Prefer strict type hints over generic `Any`.
 - **Structure:** Use a `src/` layout. Separate logic into models, services, and utilities.
 - **Flask Utilization:** Only use Flask when creating web applications or using databases.
 - **Flask Patterns:** Use the Application Factory pattern and Blueprints. Prefer `async def` for I/O bound routes.
