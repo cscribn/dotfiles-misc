@@ -36,7 +36,7 @@ Apply these improvements only when explicitly requested; do not apply them outsi
 
 When creating prompts for external AI chat (ChatGPT, Gemini, etc.):
 
-- **Source anchoring:** Every claime must map to a source file. Never fabricate or infer facts. Never soft-match or creatively paraphrase.
+- **Source anchoring:** Every claim must map to a source file. Never fabricate or infer facts. Never soft-match or creatively paraphrase.
 - **Step-by-step structure:** Break the task into numbered steps.
 - **Output format rules:** Specify exact deliverable format (HTML code blocks, plain text blocks, etc.), styling, encoding, and any parser-specific constraints.
 - **Content hygiene rules:** State non-negotiable rules upfront (e.g., "No fabrication", "No meta-commentary inside deliverables").
@@ -135,7 +135,7 @@ When creating prompts for external AI chat (ChatGPT, Gemini, etc.):
 - **Environment:** Load variables from `.env`. Always update `.env.example`. Never hardcode secrets.
 - **Context:** Don't ask to verify info visible in context or confirm provided instructions.
 - **Documentation:** Maintain `README.md`. Use real file paths in links.
-- **Requirements:**: Treat `requirements.md` as the authoritative specification but not as implementation details. It must remain complete enough for a developer to recreate the project from scratch (covering scope, features, behavior, criteria, architecture, and configuration). Update it alongside any code change that alters these elements.
+- **Requirements:** Treat `requirements.md` as the authoritative specification but not as implementation details. It must remain complete enough for a developer to recreate the project from scratch (covering scope, features, behavior, criteria, architecture, and configuration). Update it alongside any code change that alters these elements.
 - **Deterministic validation:** Validate every non-deterministic AI response using non-AI deterministic checks. If validation detects drift, emit a clear warning that lists each failed check. Warnings must include concise, concrete examples. Keep validation warnings outside the generated deliverable so the output format remains intact.
 
 ## Your Instructions for Gemini
