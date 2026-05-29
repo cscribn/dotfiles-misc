@@ -10,6 +10,7 @@
 - **Script Name:** Set `SCRIPT_NAME` via `basename`.
 - **Script Directory:** Set `SCRIPT_DIR` via `BASH_SOURCE[0]`.
 - **Functions:** Keep logic in small functions and use `local` variables inside functions.
+- **Compactness:** Prefer concise expressions and short helper functions.
 - **Entry Point:** Keep a single `main()` function at the bottom and invoke it with `main "${@}"`.
 - **Validation:** Validate required positional inputs in `main()` and fail fast with clear error messages.
 - **Quoting:** Quote all variable expansions used in paths, tests, and command arguments.
