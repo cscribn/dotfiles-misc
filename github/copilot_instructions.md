@@ -33,6 +33,25 @@ Apply these improvements only when explicitly requested; do not apply them outsi
 - **Complexity:** Reduce cyclomatic complexity by breaking large functions into smaller, focused units with single responsibilities.
 - **Performance**: Profile to identify bottlenecks; optimize algorithms, data structures, and I/O; use caching strategically.
 
+## Cursor - Authorized Automatically Executable Commands
+
+You may execute the following tool chains automatically when required:
+
+- Bash syntax validation: `bash -n <file>` or `shellcheck`
+- Base directory & version control states: `ls`, `pwd`, `date`, `git status`, `git branch`, `git log`
+- Python Management via uv: `uv pip install`, `uv sync`, `uv lock`, `uv run pytest`, `uv run ruff`, `uv run black`, `uv run mypy`
+- Java Compiles & Testing: `javac`, `mvn clean compile`, `mvn test`, `mvn package`, `gradle build`, `gradle test`, `./gradlew build`, `./gradlew test`
+- PowerShell Inspections: `Get-ChildItem`, `Get-Location`, `Get-Process`, `Get-Service`, `Get-Command`, `Get-Help`
+
+## Cursor - Prohibited Structural Invocations (Requires Explicit User Consent)
+
+You are strictly FORBIDDEN from automatically executing commands that fall under these conditions. You must instead output the string as a text code block in the chat window for the user to evaluate manually:
+
+1. Shell String Execution: Any inline command string parsing (e.g., `bash -c`, `sh -c`, `python -c`).
+2. Broad System Shells: Running bare `bash`, `sh`, `python`, `powershell`, or `pwsh` binaries directly on unvetted script paths.
+3. Destructive Deletion Utilities: Any variations of `rm`, `rmdir`, `Remove-Item`, or `Stop-Process`.
+4. High-Risk Flags: Any shell tasks containing recursive or forced deletion parameters (such as `-rf`, `-f`, or `-Recurse`).
+
 ## External AI Chat
 
 When creating prompts for external AI chat (ChatGPT, Gemini, etc.):
