@@ -127,17 +127,21 @@ When creating prompts for external AI chat (ChatGPT, Gemini, etc.):
 - **Testing:** Use `pytest` for all tests.
 - **CLI Configuration:** Command line programs must not use command line arguments. Load configuration from environment variables only.
 
-## Software Development
+## Software Development - General
 
-- **Git:** Respect `.gitignore`; exclude OS-specific and environment files from suggestions.
+- **Git Ignore:** Create and maintain `.gitignore` proactively by adding OS clutter, editor metadata, build artifacts, secrets, and local environment files as soon as they appear; keep rules minimal, grouped, and reviewed.
 - **Output:** Scope every change to the requested task only, and do not add, edit, or remove unrelated code. Deliver edits in single chunks, avoid whitespace-only suggestions, and include the real code changes rather than only summarizing what would change.
+- **Context:** Don't ask to verify info visible in context or confirm provided instructions.
+- **Actionable Logging**: When generating or refactoring log messages, always pair an error state with a practical, machine-readable, or human-actionable solution. Format log outputs to clearly separate the error context from the resolution steps to assist automated recovery scripts or LLM agents in executing corrective actions.
+- **Documentation:** Maintain `README.md`. Use real file paths in links.
+- **Requirements:** Treat `requirements.md` as the authoritative specification but not as implementation details. It must remain complete enough for a developer to recreate the project from scratch (covering scope, features, behavior, criteria, architecture, and configuration). Update it alongside any code change that alters these elements.
+- **Deterministic validation:** Validate every non-deterministic AI response using non-AI deterministic checks. If validation detects drift, emit a clear warning that includes concise, concrete examples for each failed check. Keep validation warnings outside the generated deliverable so the output format remains intact.
+
+## Software Development - Applications
+
 - **Build Tool First:** For run/build/test/troubleshooting workflows, prefer project build tools and wrappers over calling language runtimes directly. Direct runtime calls are allowed only when troubleshooting the build tool itself, verifying runtime/toolchain state independently, or when the build tool is unavailable/broken. Assume the build tool is installed and available in the system PATH.
 - **Run Command:** Set up projects so the normal execution path is one command with no extra target argument. Prefer wrapper/tool-native run commands (for example `./gradlew run` and `uv run <project>`). When a project has multiple runtime behaviors, choose behavior through environment variables (for example `APP_MODE=primary` or `APP_MODE=secondary`).
 - **Environment:** Load variables from `.env`. Always update `.env.example`. Never hardcode secrets.
-- **Context:** Don't ask to verify info visible in context or confirm provided instructions.
-- **Documentation:** Maintain `README.md`. Use real file paths in links.
-- **Requirements:** Treat `requirements.md` as the authoritative specification but not as implementation details. It must remain complete enough for a developer to recreate the project from scratch (covering scope, features, behavior, criteria, architecture, and configuration). Update it alongside any code change that alters these elements.
-- **Deterministic validation:** Validate every non-deterministic AI response using non-AI deterministic checks. If validation detects drift, emit a clear warning that lists each failed check. Warnings must include concise, concrete examples. Keep validation warnings outside the generated deliverable so the output format remains intact.
 
 ## Your Instructions for Gemini
 
