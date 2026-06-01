@@ -161,6 +161,12 @@ When creating prompts for external AI chat (ChatGPT, Gemini, etc.):
 - **Build Tool First:** For run/build/test/troubleshooting workflows, prefer project build tools and wrappers over calling language runtimes directly. Direct runtime calls are allowed only when troubleshooting the build tool itself, verifying runtime/toolchain state independently, or when the build tool is unavailable/broken. Assume the build tool is installed and available in the system PATH.
 - **Run Command:** Set up projects so the normal execution path is one command with no extra target argument. Prefer wrapper/tool-native run commands (for example `./gradlew run` and `uv run <project>`). When a project has multiple runtime behaviors, choose behavior through environment variables (for example `APP_MODE=primary` or `APP_MODE=secondary`).
 - **Environment:** Load variables from `.env`. Always update `.env.example`. Never hardcode secrets.
+- **Locality and Premature Abstraction Bans:** Do not introduce generic abstractions, custom wrapper classes, or helper utilities unless explicitly requested. Prefer local, inline logic for single-use operations.
+- **Standard Libraries and Existing Code:** Do not invent new architectures, interfaces, or generic design patterns. Prioritize built-in language primitives, standard libraries, and existing concrete patterns found in the workspace.
+- **Concrete Types Over Generics:** Use explicit, concrete data structures and explicit types rather than generic interfaces, polymorphic hooks, or open-ended configurations unless abstraction is strictly required for polymorphic behavior.
+- **Idiomatic Expressions:** Write highly compact, idiomatic code. Use concise syntax expressions such as ternary operators, nullish coalescing, optional chaining, and arrow functions where readability is maintained.
+- **Mandate Early Returns:** Minimize nesting depth. Use early exit clauses, guard functions, and short-circuit evaluation to keep indentation minimal and logic compact.
+- **Instruct on Collection Operations:** Prefer declarative collection pipelines (e.g., map, filter, reduce, list comprehensions) over verbose imperative loop blocks for data transformation.
 
 ## Your Instructions for Gemini
 
