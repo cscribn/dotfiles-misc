@@ -4,33 +4,6 @@
 
 ---
 
-## Prohibited Commands (Cursor)
-
-> Applies to: Cursor agent only
-
-Do NOT auto-execute the following. Output them as a text code block for manual review instead.
-
-- Inline string execution: `bash -c`, `sh -c`, `python -c`
-- Bare runtime invocations on unvetted paths: `bash <path>`, `python <path>`, `powershell <path>`
-- Destructive deletion: `rm`, `rmdir`, `Remove-Item`, `Stop-Process`
-- High-risk flags: `-rf`, `-f`, `-Recurse` on any delete or move command
-- Irreversible version control commands: `git reset --hard`, `git clean -fd`
-- Privilege escalation: `sudo`, `runas`, or any command modifying files outside the project directory
-
----
-
-## Authorized Auto-Executable Commands (Cursor)
-
-> Applies to: Cursor agent only
-
-- Syntax validation: `bash -n <file>`, `shellcheck`
-- Context inspection: `ls`, `pwd`, `date`, `git status`, `git branch`, `git log`
-- Python (uv): `uv pip install`, `uv sync`, `uv lock`, `uv run pytest`, `uv run ruff`, `uv run black`, `uv run mypy`
-- Java: `javac`, `mvn clean compile`, `mvn test`, `mvn package`, `gradle build`, `gradle test`, `./gradlew build`, `./gradlew test`
-- PowerShell inspection only: `Get-ChildItem`, `Get-Location`, `Get-Process`, `Get-Service`, `Get-Command`, `Get-Help`
-
----
-
 ## Conflict & Ambiguity Resolution
 
 - If a user request conflicts with `requirements.md`, flag the conflict explicitly: state what the user asked, what the spec requires, and ask which takes precedence before acting.
