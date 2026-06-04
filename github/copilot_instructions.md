@@ -90,7 +90,8 @@ Do NOT auto-execute the following. Output them as a text code block for manual r
 
 ## Software Development - Applications
 
-- **Build tool first:** Use project build tools and wrappers for run/build/test/troubleshoot workflows. Call language runtimes directly only when troubleshooting the build tool itself or when it is unavailable.
+- **Build tool:** Use project build tools and wrappers for run/build/test workflows. Call language runtimes directly only when troubleshooting.
+- **Runtime availability:** Ensure build tools install the required runtime dependencies and that the project wrapper can locate them.
 - **Run command:** One command, no trailing target arguments. Use env vars for multiple runtime behaviors (e.g., `APP_MODE=primary`).
 - **Environment:** Load config from `.env`. Always update `.env.example`. Never hardcode secrets.
 - **No premature abstraction:** Do not introduce generic wrappers, helper utilities, or design patterns unless explicitly requested. Prefer local inline logic for single-use operations.
@@ -137,7 +138,8 @@ Do NOT auto-execute the following. Output them as a text code block for manual r
 
 ## Python & Flask
 
-- **Dependencies:** Use `uv` for all dependency management and virtual environments. Never call `python` or `pip` directly.
+- **Dependencies:** Use `uv` for all dependency management and virtual environments. Only call `python` or `pip` directly when troubleshooting.
+- **Runtime:** Confirm `uv` can activate or create the virtual environment and that `python`/`pip` are available there.
 - **Run command:** One command, no trailing file/module arguments. Prefer `uv run <project>`.
 - **Import sorting:** Use `isort`. Install it in the project environment.
 - **Logging:** Use the standard `logging` module. Never use `print()` for debug or status output.
@@ -153,7 +155,8 @@ Do NOT auto-execute the following. Output them as a text code block for manual r
 
 ## Java & Spring Boot
 
-- **Build:** Use Gradle Wrapper exclusively (`./gradlew`). Never call `java` or `javac` directly. Full build: `./gradlew build`. Normal run: `./gradlew run`.
+- **Build:** Use Gradle Wrapper exclusively (`./gradlew`). Full build: `./gradlew build`. Normal run: `./gradlew run`. Only call `java` or `javac` directly when troubleshooting.
+- **Runtime:** Confirm `./gradlew` can resolve an installed JDK and `java`/`javac` are reachable.
 - **Provisioning:** Use Java Toolchains in `build.gradle` for JDK provisioning and environment isolation.
 - **Structure:** `src/main/java` and `src/test/java`. Separate controllers, services, repositories, and models.
 - **Spring:** Use only for web applications or database-backed projects. Use Boot auto-configuration, constructor injection, and focused `@RestController` classes. Prefer async handling for I/O-bound operations.
