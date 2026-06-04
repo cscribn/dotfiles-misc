@@ -240,6 +240,23 @@
                 "opacity": 100
             },
             {
+                "colorScheme": "Campbell Orange",
+                "commandline": "ssh -t root@retrocube.local",
+                "cursorShape": "vintage",
+                "experimental.retroTerminalEffect": false,
+                "font":
+                {
+                    "face": "MesloLGS Nerd Font Mono",
+                    "size": 11,
+                    "weight": "normal"
+                },
+                "guid": "{775aced2-da70-4a21-ae40-8fe72a635bb4}",
+                "hidden": false,
+                "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
+                "name": "ssh retrocube",
+                "opacity": 100
+            },
+            {
                 "colorScheme": "One Half Dark",
                 "commandline": "ssh -t root@retrogen.local",
                 "cursorShape": "vintage",
