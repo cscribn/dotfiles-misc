@@ -240,7 +240,7 @@
                 "opacity": 100
             },
             {
-                "colorScheme": "Campbell Orange",
+                "colorScheme": "Campbell Cyan",
                 "commandline": "ssh -t root@retrocube.local",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
