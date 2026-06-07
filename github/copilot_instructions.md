@@ -151,6 +151,15 @@
 
 ---
 
+## GitHub
+
+- **CLI only:** Shell out to `gh` via `GhProcessRunner`; do not add Octokit or direct REST/GraphQL HTTP clients. Child processes inherit `.env` through `EnvBootstrap.mergeDotenvInto`.
+- **REST vs GraphQL:** Use REST `gh api --paginate` for org repository listing and commits (`since`/`until` server-side filters). Use `gh api graphql` for pull requests and nested reviews.
+- **Pagination:** Use `gh api --paginate` without `--jq` for REST endpoints.
+- **Rate limits:** On REST rate limit errors, poll `gh api rate_limit` and wait until `resources.core.reset` (plus a small buffer) before retrying Log remaining core quota at scan start when available. Keep page sizes conservative to avoid complexity limit failures.
+
+---
+
 ## Jira
 
 - **APIs:** Avoid experimental methods unless necessary. If used, send `X-ExperimentalApi` header and expect breaking changes.
