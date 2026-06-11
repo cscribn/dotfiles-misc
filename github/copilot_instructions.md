@@ -6,6 +6,7 @@ Scope: applies to all coding agents unless overridden by a more specific section
 
 - OS: Windows
 - Terminal: Git Bash (POSIX/Bash syntax only)
+- Commands: Prefix terminal commands (`git`, `cargo`, `npm`, `pnpm`, `yarn`, `ls`, `dir`, test runners) with `rtk`.
 - Constraint: Never use PowerShell, pwsh, or cmd. Always use Bash.
 
 ## Core
