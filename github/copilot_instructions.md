@@ -2,6 +2,12 @@
 
 Scope: applies to all coding agents unless overridden by a more specific section.
 
+## Copilot
+
+- OS: Windows
+- Terminal: Git Bash (POSIX/Bash syntax only)
+- Constraint: Never use PowerShell, pwsh, or cmd. Always use Bash.
+
 ## Core
 
 - Be concise. No filler.
@@ -23,9 +29,7 @@ Scope: applies to all coding agents unless overridden by a more specific section
 - Keep README and `requirements.md` in sync with behavior/config changes.
 - Use actionable error messages.
 
-## Language Rules
-
-### Bash
+## Bash
 
 - `#!/bin/bash`
 - `set -o nounset`
@@ -34,7 +38,7 @@ Scope: applies to all coding agents unless overridden by a more specific section
 - Use quoted expansions and `[[ ... ]]`.
 - Use one `main()` entry point: `main "${@}"`.
 
-### PowerShell
+## PowerShell
 
 - `Set-StrictMode -Version Latest`
 - `$ErrorActionPreference = 'Stop'`
@@ -43,7 +47,7 @@ Scope: applies to all coding agents unless overridden by a more specific section
 - Use `$PSScriptRoot`.
 - Prefer `Write-Output` for data.
 
-### Python/Flask
+## Python/Flask
 
 - Use `uv` for env/deps/run.
 - Use `isort` for imports.
@@ -52,7 +56,7 @@ Scope: applies to all coding agents unless overridden by a more specific section
 - Use env vars for config (no CLI args).
 - Flask: app factory + blueprints; DB logic outside routes; SQL parameterization only.
 
-### Java/Spring Boot
+## Java/Spring Boot
 
 - Use `./gradlew` for build/run.
 - Use toolchains and standard src layout.
@@ -60,30 +64,28 @@ Scope: applies to all coding agents unless overridden by a more specific section
 - Use JPA migrations and parameterized DB access.
 - Env vars for config.
 
-## Platform-Specific
-
-### GitHub
+## GitHub
 
 - Use `gh` CLI only (no Octokit/direct HTTP clients).
 - REST listing/commits: `gh api --paginate` (no `--jq`).
 - Use GraphQL only for PRs/reviews.
 - Respect rate limits with wait-until-reset retry.
 
-### Jira
+## Jira
 
 - Use `/rest/api/3/search/jql` for JQL.
 - Use pagination (`startAt`, `maxResults`, `total`).
 - Handle 401/403/rate-limit explicitly.
 - Prefer bulk endpoints.
 
-### JFreeChart
+## JFreeChart
 
 - Use >= 1.5.x.
 - Override `StandardChartTheme`; white backgrounds, light gridlines, no shadows/gradients/outlines.
 - Set `java.awt.headless=true`.
 - PNG via `ChartUtils.saveChartAsPNG`; SVG via `SVGGraphics2D`.
 
-### Local LLM
+## Local LLM
 
 - Runtime: Ollama only.
 - Model: `llama3.2:3b` (pull before run).
