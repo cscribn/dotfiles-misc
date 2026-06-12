@@ -18,7 +18,9 @@ Scope: applies to all coding agents unless overridden by a more specific section
 - No links unless requested.
 - Use only current prompt/context, not memory.
 - Edit only code related to the request unless explicitly asked.
-- If request conflicts with `requirements.md`, stop and ask which wins.
+- Authoritative spec: `requirements.md`. If request conflicts, ask which wins.
+- Supplemental detail in `requirements/*`: skip unless needed for task.
+- Operator guide: `README.md` (build/run/env); do not duplicate in requirements.
 - If ambiguous, state your interpretation first.
 
 ## Quality
@@ -75,7 +77,7 @@ Scope: applies to all coding agents unless overridden by a more specific section
 ## Jira
 
 - Use `/rest/api/3/search/jql` for JQL.
-- Use pagination (`startAt`, `maxResults`, `total`).
+- Use pagination (`nextPageToken`, `isLast`, `maxResults`).
 - Handle 401/403/rate-limit explicitly.
 - Prefer bulk endpoints.
 
