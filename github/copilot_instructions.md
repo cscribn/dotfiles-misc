@@ -4,11 +4,10 @@ Scope: applies to all coding agents unless overridden by a more specific section
 
 ## Copilot
 
-- OS: Windows/Git Bash (POSIX only).
-- Prefix output commands w/ `rtk`: aws, cargo, cat, curl, diff, docker, dotnet, eslint, find, gh, git, go, golangci-lint, grep, gt, jest, kubectl, ls, mypy, next, pip, playwright, pnpm, prisma, psql, pytest, rake, rspec, rtk, rubocop, ruff, tsc, vitest, wc.
-- Chains: prefix each, e.g. `cd src && rtk cargo test`.
+- Prefix output commands w/ `rtk.exe`: aws, cargo, cat, curl, diff, docker, dotnet, eslint, find, gh, git, go, golangci-lint, grep, gt, jest, kubectl, ls, mypy, next, pip, playwright, pnpm, prisma, psql, pytest, rake, rspec, rubocop, ruff, tsc, vitest, wc.
+- Chains: prefix each, e.g. `cd src && rtk.exe cargo test`.
 - Skip: interactive cmds.
-- Fallback: if `rtk <cmd>` fails, retry plain.
+- Fallback: if `rtk.exe <cmd>` fails, retry plain.
 
 ## Core
 
