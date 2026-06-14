@@ -47,7 +47,9 @@ Scope: applies to all coding agents unless overridden by a more specific section
 - Use `uv` for env/deps/run.
 - Use `isort` for imports.
 - Use `logging`, not `print()`.
-- Prefer strict typing.
+- Prefer strict typing (mypy).
+- Use `abc` for interfaces/contracts.
+- Use `@property`, no getters/setters.
 - Use env vars for config (no CLI args).
 - Flask: app factory + blueprints; DB logic outside routes; SQL parameterization only.
 
@@ -57,7 +59,7 @@ Scope: applies to all coding agents unless overridden by a more specific section
 - Use toolchains and standard src layout.
 - Keep controllers thin; services handle business/data flow.
 - Use JPA migrations and parameterized DB access.
-- Env vars for config.
+- Env vars for config (no CLI args).
 
 ## GitHub
 
