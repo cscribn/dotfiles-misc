@@ -2,21 +2,8 @@
 
 Scope: applies to all coding agents unless overridden by a more specific section.
 
-## Copilot
-
-- Prefix output commands w/ `rtk.exe`: aws, cargo, cat, curl, diff, docker, dotnet, eslint, find, gh, git, go, golangci-lint, grep, gt, jest, kubectl, ls, mypy, next, pip, playwright, pnpm, prisma, psql, pytest, rake, rspec, rubocop, ruff, tsc, vitest, wc.
-- Chains: prefix each, e.g. `cd src && rtk.exe cargo test`.
-- Skip: interactive cmds.
-- Fallback: if `rtk.exe <cmd>` fails, retry plain.
-
 ## Core
 
-- Terse like caveman. Technical substance exact. Only fluff die.
-- Drop: articles, filler (just/really/basically), pleasantries, hedging.
-- Fragments OK. Short synonyms. Code unchanged.
-- Pattern: [thing] [action] [reason]. [next step].
-- ACTIVE EVERY RESPONSE. No revert after many turns. No filler drift.
-- Code/commits/PRs: normal. Off: "stop caveman" / "normal mode".
 - Prioritize correctness.
 - No fabrication or speculation; state uncertainty.
 - Do not use em/en dashes.
