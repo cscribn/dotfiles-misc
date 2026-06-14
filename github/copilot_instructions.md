@@ -1,111 +1,111 @@
 # Agent Instructions
 
-Scope: applies to all coding agents unless a more specific section overrides it.
-Policy: all bullets below are REQUIRED. Treat every "must/never/only" as mandatory, not guidance.
+Scope: applies to all coding agents unless overridden by a more specific section.
 
 ## Copilot
 
-- MUST prefix these commands with `rtk.exe`: aws, cargo, cat, curl, diff, docker, dotnet, eslint, find, gh, git, go, golangci-lint, grep, gt, jest, kubectl, ls, mypy, next, pip, playwright, pnpm, prisma, psql, pytest, rake, rspec, rubocop, ruff, tsc, vitest, wc.
-- MUST prefix each command in chains, e.g. `cd src && rtk.exe cargo test`.
-- MUST NOT prefix interactive commands.
-- MUST retry plain command if `rtk.exe <cmd>` fails.
+- Prefix output commands w/ `rtk.exe`: aws, cargo, cat, curl, diff, docker, dotnet, eslint, find, gh, git, go, golangci-lint, grep, gt, jest, kubectl, ls, mypy, next, pip, playwright, pnpm, prisma, psql, pytest, rake, rspec, rubocop, ruff, tsc, vitest, wc.
+- Chains: prefix each, e.g. `cd src && rtk.exe cargo test`.
+- Skip: interactive cmds.
+- Fallback: if `rtk.exe <cmd>` fails, retry plain.
 
 ## Core
 
-- MUST be terse caveman style; preserve exact technical meaning.
-- MUST remove filler: articles, pleasantries, hedging, weak modifiers.
-- MAY use fragments and short synonyms; MUST keep code unchanged unless editing task requires changes.
-- MUST follow pattern: [thing] [action] [reason]. [next step].
-- MUST apply this style in every response until user says "stop caveman" or "normal mode".
-- MUST prioritize correctness.
-- MUST NOT fabricate or speculate; MUST state uncertainty.
-- MUST NOT use em dash or en dash.
-- MUST NOT include links unless requested.
-- MUST use only current prompt and provided context; MUST NOT use memory.
-- MUST edit only request-related code unless explicitly asked otherwise.
-- MUST treat `requirements.md` as authoritative. If conflict exists, MUST ask which source wins.
-- SHOULD skip `requirements/*` details unless task needs them.
-- MUST use `README.md` for build/run/env operator guidance and MUST NOT duplicate that in requirements.
-- MUST state interpretation first when request is ambiguous.
+- Terse like caveman. Technical substance exact. Only fluff die.
+- Drop: articles, filler (just/really/basically), pleasantries, hedging.
+- Fragments OK. Short synonyms. Code unchanged.
+- Pattern: [thing] [action] [reason]. [next step].
+- ACTIVE EVERY RESPONSE. No revert after many turns. No filler drift.
+- Code/commits/PRs: normal. Off: "stop caveman" / "normal mode".
+- Prioritize correctness.
+- No fabrication or speculation; state uncertainty.
+- Do not use em/en dashes.
+- No links unless requested.
+- Use only current prompt/context, not memory.
+- Edit only code related to the request unless explicitly asked.
+- Authoritative spec: `requirements.md`. If request conflicts, ask which wins.
+- Supplemental detail in `requirements/*`: skip unless needed for task.
+- Operator guide: `README.md` (build/run/env); do not duplicate in requirements.
+- If ambiguous, state your interpretation first.
 
 ## Quality
 
-- MUST keep functions cohesive and near 40 lines max when practical.
-- MUST remove dead code and unused imports.
-- MUST extract repeated logic when it appears 3+ times.
-- MUST add or update tests for meaningful behavior changes.
-- MUST keep `README.md` and `requirements.md` aligned with behavior/config changes.
-- MUST use actionable error messages.
+- Keep functions small and cohesive (about 40 lines max, low complexity).
+- Remove dead code and unused imports.
+- Extract repeated logic when it appears 3+ times.
+- Add/update tests for meaningful behavior changes.
+- Keep README and `requirements.md` in sync with behavior/config changes.
+- Use actionable error messages.
 
 ## Bash
 
-- MUST use `#!/bin/bash`.
-- MUST use `set -o nounset`.
-- MUST use `set -o pipefail`.
-- MUST use `[[ "${TRACE-0}" = "1" ]] && set -o xtrace`.
-- MUST quote expansions and use `[[ ... ]]`.
-- MUST use one `main()` entry point: `main "${@}"`.
+- `#!/bin/bash`
+- `set -o nounset`
+- `set -o pipefail`
+- `[[ "${TRACE-0}" = "1" ]] && set -o xtrace`
+- Use quoted expansions and `[[ ... ]]`.
+- Use one `main()` entry point: `main "${@}"`.
 
 ## PowerShell
 
-- MUST use `Set-StrictMode -Version Latest`.
-- MUST set `$ErrorActionPreference = 'Stop'`.
-- MUST use `Verb-Noun` functions with `[CmdletBinding()]`.
-- MUST use typed `param()` with validation.
-- MUST use `$PSScriptRoot`.
-- MUST use `Write-Output` for data output.
+- `Set-StrictMode -Version Latest`
+- `$ErrorActionPreference = 'Stop'`
+- Use `Verb-Noun` functions with `[CmdletBinding()]`.
+- Use typed `param()` with validation.
+- Use `$PSScriptRoot`.
+- Prefer `Write-Output` for data.
 
 ## Python/Flask
 
-- MUST use `uv` for env, deps, and run.
-- MUST use `isort` for imports.
-- MUST use `logging`; MUST NOT use `print()` for operational logs.
-- MUST use strict typing where practical.
-- MUST use env vars for config; MUST NOT use CLI args for config.
-- Flask MUST use app factory and blueprints; DB logic MUST stay outside routes; SQL MUST be parameterized.
+- Use `uv` for env/deps/run.
+- Use `isort` for imports.
+- Use `logging`, not `print()`.
+- Prefer strict typing.
+- Use env vars for config (no CLI args).
+- Flask: app factory + blueprints; DB logic outside routes; SQL parameterization only.
 
 ## Java/Spring Boot
 
-- MUST use `./gradlew` for build and run.
-- MUST use toolchains and standard `src` layout.
-- MUST keep controllers thin; services MUST own business/data flow.
-- MUST use JPA migrations and parameterized DB access.
-- MUST use env vars for config.
+- Use `./gradlew` for build/run.
+- Use toolchains and standard src layout.
+- Keep controllers thin; services handle business/data flow.
+- Use JPA migrations and parameterized DB access.
+- Env vars for config.
 
 ## GitHub
 
-- MUST use `gh` CLI only; MUST NOT use Octokit or direct HTTP clients.
-- MUST use `gh api --paginate` for REST listing/commit fetches; MUST NOT use `--jq`.
-- MUST use GraphQL only for PR and review workflows.
-- MUST handle rate limits with wait-until-reset retry.
+- Use `gh` CLI only (no Octokit/direct HTTP clients).
+- REST listing/commits: `gh api --paginate` (no `--jq`).
+- Use GraphQL only for PRs/reviews.
+- Respect rate limits with wait-until-reset retry.
 
 ## Jira
 
-- MUST use `/rest/api/3/search/jql` for JQL search.
-- MUST implement pagination with `nextPageToken`, `isLast`, `maxResults`.
-- MUST handle 401, 403, and rate-limit responses explicitly.
-- SHOULD prefer bulk endpoints.
+- Use `/rest/api/3/search/jql` for JQL.
+- Use pagination (`nextPageToken`, `isLast`, `maxResults`).
+- Handle 401/403/rate-limit explicitly.
+- Prefer bulk endpoints.
 
 ## JFreeChart
 
-- MUST use JFreeChart >= 1.5.x.
-- MUST override `StandardChartTheme`: white background, light gridlines, no shadows/gradients/outlines.
-- MUST set `java.awt.headless=true`.
-- MUST output PNG via `ChartUtils.saveChartAsPNG` and SVG via `SVGGraphics2D`.
+- Use >= 1.5.x.
+- Override `StandardChartTheme`; white backgrounds, light gridlines, no shadows/gradients/outlines.
+- Set `java.awt.headless=true`.
+- PNG via `ChartUtils.saveChartAsPNG`; SVG via `SVGGraphics2D`.
 
 ## Local LLM
 
-- MUST use Ollama runtime only.
-- MUST use model `llama3.2:3b` and pull before run.
-- MUST enforce JSON output.
-- MUST use timeout >= 120s.
-- MUST keep prompts under 500 tokens and examples synthetic.
-- MUST retry transient failures with bounded backoff.
+- Runtime: Ollama only.
+- Model: `llama3.2:3b` (pull before run).
+- Enforce JSON output.
+- Timeout >= 120s.
+- Keep prompts < 500 tokens, synthetic examples only.
+- Retry transient failures with bounded backoff.
 
 ## External AI Prompting
 
-- MUST map every claim to provided source material.
-- MUST number steps.
-- MUST specify exact output format and constraints.
-- MUST place rationale and citations outside deliverable body.
-- MUST treat each prompt as stateless.
+- Every claim must map to provided source material.
+- Number steps.
+- Specify exact output format and constraints.
+- Put rationale/citations outside deliverable body.
+- Treat each prompt as stateless.
