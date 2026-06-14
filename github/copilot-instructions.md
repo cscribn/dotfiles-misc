@@ -98,3 +98,9 @@ Scope: applies to all coding agents unless overridden by a more specific section
 - Specify exact output format and constraints.
 - Put rationale/citations outside deliverable body.
 - Treat each prompt as stateless.
+
+## Prefer tokensave MCP tools
+
+Before reading source files or scanning the codebase, use the tokensave MCP tools (`tokensave_context`, `tokensave_search`, `tokensave_callers`, `tokensave_callees`, `tokensave_impact`, `tokensave_node`, `tokensave_files`, `tokensave_affected`). They provide instant semantic results from a pre-built knowledge graph and are faster than file reads.
+
+If a code analysis question cannot be fully answered by tokensave MCP tools, try querying the SQLite database directly at `.tokensave/tokensave.db` (tables: `nodes`, `edges`, `files`). Use SQL to answer complex structural queries that go beyond what the built-in tools expose.
