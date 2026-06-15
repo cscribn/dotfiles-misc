@@ -2,29 +2,15 @@
 
 Scope: applies to all coding agents unless overridden by a more specific section.
 
-## Core
+## Applications
 
-- Prioritize correctness.
-- No fabrication or speculation; state uncertainty.
-- Do not use em/en dashes.
-- No links unless requested.
-- Use only current prompt/context, not memory.
-- Edit only code related to the request unless explicitly asked.
-- Authoritative spec: `requirements.md`. If request conflicts, ask which wins.
-- Supplemental detail in `requirements/*`: skip unless needed for task.
-- Operator guide: `README.md` (build/run/env); do not duplicate in requirements.
-- If ambiguous, state your interpretation first.
+- One run command; use env vars for runtime modes.
+- Load config from `.env`; keep `.env.example` synced; never hardcode secrets.
+- No premature abstraction unless requested; prefer inline single-use logic.
+- Prefer explicit types over generic open-ended configs.
+- Proactively maintain `.gitignore` for artifacts, secrets, local env.
 
-## Quality
-
-- Keep functions small and cohesive (about 40 lines max, low complexity).
-- Remove dead code and unused imports.
-- Extract repeated logic when it appears 3+ times.
-- Add/update tests for meaningful behavior changes.
-- Keep README and `requirements.md` in sync with behavior/config changes.
-- Use actionable error messages.
-
-## Bash
+## Bash Shell Scripting
 
 - `#!/bin/bash`
 - `set -o nounset`
@@ -33,27 +19,32 @@ Scope: applies to all coding agents unless overridden by a more specific section
 - Use quoted expansions and `[[ ... ]]`.
 - Use one `main()` entry point: `main "${@}"`.
 
-## PowerShell
+## Core Principles
 
-- `Set-StrictMode -Version Latest`
-- `$ErrorActionPreference = 'Stop'`
-- Use `Verb-Noun` functions with `[CmdletBinding()]`.
-- Use typed `param()` with validation.
-- Use `$PSScriptRoot`.
-- Prefer `Write-Output` for data.
+- If ambiguous, state your interpretation first.
+- Prioritize correctness. No fabrication or speculation; state uncertainty.
+- Do not use em/en dashes.
+- Edit only code related to the request unless explicitly asked.
+- Authoritative spec: `requirements.md`. If request conflicts, ask which wins.
+- Supplemental detail in `requirements/*`: skip unless needed for task.
+- Operator guide: `README.md` (build/run/env); do not duplicate in requirements.
 
-## Python/Flask
+## External AI Prompting
 
-- Use `uv` for env/deps/run.
-- Use `isort` for imports.
-- Use `logging`, not `print()`.
-- Prefer strict typing (mypy).
-- Use `abc` for interfaces/contracts.
-- Use `@property`, no getters/setters.
-- Use env vars for config (no CLI args).
-- Flask: app factory + blueprints; DB logic outside routes; SQL parameterization only.
+- Every claim must map to provided source material.
+- Number steps.
+- Specify exact output format and constraints.
+- Put rationale/citations outside deliverable body.
+- Treat each prompt as stateless.
 
-## Java/Spring Boot
+## GitHub CLI
+
+- Use `gh` CLI only (no Octokit/direct HTTP clients).
+- REST listing/commits: `gh api --paginate` (no `--jq`).
+- Use GraphQL only for PRs/reviews.
+- Respect rate limits with wait-until-reset retry.
+
+## Java & Spring Boot
 
 - Use `./gradlew` for build/run.
 - Use toolchains and standard src layout.
@@ -61,26 +52,19 @@ Scope: applies to all coding agents unless overridden by a more specific section
 - Use JPA migrations and parameterized DB access.
 - Env vars for config (no CLI args).
 
-## GitHub
-
-- Use `gh` CLI only (no Octokit/direct HTTP clients).
-- REST listing/commits: `gh api --paginate` (no `--jq`).
-- Use GraphQL only for PRs/reviews.
-- Respect rate limits with wait-until-reset retry.
-
-## Jira
-
-- Use `/rest/api/3/search/jql` for JQL.
-- Use pagination (`nextPageToken`, `isLast`, `maxResults`).
-- Handle 401/403/rate-limit explicitly.
-- Prefer bulk endpoints.
-
 ## JFreeChart
 
 - Use >= 1.5.x.
 - Override `StandardChartTheme`; white backgrounds, light gridlines, no shadows/gradients/outlines.
 - Set `java.awt.headless=true`.
 - PNG via `ChartUtils.saveChartAsPNG`; SVG via `SVGGraphics2D`.
+
+## Jira API
+
+- Use `/rest/api/3/search/jql` for JQL.
+- Use pagination (`nextPageToken`, `isLast`, `maxResults`).
+- Handle 401/403/rate-limit explicitly.
+- Prefer bulk endpoints.
 
 ## Local LLM
 
@@ -91,10 +75,30 @@ Scope: applies to all coding agents unless overridden by a more specific section
 - Keep prompts < 500 tokens, synthetic examples only.
 - Retry transient failures with bounded backoff.
 
-## External AI Prompting
+## PowerShell Scripting
 
-- Every claim must map to provided source material.
-- Number steps.
-- Specify exact output format and constraints.
-- Put rationale/citations outside deliverable body.
-- Treat each prompt as stateless.
+- `Set-StrictMode -Version Latest`
+- `$ErrorActionPreference = 'Stop'`
+- Use `Verb-Noun` functions with `[CmdletBinding()]`.
+- Use typed `param()` with validation.
+- Use `$PSScriptRoot`.
+- Prefer `Write-Output` for data.
+
+## Python & Flask
+
+- Use `uv` for env/deps/run.
+- Use `isort` for imports.
+- Prefer strict typing (mypy).
+- Use `abc` for interfaces/contracts.
+- Use `@property`, no getters/setters.
+- Use env vars for config (no CLI args).
+- Flask: app factory + blueprints; DB logic outside routes; SQL parameterization only.
+
+## Quality
+
+- Keep functions small and cohesive (about 40 lines max, low complexity).
+- Remove dead code and unused imports.
+- Extract repeated logic when it appears 3+ times.
+- Add/update tests for meaningful behavior changes.
+- Keep README and `requirements.md` in sync with behavior/config changes.
+- Use actionable error messages.
