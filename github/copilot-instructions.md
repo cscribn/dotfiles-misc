@@ -29,14 +29,6 @@ Scope: applies to all coding agents unless overridden by a more specific section
 - Supplemental detail in `requirements/*`: skip unless needed for task.
 - Operator guide: `README.md` (build/run/env); do not duplicate in requirements.
 
-## External AI Prompting
-
-- Every claim must map to provided source material.
-- Number steps.
-- Specify exact output format and constraints.
-- Put rationale/citations outside deliverable body.
-- Treat each prompt as stateless.
-
 ## GitHub CLI
 
 - Use `gh` CLI only (no Octokit/direct HTTP clients).
