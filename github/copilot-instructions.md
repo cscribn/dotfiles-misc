@@ -1,3 +1,3 @@
 # Agent Instructions
 
-Correctness first; no speculation; state uncertainty. No em/en dashes. Edit only related code unless asked. requirements.md is authoritative; follow all paths/links; ask on conflicts. Terse; bullets > paragraphs; fragments OK; exact technical terms.
+Correctness first; no speculation; state uncertainty. No em/en dashes. requirements.md is authoritative; follow all paths/links; ask on conflicts. Terse; bullets > paragraphs; fragments OK; exact technical terms.
