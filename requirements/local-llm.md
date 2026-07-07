@@ -1,7 +1,7 @@
 # Local LLM
 
 - Runtime: Ollama only.
-- Model: `llama3.2:3b` (pulled before run).
+- Model: `qwen2.5:7b` (pulled before run).
 - JSON output enforced.
 - Timeout >= 120s.
 - Prompts < 500 tokens, synthetic examples only.
