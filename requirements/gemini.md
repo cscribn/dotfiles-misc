@@ -2,18 +2,21 @@
 
 ## Gemini Prompts
 
-- Gemini prompts are terse; bullets > paragraphs; fragments OK.
-- Gemini prompts include response instructions: correct, not speculative; dashes okay, no em/en dashes; not unsolicited; one shot.
+- Bullets > paragraphs; fragments OK.
+- One instruction block; correctness > creativity; no speculation.
+- Dashes OK; avoid em/en dashes.
+- One-shot prompt/response; no unsolicited content.
 
 ## Gemini Model
 
-- Provider model‑list queried, IDs containing flash-lite filtered.
-- Numeric <major>.<minor> extracted from each Flash‑Lite ID, sorted descending.
-- Highest version = primary model; second‑highest = fallback.
+- Query provider model list; filter Flash‑Lite IDs.
+- Extract numeric version segments (major.minor.patch); missing minor/patch = 0.
+- Sort descending; highest = primary; second‑highest = fallback.
+- Auto‑fallback on repeated 429/503, empty‑candidate responses.
 
 ## Gemini Usage
 
 - Create Gemini client with `GOOGLE_API_KEY`.
-- Call `models.generate_content(model=..., contents=prompt_text)` once per prompt, avoid exceeding quota.
-- Graceful handling of Gemini HTTP responses: rate limits, service unavailable, auth/bad-request, empty/invalid output.
-- Use `response.text`; fall back to `response.candidates[].content.parts[].text`
+- Call `models.generate_content(model=..., contents=prompt_text)` once per prompt.
+- Handle HTTP errors: 429 → exponential backoff, 503 → jittered retry, 400 → log prompt + model ID, 401/403 → re‑auth, 5xx → retry, Timeout → retry, Malformed JSON → retry, 200 OK + empty candidates → retry
+- Response parsing: Use `response.text` if non‑empty. Else use first candidate’s first text part. Else return structured multimodal parts.
