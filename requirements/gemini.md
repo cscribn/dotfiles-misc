@@ -7,13 +7,6 @@
 - Dashes OK; avoid em/en dashes.
 - One-shot prompt/response; no unsolicited content.
 
-## Gemini Model
-
-- Query provider model list; filter Flash‑Lite IDs.
-- Extract numeric version segments (major.minor.patch); missing minor/patch = 0.
-- Sort descending; highest = primary; second‑highest = fallback.
-- Auto‑fallback on repeated 429/503, empty‑candidate responses.
-
 ## Gemini Usage
 
 - Create Gemini client with `GOOGLE_API_KEY`.
