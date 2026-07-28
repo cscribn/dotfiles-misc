@@ -240,6 +240,23 @@
                 "opacity": 100
             },
             {
+                "colorScheme": "Campbell Cyan",
+                "commandline": "ssh -t root@retroden.local",
+                "cursorShape": "vintage",
+                "experimental.retroTerminalEffect": false,
+                "font":
+                {
+                    "face": "MesloLGS Nerd Font Mono",
+                    "size": 11,
+                    "weight": "normal"
+                },
+                "guid": "{5a7535e0-80c4-43bd-8a83-a9669cc93371}",
+                "hidden": false,
+                "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
+                "name": "ssh retroden",
+                "opacity": 100
+            },
+            {
                 "colorScheme": "Campbell Green",
                 "commandline": "ssh -t root@retropad.local",
                 "cursorShape": "vintage",
