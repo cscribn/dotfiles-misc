@@ -22,7 +22,7 @@
 - Use as primary read layer for multi-product context, cross-entity relationships, AI-agent context retrieval.
 - `twg` CLI (`twg-cli`) used.
 - `twg` context & graph queries: scope requests to specific workspaces/projects to reduce response size, token usage.
-- Auth pre-check: `twg status` for headless/automated runs (`twg login` / `twg setup` for interactive setup only).
+- Auth pre-check: `twg env auth --no-snapshot` for headless/automated runs (`twg login` / `twg setup` for interactive setup only).
 - Command execution: explicit `--project` or `--repo` filtering to avoid cross-workspace schema pollution.
 - Rate limits & credits: handle Rovo credit/query limits gracefully; retry transient connection errors with exponential backoff.
 - Fall back to Jira API or `bb` CLI when: `twg` returns empty nodes, unlinked relationships, incomplete context; raw/uncompressed JSON OR Git diffs/files required; running high-frequency bulk extraction jobs.
