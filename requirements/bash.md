@@ -9,3 +9,4 @@
 - Constants use `CONSTANT_CASE`; variables use `snake_case`.
 - Quoted expansions and `[[ ... ]]` are used.
 - One `main()` entry point: `main "${@}"`.
+- Function definitions grouped by behavior, organized for reader.
