@@ -8,6 +8,12 @@
 - Rate limits/transient gateway errors: exponential backoff; parse `Retry-After` from `bb` output when present; minimum 30s on first 429 without `Retry-After`.
 - Auth pre-check: `bb --version`, `bb auth status`.
 
+## Confluence API
+
+- Use as a fallback read layer when twg returns incomplete page metadata.
+- Auth via `JIRA_EMAIL` + `JIRA_API_TOKEN` env vars; `JIRA_BASE_URL` for site host
+- 401/403/rate-limit handled explicitly.
+
 ## Jira API
 
 - Use for direct write operations; as a fallback read layer when precise JQL filtering, pagination control, or raw issue schemas are required.
@@ -25,4 +31,4 @@
 - Auth pre-check: `twg env auth --no-snapshot` for headless/automated runs (`twg login` / `twg setup` for interactive setup only).
 - Command execution: explicit `--project` or `--repo` filtering to avoid cross-workspace schema pollution.
 - Rate limits & credits: handle Rovo credit/query limits gracefully; retry transient connection errors with exponential backoff.
-- Fall back to Jira API or `bb` CLI when: `twg` returns empty nodes, unlinked relationships, incomplete context; raw/uncompressed JSON OR Git diffs/files required; running high-frequency bulk extraction jobs.
+- Fall back to Jira API, Confluence REST API, or `bb` CLI when: `twg` returns empty nodes, unlinked relationships, incomplete context; raw/uncompressed JSON OR Git diffs/files required; running high-frequency bulk extraction jobs.
