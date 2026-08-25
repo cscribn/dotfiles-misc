@@ -1,6 +1,6 @@
 # Python
 
-- `uv` used for env/deps/run.
+- `uv` used for env/deps/run; configured to use system default Python.
 - Toolchains; src/ layout used.
 - Unless overridden by master requirements, Python logs to ./logs/<project_name>.log; overwritten on each run; no log output sent to stdout/stderr.
 - Root source folder in snake_case containing __init__.py.
