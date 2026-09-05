@@ -1,0 +1,2 @@
+alias ls='lsd --group-directories-first'
+eval "$(oh-my-posh init bash --config ~/.config/oh-my-posh/themes/powerlevel10k_amped_lean.omp.json)"
