@@ -206,6 +206,23 @@
                 "startingDirectory": "%USERPROFILE%"
             },
             {
+                "colorScheme": "Campbell Bright",
+                "commandline": "ssh -t chadb@flanders.local \"exec zsh\"",
+                "cursorShape": "vintage",
+                "experimental.retroTerminalEffect": false,
+                "font":
+                {
+                    "face": "MesloLGS Nerd Font Mono",
+                    "size": 11,
+                    "weight": "normal"
+                },
+                "guid": "{be49091c-168b-48f7-93dd-0c47bc3a4cbd}",
+                "hidden": true,
+                "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
+                "name": "ssh flanders",
+                "opacity": 100
+            },
+            {
                 "colorScheme": "Campbell Yellow",
                 "commandline": "ssh -t root@retrobar.local",
                 "cursorShape": "vintage",
