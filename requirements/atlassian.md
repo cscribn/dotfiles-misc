@@ -10,7 +10,7 @@
 
 ## Confluence API
 
-- Use as a fallback read layer when twg returns incomplete page metadata.
+- Use for direct write operations; as a fallback read layer when twg returns incomplete page metadata.
 - Auth via `JIRA_EMAIL` + `JIRA_API_TOKEN` env vars; `JIRA_BASE_URL` for site host
 - 401/403/rate-limit handled explicitly.
 
