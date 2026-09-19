@@ -32,12 +32,7 @@
     {
         "defaults":
         {
-            "colorScheme": "Campbell Bright",
-            "font":
-            {
-                "face": "MesloLGL Nerd Font Mono",
-                "size": 11
-            }
+            "colorScheme": "Campbell Bright"
         },
         "list":
         [
@@ -55,12 +50,6 @@
                 "commandline": "cmd /k \"C:\\Program Files (x86)\\clink\\clink\" inject",
                 "cursorShape": "vintage",
                 "elevate": false,
-                "font":
-                {
-                    "face": "MesloLGS Nerd Font Mono",
-                    "size": 11,
-                    "weight": "normal"
-                },
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "historySize": 9001,
@@ -79,12 +68,6 @@
                 "commandline": "cmd /k \"C:\\Program Files (x86)\\clink\\clink\" inject",
                 "cursorShape": "vintage",
                 "elevate": true,
-                "font":
-                {
-                    "face": "MesloLGS Nerd Font Mono",
-                    "size": 11,
-                    "weight": "normal"
-                },
                 "guid": "{d542dad6-a8e6-4aba-ab2b-ce6d3c740f97}",
                 "hidden": false,
                 "historySize": 9001,
@@ -99,10 +82,6 @@
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
                 "cursorShape": "vintage",
                 "elevate": false,
-                "font":
-                {
-                    "weight": "semi-bold"
-                },
                 "guid": "{a75361ca-7801-4514-9b53-9e72b05340d2}",
                 "hidden": false,
                 "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
@@ -116,12 +95,6 @@
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
                 "cursorShape": "vintage",
                 "elevate": true,
-                "font":
-                {
-                    "face": "Cascadia Mono",
-                    "size": 12,
-                    "weight": "normal"
-                },
                 "guid": "{b092daf8-8484-43bc-86f5-a1bfcb227028}",
                 "hidden": false,
                 "historySize": 9001,
@@ -137,12 +110,6 @@
                 "commandline": "\"C:\\Program Files\\Git\\bin\\bash.exe\"",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
-                "font":
-                {
-                    "face": "MesloLGS Nerd Font Mono",
-                    "size": 11,
-                    "weight": "normal"
-                },
                 "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
                 "hidden": false,
                 "icon": "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
@@ -155,12 +122,6 @@
                 "commandline": "\"C:\\Program Files\\Git\\bin\\bash.exe\" -c \"export TERM=cygwin;exec zsh\"",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
-                "font":
-                {
-                    "face": "MesloLGS Nerd Font Mono",
-                    "size": 11,
-                    "weight": "normal"
-                },
                 "guid": "{e840c296-5ef4-460d-8068-b379ba67c056}",
                 "hidden": false,
                 "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\zsh.ico",
@@ -173,12 +134,6 @@
                 "commandline": "\"C:\\Program Files\\PowerShell\\7\\pwsh.exe\"",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
-                "font":
-                {
-                    "face": "MesloLGS Nerd Font Mono",
-                    "size": 11,
-                    "weight": "normal"
-                },
                 "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
                 "hidden": false,
                 "name": "PowerShell",
@@ -192,12 +147,6 @@
                 "cursorShape": "vintage",
                 "elevate": true,
                 "experimental.retroTerminalEffect": false,
-                "font":
-                {
-                    "face": "MesloLGS Nerd Font Mono",
-                    "size": 11,
-                    "weight": "normal"
-                },
                 "guid": "{c6062e85-1db0-4e77-9344-23b03e2f6b36}",
                 "hidden": false,
                 "icon": "ms-appx:///ProfileIcons/pwsh.png",
@@ -210,12 +159,6 @@
                 "commandline": "ssh -t chadb@flanders.local \"exec zsh\"",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
-                "font":
-                {
-                    "face": "MesloLGS Nerd Font Mono",
-                    "size": 11,
-                    "weight": "normal"
-                },
                 "guid": "{be49091c-168b-48f7-93dd-0c47bc3a4cbd}",
                 "hidden": false,
                 "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
@@ -227,12 +170,6 @@
                 "commandline": "ssh -t root@retrobar.local",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
-                "font":
-                {
-                    "face": "MesloLGS Nerd Font Mono",
-                    "size": 11,
-                    "weight": "normal"
-                },
                 "guid": "{3d05a199-ad95-4f0c-b59f-e33f91b603a0}",
                 "hidden": false,
                 "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
@@ -244,12 +181,6 @@
                 "commandline": "ssh -t root@retrobed.local",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
-                "font":
-                {
-                    "face": "MesloLGS Nerd Font Mono",
-                    "size": 11,
-                    "weight": "normal"
-                },
                 "guid": "{5a7c25ef-ce14-4695-92a9-6b30fad564a7}",
                 "hidden": false,
                 "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
@@ -261,12 +192,6 @@
                 "commandline": "ssh -t root@retroden.local",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
-                "font":
-                {
-                    "face": "MesloLGS Nerd Font Mono",
-                    "size": 11,
-                    "weight": "normal"
-                },
                 "guid": "{5a7535e0-80c4-43bd-8a83-a9669cc93371}",
                 "hidden": false,
                 "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
@@ -278,12 +203,6 @@
                 "commandline": "ssh -t root@retropad.local",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
-                "font":
-                {
-                    "face": "MesloLGS Nerd Font Mono",
-                    "size": 11,
-                    "weight": "normal"
-                },
                 "guid": "{9a6c414b-b6b7-4f62-90b8-3f42301f19ec}",
                 "hidden": false,
                 "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
@@ -295,12 +214,6 @@
                 "commandline": "ssh cscribn@cscribn.cloud.seedboxes.cc -p 3232",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
-                "font":
-                {
-                    "face": "MesloLGS Nerd Font Mono",
-                    "size": 11,
-                    "weight": "normal"
-                },
                 "guid": "{d053f506-56f6-4052-958d-7b2ee694703a}",
                 "hidden": false,
                 "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
@@ -312,12 +225,6 @@
                 "commandline": "ssh -t pi@scribcast1.local \"zsh -l\"",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
-                "font":
-                {
-                    "face": "MesloLGS Nerd Font Mono",
-                    "size": 11,
-                    "weight": "normal"
-                },
                 "guid": "{6f9168d1-4463-435f-8e05-5f04d91eccc0}",
                 "hidden": false,
                 "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
@@ -329,12 +236,6 @@
                 "commandline": "ssh -t pi@scribcast2.local \"zsh -l\"",
                 "cursorShape": "vintage",
                 "experimental.retroTerminalEffect": false,
-                "font":
-                {
-                    "face": "MesloLGS Nerd Font Mono",
-                    "size": 11,
-                    "weight": "normal"
-                },
                 "guid": "{5c5d489e-e27c-4244-8e99-d242ce3d69ac}",
                 "hidden": false,
                 "icon": "%USERPROFILE%\\.config\\microsoft-windows-terminal\\ProfileIcons\\ssh.ico",
