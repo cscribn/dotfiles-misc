@@ -1,4 +1,4 @@
 icons:
   when: auto
-  theme: unicode
+  theme: fancy
   separator: " "
