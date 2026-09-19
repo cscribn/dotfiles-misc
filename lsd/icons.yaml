@@ -1,0 +1,127 @@
+# ~/.config/lsd/icons.yaml
+# Emoji & Unicode/ASCII override for lsd
+
+# Filetype overrides
+filetype:
+  dir: 📁
+  file: 📄
+  pipe: 🔀
+  socket: 🔌
+  executable: ⚙️
+  symlink-dir: 📂
+  symlink-file: 🔗
+  device-char: 💻
+  device-block: 💽
+  special: ❄️
+
+# Exact file / directory name overrides
+name:
+  .trash: 🗑️
+  .cargo: 📦
+  .emacs.d: 📝
+  .git: 🌿
+  .github: 🐙
+  .vscode: 💙
+  node_modules: 📦
+  docker-compose.yml: 🐳
+  docker-compose.yaml: 🐳
+  Dockerfile: 🐳
+  Makefile: 🛠️
+  Cargo.toml: 📦
+  Cargo.lock: 🔒
+  package.json: 📦
+  package-lock.json: 🔒
+  LICENSE: 📜
+  README: 📖
+  README.md: 📖
+  CHANGELOG.md: 📜
+  a.out: ⚡
+
+# File extension overrides
+extension:
+  # Programming & Languages
+  rs: 🦀
+  go: 🐹
+  py: 🐍
+  js: 🟨
+  ts: 🔷
+  jsx: ⚛️
+  tsx: ⚛️
+  html: 🌐
+  css: 🎨
+  scss: 🎨
+  sass: 🎨
+  php: 🐘
+  rb: 💎
+  java: ☕
+  c: 🔤
+  cpp: 🔤
+  h: 🩺
+  cs: 🟦
+  swift: 🟧
+  kt: 🟪
+  sh: 🐚
+  bash: 🐚
+  zsh: 🐚
+  fish: 🐟
+  lua: 🌙
+  sql: 🗄️
+  r: 📊
+  dart: 🎯
+  elixir: 💧
+  ex: 💧
+  exs: 💧
+  erl: 🔴
+  hs: 𝜆
+  clj: 🟢
+  scala: 🔴
+
+  # Config, Data & Docs
+  json: 📋
+  yaml: ⚙️
+  yml: ⚙️
+  toml: ⚙️
+  xml: 🏷️
+  csv: 📊
+  md: 📝
+  pdf: 📕
+  txt: 📄
+  log: 🪵
+  env: 🔑
+  lock: 🔒
+  ini: ⚙️
+  conf: ⚙️
+
+  # Media
+  png: 🖼️
+  jpg: 🖼️
+  jpeg: 🖼️
+  gif: 🎞️
+  svg: 🎨
+  webp: 🖼️
+  ico: 🖼️
+  mp3: 🎵
+  wav: 🎵
+  flac: 🎵
+  ogg: 🎵
+  mp4: 🎬
+  mkv: 🎬
+  avi: 🎬
+  mov: 🎬
+  webm: 🎬
+
+  # Archives
+  zip: 📦
+  tar: 📦
+  gz: 📦
+  bz2: 📦
+  7z: 📦
+  rar: 📦
+
+  # Binaries & Executables
+  exe: ⚙️
+  app: 📱
+  dmg: 💿
+  iso: 💿
+  deb: 📦
+  rpm: 📦
