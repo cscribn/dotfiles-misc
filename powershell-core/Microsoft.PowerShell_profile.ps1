@@ -17,7 +17,7 @@ oh-my-posh init pwsh --config ~${Sep}.config${Sep}oh-my-posh${Sep}themes${Sep}po
 
 If (-Not $IsLinux) {
   If (-Not (Get-Module -Name posh-git)) { Import-Module posh-git }
-  If (-Not (Get-Module -Name Terminal-Icons)) { Import-Module Terminal-Icons }
+  If (-Not (Get-Module -Name Terminal-Icons)) { Import-Module Terminal-Icons; . "$PSScriptRoot\Terminal-Icons.Emoji.ps1" }
 }
 
 If (-Not (Get-Module -Name PSReadLine)) {
