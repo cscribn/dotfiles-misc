@@ -17,9 +17,6 @@ export HEX_CACERTS_PATH=$NETSKOPE_CERTIFICATE_BUNDLE
 if [[ "${BASH_VERSINFO:-0}" -ge 4 ]]; then
     alias ls='lsd --group-directories-first'
     eval "$(oh-my-posh init bash --config ~/.config/oh-my-posh/themes/powerlevel10k_amped_lean.omp.json)"
-    eval "$(fzf --bash)"
-    bind '"\e[A": history-search-backward'
-    bind '"\e[B": history-search-forward'
 else
     export BASH_SILENCE_DEPRECATION_WARNING=1
     export VIRTUAL_ENV_DISABLE_PROMPT=1

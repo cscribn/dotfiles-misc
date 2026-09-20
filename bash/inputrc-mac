@@ -1,0 +1,6 @@
+if [[ "${BASH_VERSINFO:-0}" -ge 4 ]]; then
+    "\e[A": history-search-backward
+    "\e[B": history-search-forward
+    "\eOA": history-search-backward
+    "\eOB": history-search-forward
+fi
