@@ -23,4 +23,6 @@ If (-Not $IsLinux) {
 If (-Not (Get-Module -Name PSReadLine)) {
   Import-Module PSReadLine
   Set-PSReadLineOption -EditMode Windows -PredictionSource History
+  Set-PSReadLineKeyHandler -Key UpArrow -Function HistorySearchBackward
+  Set-PSReadLineKeyHandler -Key DownArrow -Function HistorySearchForward
 }
