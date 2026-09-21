@@ -1,3 +1,5 @@
 export LANG=en_US.UTF-8
+export LEADING_SYMBOL="{"
+export TRAILING_SYMBOL="}"
 alias ls='lsd --group-directories-first --permission rwx'
-eval "$(oh-my-posh init bash --config ~/.config/oh-my-posh/themes/powerlevel10k_amped_lean.omp.json)" >/dev/null 2>&1
+eval "$(oh-my-posh init bash --config ~/.config/oh-my-posh/themes/powerlevel10k_amped_rainbow.omp.json)" >/dev/null 2>&1
