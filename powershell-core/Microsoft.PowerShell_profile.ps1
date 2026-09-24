@@ -16,13 +16,11 @@ $Env:TRAILING_SYMBOL = ')'
 oh-my-posh init pwsh --config ~${Sep}.config${Sep}oh-my-posh${Sep}themes${Sep}powerlevel10k_amped_rainbow.omp.json | Invoke-Expression
 
 If (-Not $IsLinux) {
-  If (-Not (Get-Module -Name posh-git)) { Import-Module posh-git }
-  If (-Not (Get-Module -Name Terminal-Icons)) { Import-Module Terminal-Icons; . "$PSScriptRoot\Terminal-Icons.Emoji.ps1" }
+  Import-Module posh-git
+  Import-Module Terminal-Icons; . "$PSScriptRoot\Terminal-Icons.Emoji.ps1"
 }
 
-If (-Not (Get-Module -Name PSReadLine)) {
-  Import-Module PSReadLine
-  Set-PSReadLineOption -EditMode Windows -PredictionSource History
-  Set-PSReadLineKeyHandler -Key UpArrow -Function HistorySearchBackward
-  Set-PSReadLineKeyHandler -Key DownArrow -Function HistorySearchForward
-}
+Import-Module PSReadLine
+Set-PSReadLineOption -EditMode Windows -PredictionSource History
+Set-PSReadLineKeyHandler -Key UpArrow -Function HistorySearchBackward
+Set-PSReadLineKeyHandler -Key DownArrow -Function HistorySearchForward
