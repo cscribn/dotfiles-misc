@@ -1,6 +1,6 @@
 ---
 name: code-reconcile
-description: Strips dead code, slop, and defensive bloat while keeping requirements.md completely aligned with codebase behavior.
+description: Use strictly when explicitly requested to strip dead code, slop, and defensive bloat while keeping requirements.md completely aligned with codebase behavior.
 ---
 
 # Code Reconcile
@@ -8,6 +8,7 @@ description: Strips dead code, slop, and defensive bloat while keeping requireme
 Purge bloat and artifacts while ensuring code and requirements.md stay perfectly synchronized.
 
 ## Rules
+* **Explicit Trigger Only:** Run only when directly invoked by name or explicit command.
 * **Zero Behavior Changes:** Retain existing interfaces, outputs, and feature logic.
 * **Delete, Don't Abstract:** Remove bloat without introducing new patterns or abstractions.
 * **Sync Requirements:** Audit implemented feature logic against `requirements.md`. Add any implicit or missing requirements found in code, and remove references to purged features.
