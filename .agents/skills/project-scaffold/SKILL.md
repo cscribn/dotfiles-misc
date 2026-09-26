@@ -8,6 +8,8 @@ description: Use strictly when explicitly requested to a generate project by rec
 Recursively resolve requirements docs and scaffold a complete, synchronized codebase.
 
 ## Rules
+* **Explicit Trigger Only:** Run only when directly invoked by name or explicit command.
+* **Requirement File Check:** Verify `requirements.md` exists in the workspace. If missing, halt execution and prompt the user.
 * **Recursive Resolution:** Parse `requirements.md` and recursively read every relative Markdown link referenced inside it before writing code.
 * **Full Coverage:** Implement every feature, route, schema, and interface specified across all discovered requirements files.
 * **Clean Architecture:** Generate standard folder structures, entry points, configuration files, and core logic without introducing speculative features.
