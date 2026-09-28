@@ -11,5 +11,6 @@
 
 - Client created with `GOOGLE_API_KEY`.
 - `models.generate_content(model=..., contents=prompt_text)` called once per prompt.
+- `GenerateContentConfig` includes `tools=[{"google_search": {}}]` so Gemini can query live Google Search.
 - HTTP errors handled: 429 → exponential backoff, 503 → jittered retry, 400 → log prompt + model ID, 401/403 → re‑auth, 5xx → retry, Timeout → retry, Malformed JSON → retry, 200 OK + empty candidates → retry
 - Response parsing: `response.text` used if non‑empty. Else first candidate’s first text part used. Else structured multimodal parts returned.
