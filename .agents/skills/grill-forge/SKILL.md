@@ -18,4 +18,5 @@ Inquire ruthlessly to eliminate assumptions. Build a design tree and auto-docume
 4. **Doc Generation**:
    - **ADR**: Log agreed key decisions immediately to an `ADR.md` (or equivalent).
    - **Glossary**: Log new domain terms/concepts to a `GLOSSARY.md`.
+   - **Requirements**: Add/update requirements in `requirements.md`.
 5. **Completion**: Stop when the frontier is empty and the user approves the shared design understanding.
