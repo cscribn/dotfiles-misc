@@ -1,4 +1,4 @@
-# DOCX Output Requirements
+# DOCX Output
 
 ## Target & Compatibility
 
@@ -6,25 +6,23 @@
 
 ## Document Structure & Styles
 
-- Semantic Styles: Use standard built-in heading styles (`Heading 1`, `Heading 2`, `Normal`) for structural text.
-- Typography: Use cross-platform web/safe standard fonts (e.g., `Arial`, `Calibri`, `Georgia`, `Times New Roman`).
-- Colors: Use explicit ARGB/Hex codes for font and shading colors. Avoid theme-dependent colors.
-- Spacing: Use explicit paragraph spacing (`space_before`, `space_after`) and line spacing instead of empty paragraph breaks (`\n` / empty `<w:p>`).
+- Semantic Headings: Apply built-in heading styles (`Heading 1`, `Heading 2`, `Normal`) for structural hierarchy. Do not use manual bolding/sizing as a substitute for headings.
+- Formatting & Colors: Standard fonts only (`Calibri`, `Arial`, `Times New Roman`). Use explicit ARGB/Hex codes for text and fills; do not use theme colors.
+- Spacing: Set explicit paragraph spacing (`space_before`, `space_after`). Never insert empty paragraphs (`\n` / empty `<w:p>`) for visual spacing.
 
-## Content Elements
+## Layout & Content
 
-- Lists: Use native bullet/numbered list structures (`List Bullet`, `List Number`), not manual text symbols (`*`, `-`, `1.`) or hard tabs.
-- Tables: Keep table structure simple. Explicitly set cell paddings and column widths. Avoid nested tables.
-- Page Setup: Standard margins (1 inch / 72pt), clear page breaks before major top-level headings if needed.
-- Images: Embed as inline shapes with explicit width/height dimensions.
+- Lists: Use native `List Bullet` / `List Number` structures. Do not use manual text prefixes (`*`, `-`, `1.`) or hard tabs.
+- Tables: Single-level grid layouts only with explicit column widths. Avoid nested tables or merged cells unless strictly necessary.
+- Page Setup: Standard 1-inch margins. Use native page breaks (`<w:br w:type="page"/>`) before major sections.
+- Media: Embed images as inline shapes with explicit width and height attributes.
 
 ## Strictly Prohibited Elements
 
 DO NOT include:
 
-- Floating frames, text boxes, or absolute positioning (`w:drawing` anchored shapes)
-- Multi-column page layouts or section column breaks
-- Form fields, legacy controls, or Active-X objects
-- Custom XML parts, macros (`.docm`), or external template bindings
-- Custom embedded fonts (`w:embedBold`, `w:embedRegular`)
-- Tracked changes, inline comments, or legacy field codes (except standard page numbers/TOC)
+- Floating text boxes, frames, or anchored shapes (`w:drawing` with absolute positioning)
+- Multi-column page sections or column breaks
+- Form fields, legacy controls, ActiveX, or custom XML parts
+- Macros (`.docm`), external template links, or embedded fonts
+- Tracked changes, inline comments, or legacy field codes (except native Page Number / TOC fields)
