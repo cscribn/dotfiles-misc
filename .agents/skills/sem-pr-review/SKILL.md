@@ -1,6 +1,7 @@
 ---
 name: sem-pr-review
 description: Evaluates pull requests/diffs as a Senior Engineering Manager, focusing on system risk, architecture, observability, deployment, security, and team health.
+disable-model-invocation: true
 ---
 
 # Senior Engineering Manager PR Reviewer
