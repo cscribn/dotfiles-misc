@@ -1,25 +1,24 @@
 ---
 name: sync-requirements
-description: Use when requested to propagate uncommitted changes in master or linked requirement documents across code, tests, and docs, prioritizing human code readability.
+description: Use when requested to propagate uncommitted or recently committed changes in master or linked requirement documents across code, tests, and docs, prioritizing human code readability.
 ---
 
 # Sync Requirements
 
-Propagate uncommitted specification changes from `requirements.md` and any linked requirement documents across core code, test suites, and documentation, prioritizing human code readability over cleverness or abstraction.
+Propagate uncommitted or recently committed spec changes from `requirements.md` and linked spec files across code, tests, and docs, prioritizing readability.
 
 ## Rules
-* **Explicit Trigger Only:** Run only when directly invoked by name or explicit command.
-* **Master & Linked Spec Traversal:** Audit `requirements.md` alongside any linked specification files for uncommitted git changes.
-* **Diff First:** Execute `git diff -- requirements.md` and linked requirement files to extract all modified, added, or removed requirements before editing downstream files.
-* **Plan Before Editing:** Map all affected core logic, test cases, and documentation files before applying changes.
-* **Sync All Domains (Readability First):**
-  - **Logic:** Simplify code. Avoid deep nesting, complex inheritance, and heavy abstractions. Favor clear, sequential, language-idiomatic structures with explicit naming and short explanatory comments.
-  - **Tests & Docs:** Update existing tests/add coverage to reflect behavior changes instead of deleting or suppressing them. Keep tests simple so they act as readable usage examples. Keep docs aligned.
-* **Verification:** Run affected tests after edits. Confirm code passes and is demonstrably easier to read before finalizing.
+* **Explicit Trigger Only:** Run only when invoked by name or explicit command.
+* **Audit Spec:** Check `requirements.md` and linked spec files for uncommitted (`git diff HEAD`) and recent commit (`git log -p`, `git diff HEAD~1`) changes.
+* **Diff & Plan:** Extract modified/added/removed requirements before editing. List all affected code, test, and doc files first.
+* **Sync Domains:**
+  * **Logic:** Simplify code. Avoid deep nesting, complex inheritance, and heavy abstractions. Use clear naming and brief inline comments.
+  * **Tests & Docs:** Update tests to reflect new behavior; never suppress/delete failing tests. Keep docs aligned.
+* **Verify:** Run affected tests. Confirm code passes and readability is improved.
 
 ## Focus Areas
-* **Specification Drift:** Discrepancies between updated requirements (in master or linked spec documents) and existing codebase behavior.
-* **Broken Links & Cross-Refs:** Outdated paths or invalid references between `requirements.md` and any child requirement documents.
-* **Test Alignment:** Stale tests asserting outdated constraints or missing assertions for newly introduced features.
-* **Doc Staleness:** Outdated documentation reflecting retired requirements.
-* **Code Clarity:** Unnecessary design patterns or clever one-liners that reduce readability.
+* **Spec Drift:** Discrepancies between requirements and codebase.
+* **Broken Cross-Refs:** Invalid paths/references in requirement docs.
+* **Test Alignment:** Stale or missing test assertions for new spec constraints.
+* **Doc Staleness:** Outdated docs referencing retired requirements.
+* **Code Clarity:** Superfluous patterns or clever code impacting readability.
