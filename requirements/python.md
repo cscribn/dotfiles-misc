@@ -1,8 +1,8 @@
 # Python
 
-- Environment: uv using system PATH Python (python-version files forbidden); open-ended lower bounds in requires-python.
-- Logging: Overwrite to ./logs/<project_name>.log per run; suppress stdout/stderr.
-- Structure: src/ layout with snake_case root module (__init__.py). Expose CLI command via [project.scripts] in pyproject.toml pointing to entry function accepting optional sequence args (sys.argv compatible).
-- Quality & Types: ruff (formatting/linting/imports); mypy with --check-untyped-defs, --disallow-untyped-defs, --warn-return-any, --no-implicit-optional, and pydantic plugin.
-- Interfaces & Data: Use Protocol (not abc; add @runtime_checkable if evaluated via isinstance); frozen Pydantic v2 models for DTOs.
-- Config: Env vars via Pydantic-Settings (unfrozen only if needed for test overrides), never CLI args.
+- Environment: Standard `venv` with `pip` and `.python-version`. Pin versions for simple, predictable setups.
+- Logging: Output directly to `stdout`/`stderr` using standard `logging` or print statements for instant visibility.
+- Structure: Direct layout (`app.py` or simple modules) with a clear `main.py` entry point. Avoid `src/` boilerplate unless necessary.
+- Quality & Format: Standard `ruff` or `black` formatting with generous line lengths. Use flexible linting/type checking—never block readability for strict rules.
+- Data & Interfaces: Standard classes, `@dataclass`, or plain `dict` types. Avoid abstract protocols, heavy generic typing, and complex object hierarchies.
+- Config: Load settings directly from `.env` or standard `config.py` with fallback defaults.
