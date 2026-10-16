@@ -24,7 +24,7 @@
 ## Teamwork Graph CLI (`twg-cli`)
 
 - **Use for**: Primary read layer for multi-product context, cross-entity graph queries, and AI agent retrieval.
-- **Pre-check**: `twg env auth --no-snapshot` (use `twg login`/`setup` only for interactive setup).
+- **Pre-check**: `twg whoami` (use `twg login`/`setup` only for interactive setup).
 - **Execution**: Scope queries with explicit `--project` or `--repo` flags to minimize payload, token usage, and schema pollution.
 - **Rate Limits**: Handle Rovo credit limits; retry transient errors with exponential backoff.
 - **Fallback to APIs/CLI when**: `twg` node is empty/unlinked, raw JSON/diffs are required, or running high-frequency bulk extractions.
