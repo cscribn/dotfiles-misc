@@ -1,6 +1,6 @@
 # Python
 
-- Environment: Standard `venv` with `pip` and `.python-version`. Pin versions for simple, predictable setups.
+- Environment: Standard `venv` with `pip` and `.python-version`. Pin versions for simple, predictable setups. `README.md` includes instructions on how to upgrade the version of Python being used.
 - Logging: Output directly to `stdout`/`stderr` using standard `logging` or print statements for instant visibility.
 - Structure: Direct layout (`app.py` or simple modules) with a clear `main.py` entry point. Avoid `src/` boilerplate unless necessary.
 - Quality & Format: Standard `ruff` or `black` formatting with generous line lengths. Use flexible linting/type checking—never block readability for strict rules.
