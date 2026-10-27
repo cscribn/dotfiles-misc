@@ -11,3 +11,4 @@
 
 - One CLI invocation per prompt; no chaining/streaming.
 - CLI output treated as plain text, not structured JSON.
+- Large inputs: workspace/`--add-dir` + file tools, not argv (many builds cap prompt argv ~1 KB).
