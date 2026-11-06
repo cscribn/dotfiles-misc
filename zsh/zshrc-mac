@@ -4,13 +4,15 @@ alias ls="lsd --group-directories-first"
 alias mcp-atlassian='npx -y mcp-remote https://mcp.atlassian.com/v1/sse'
 
 # Use modern completion system
-setopt histignorealldups sharehistory
 
 bindkey -e # Use emacs keybindings even if our EDITOR is set to vi
 
-HISTSIZE=1000 # Keep 1000 lines of history within the shell and save it to ~/.zsh_history
-SAVEHIST=1000
+HISTSIZE=10000
+SAVEHIST=10000
 HISTFILE=~/.zsh_history
+setopt histignorealldups
+setopt share_history
+setopt hist_save_no_dups
 
 autoload -Uz compinit
 compinit -C
@@ -29,7 +31,6 @@ else
 	zstyle ':completion:*:default' list-colors ''
 fi
 
-zstyle ':completion:*' list-colors ''
 zstyle ':completion:*' list-prompt %SAt %p: Hit TAB for more, or the character to insert%s
 zstyle ':completion:*' matcher-list '' 'm:{a-z}={A-Z}' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=* l:|=*'
 zstyle ':completion:*' menu select=long
