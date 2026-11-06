@@ -1,5 +1,10 @@
-export LANG=en_US.UTF-8
+export USER=$(id -un)
 export LEADING_SYMBOL="{"
 export TRAILING_SYMBOL="}"
+export LANG=en_US.UTF-8
+
+source ~/.local/share/blesh/ble.sh
+
 alias ls='lsd --group-directories-first --permission rwx'
+
 eval "$(oh-my-posh init bash --config ~/.config/oh-my-posh/themes/powerlevel10k_amped_rainbow.omp.json)" >/dev/null 2>&1

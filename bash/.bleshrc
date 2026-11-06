@@ -1,0 +1,9 @@
+bleopt highlight_timeout_sync=10
+bleopt highlight_timeout_defer=50
+bleopt highlight_timeout_cancel=100
+
+bleopt complete_auto_delay=300
+bleopt complete_limit_max=200
+
+bleopt exec_restore_pipestatus=0
+bleopt history_share=0
