@@ -7,3 +7,8 @@ bleopt complete_limit_max=200
 
 bleopt exec_restore_pipestatus=0
 bleopt history_share=0
+
+ble-bind -m emacs -k 'up' history-search-backward
+ble-bind -m emacs -k 'down' history-search-forward
+ble-bind -m emacs -k 'C-p' history-search-backward
+ble-bind -m emacs -k 'C-n' history-search-forward
