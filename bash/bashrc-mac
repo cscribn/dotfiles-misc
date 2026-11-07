@@ -1,7 +1,6 @@
 export PATH=/opt/homebrew/bin:/opt/homebrew/sbin:${PATH}
 export LEADING_SYMBOL="{"
 export TRAILING_SYMBOL="}"
-alias mcp-atlassian='npx -y mcp-remote https://mcp.atlassian.com/v1/sse'
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
