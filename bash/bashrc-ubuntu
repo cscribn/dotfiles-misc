@@ -1,4 +1,10 @@
+[[ $- == *i* ]] && source ~/.local/share/blesh/ble.sh --noattach
+
 export LEADING_SYMBOL="{"
 export TRAILING_SYMBOL="}"
+
 alias ls='lsd --group-directories-first'
+
 eval "$(oh-my-posh init bash --config ~/.config/oh-my-posh/themes/powerlevel10k_amped_rainbow.omp.json)"
+
+[[ ${BLE_VERSION-} ]] && ble-attach
