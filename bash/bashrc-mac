@@ -1,5 +1,3 @@
-[[ $- == *i* ]] && [[ "${BASH_VERSINFO:-0}" -ge 4 ]] && source ~/.local/share/blesh/ble.sh --noattach
-
 export PATH=/opt/homebrew/bin:/opt/homebrew/sbin:${PATH}
 export LEADING_SYMBOL="{"
 export TRAILING_SYMBOL="}"
@@ -20,7 +18,7 @@ export HEX_CACERTS_PATH=$NETSKOPE_CERTIFICATE_BUNDLE
 if [[ "${BASH_VERSINFO:-0}" -ge 4 ]]; then
     alias ls='lsd --group-directories-first'
     eval "$(oh-my-posh init bash --config ~/.config/oh-my-posh/themes/powerlevel10k_amped_rainbow.omp.json)"
-    [[ ${BLE_VERSION-} ]] && ble-attach
+    source ~/.local/share/blesh/ble.sh
 else
     export BASH_SILENCE_DEPRECATION_WARNING=1
     export VIRTUAL_ENV_DISABLE_PROMPT=1
