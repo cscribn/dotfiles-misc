@@ -5,6 +5,6 @@ export LANG=en_US.UTF-8
 
 alias ls='lsd --group-directories-first --permission rwx'
 
-eval "$(oh-my-posh init bash --config ~/.config/oh-my-posh/themes/powerlevel10k_amped_rainbow.omp.json)" >/dev/null 2>&1
-
 source ~/.local/share/blesh/ble.sh
+
+eval "$(oh-my-posh init bash --config ~/.config/oh-my-posh/themes/powerlevel10k_amped_rainbow.omp.json)" >/dev/null 2>&1

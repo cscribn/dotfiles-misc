@@ -3,6 +3,6 @@ export TRAILING_SYMBOL="}"
 
 alias ls='lsd --group-directories-first'
 
-eval "$(oh-my-posh init bash --config ~/.config/oh-my-posh/themes/powerlevel10k_amped_rainbow.omp.json)"
-
 source ~/.local/share/blesh/ble.sh
+
+eval "$(oh-my-posh init bash --config ~/.config/oh-my-posh/themes/powerlevel10k_amped_rainbow.omp.json)"
