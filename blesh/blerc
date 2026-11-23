@@ -1,0 +1,14 @@
+# Reduce syntax-highlighting overhead
+bleopt highlight_timeout_sync=50
+bleopt highlight_timeout_async=5000
+bleopt highlight_eval_word_limit=200
+
+# Reduce completion workload
+bleopt complete_limit_auto=2000
+bleopt complete_limit_auto_menu=100
+bleopt complete_timeout_auto=5000
+bleopt complete_timeout_compvar=200
+bleopt complete_polling_cycle=50
+
+# Limit completion menu height
+bleopt complete_menu_maxlines=10
