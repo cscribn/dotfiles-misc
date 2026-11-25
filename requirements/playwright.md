@@ -1,10 +1,31 @@
 # Playwright
 
-- Tooling & Execution: Standard call against `playwright.config.*`. `README.md` includes instructions on updating Playwright and browser binaries (`npx playwright install`).
-- Structure: Flat test directory (`tests/`) mirroring features or user flows. Avoid deep Page Object Model inheritance hierarchies; use simple helper functions or lightweight page classes only when reuse is clear.
-- Locators: Prefer user-facing locators (`getByRole`, `getByLabel`, `getByText`, `getByTestId`) over brittle CSS/XPath selectors.
-- Synchronization: Rely on Playwright's built-in auto-waiting and web-first assertions (`await expect(locator).toBeVisible()`). Never use hardcoded sleeps (`waitForTimeout`).
-- Isolation & State: Keep tests independent; authenticate once via `storageState` setup projects rather than logging in via UI before every test.
-- Config & Environment: Read base URLs and credentials from env vars or `.env` with sensible local defaults.
-- Diagnostics: Enable `trace: 'on-first-retry'`, `screenshot: 'only-on-failure'`, and `video: 'retain-on-failure'` in config for fast debugging without noisy artifacts.
-- Formatting: Standard `prettier` formatting; prioritize test readability over DRY abstractions.
+## Shape
+
+- One async entry; chapters = top-to-bottom `await` steps; constants (paths, viewport) at top.
+- Direct Playwright calls; no Page Objects, fixtures, scenario builders, or custom click/wait wrappers.
+- Locators inline or `const x = page.getByRole(…)` per chapter; `.filter()`/chain, not selector maps.
+- Helpers only at 3+ repeats; name by behavior (`dismissPopovers`), not layers (`PageActions`).
+- `addInitScript`/HUD: same-file string or small inline function; single file unless repo already splits modules.
+
+## Setup
+
+- Pin `playwright`; `npx playwright install` only browsers used; CI cache or install browsers; fail if missing.
+
+## Actions
+
+- `getByRole` / `getByLabel` / `getByText` > CSS/XPath; one target per action; explicit `{ timeout }` on click/fill/wait.
+- Assert or `waitFor*` for readiness; `waitForTimeout` only for animation/pacing, not blind sync.
+- `file:` pages: `waitUntil: "load"` or DOM-stable wait; avoid `networkidle` unless network truly idle.
+- `page.goto(pathToFileURL(absolutePath).href)`; not bare filesystem paths.
+- Strict: one visible match; stable UI before/after; no races with timers, autoplay, or transient controls; serial `await`, no `Promise.all` on UI.
+
+## Lifecycle / recording
+
+- `let browser, context, page`; `try/finally` in walkthrough file; teardown: stop record/trace → save artifacts → `context.close()` → `browser.close()`; each step try/catch (log, continue).
+- One of `recordVideo` or screencast per context, not both; match viewport to encode size.
+- Probes: process timeout, `browser.close()` in `finally`, foreground, explicit exit.
+
+## Output
+
+- Match repo CJS/ESM; no markdown fences in `.js`; throwaway probes vs idempotent production scripts; no config-driven step lists.
